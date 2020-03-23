@@ -72,4 +72,11 @@ int main(void) {
 	printf("Результат встроенной функции: %s\n", destination3_1);
 	my_memccpy(destination3_2, source, 'q', 30);
 	printf("Результат самописной функции: %s\n\n", destination3_2);
+
+	//1
+	//printf("Пример 4\n");
+	//memccpy(destination1_1, source, 'f', 30);
+	//printf("Результат встроенной функции: %s\n", destination1_1);
+	//my_memccpy(NULL, source, 'f', 30);
+	//printf("Результат самописной функции: %s\n\n", destination1_2);
 }
