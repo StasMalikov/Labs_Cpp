@@ -151,19 +151,34 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="Basket.h" />
+    <ClInclude Include="DeliveryService.h" />
     <ClInclude Include="IOService.h" />
+    <ClInclude Include="ISeller.h" />
     <ClInclude Include="pch.h" />
-    <ClInclude Include="Test.h" />
+    <ClInclude Include="Product.h" />
+    <ClInclude Include="ProductUnit.h" />
+    <ClInclude Include="Supplier.h" />
+    <ClInclude Include="TradeOrganization.h" />
+    <ClInclude Include="User.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Basket.cpp" />
+    <ClCompile Include="DeliveryService.cpp" />
     <ClCompile Include="IOService.cpp" />
+    <ClCompile Include="ISeller.cpp" />
     <ClCompile Include="pch.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
     </ClCompile>
+    <ClCompile Include="Product.cpp" />
+    <ClCompile Include="ProductUnit.cpp" />
+    <ClCompile Include="Supplier.cpp" />
     <ClCompile Include="Task2.cpp" />
+    <ClCompile Include="TradeOrganization.cpp" />
+    <ClCompile Include="User.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

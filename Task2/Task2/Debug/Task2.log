@@ -1,2 +1,11 @@
-﻿  IOService.cpp
+﻿  Basket.cpp
+  DeliveryService.cpp
+  ISeller.cpp
+  Product.cpp
+  ProductUnit.cpp
+  Supplier.cpp
+  Task2.cpp
+  TradeOrganization.cpp
+  User.cpp
+  Создание кода...
   Task2.vcxproj -> C:\Users\StasMalikov\Desktop\C++ лабы\Labs_Cplusplus\Task2\Debug\Task2.exe

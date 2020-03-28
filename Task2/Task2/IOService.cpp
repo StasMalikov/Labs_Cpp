@@ -64,16 +64,16 @@ void IOService::BuyInWarehouse (){
 	while (select) {
 		std::cout << "(—клад) ¬ыберите действие:" << std::endl;
 		std::cout << "0 - выход" << std::endl;
-		std::cout << "1 - купить товары на складе (оптом)" << std::endl;
-		std::cout << "2 - купить товары в магазине (в розницу)" << std::endl;
+		std::cout << "1 - посмотреть список товаров" << std::endl;
+		std::cout << "2 - купить товар" << std::endl;
 		std::cin >> select;
 
 		switch (select) {
 		case 1:
-			BuyInWarehouse();
+			DisplayProducts(2);
 			break;
 		case 2:
-			BuyInShop();
+			BuyProduct(2);
 			break;
 		}
 	}
