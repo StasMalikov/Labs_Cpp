@@ -2,6 +2,11 @@
 #include <iostream>
 #include <string>
 #include "IOService.h"
+#include "Product.h"
+#include "IdGenerator.h"
+#include "ProductUnit.h"
+#include "User.h"
+#include "TradeOrganization.h"
 
 //Для каждой задачи необходимо реализовать объектную модель.
 //В реализации задач должны присутствовать наследование, агрегация и др.взаимодействия классов.
@@ -16,12 +21,24 @@
 //торговая организация получает товары от поставщика, партии товаров разной величины.
 //Учесть распределение товаров по грузовикам для доставки клиентам магазинам.
 
+int IdGenerator::next_id = 1;
 
 int main()
 {
 	setlocale(LC_ALL, "Russian");
-	IOService *io =  new IOService;
-	(*io).Start();
+
+	TradeOrganization *t = new TradeOrganization();
+	t->addUser("testuser1", UserType::RETAIL);
+	t->addUser("testuser2", UserType::WHORESALE);
+	IOService *io = new IOService(t);
+	(*io).start();
+
 	delete io;
 	io = nullptr;
+
+	//Product *p = new Product("test", 3, ProductType::DAIRY);
+	/*ProductUnit *pu = new ProductUnit(*p, 10);
+	pu->print();*/
+	//delete p;
+	//p = nullptr;
 }

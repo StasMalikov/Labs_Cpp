@@ -1,51 +1,83 @@
 #include "pch.h"
 #include "Product.h"
+#include <iostream>
+#include <sstream>
 
 
-Product::Product()
+std::string Product::toStr()
 {
+	std::stringstream ss;
+
+	ss << m_id;
+	std::string id = ss.str();
+
+	ss << m_size;
+	std::string size = ss.str();
+
+	return id + " " + m_name + " " + size + " " +  getTypeToStr();
 }
 
+Product::Product() : m_id(IdGenerator::getNextId()) {}
 
-int Product::GetId()
-{
-	return 0;
+Product::Product(std::string name, int size, ProductType type) 
+	: m_id(IdGenerator::getNextId()) ,m_name(name), m_size(size), m_type(type) {}
+
+void Product::print()
+{ 
+	std::cout << toStr() << std::endl;
 }
 
-int Product::SetId()
+std::string Product::getTypeToStr()
 {
-	return 0;
-}
+	if (m_type == ProductType::MEAT) {
+		return "MEAT";
+	} else if (m_type == ProductType::HORTICULTURAL) {
+		return "HORTICULTURAL";
+	}
+	else if (m_type == ProductType::GUSTATORY) {
+		return "GUSTATORY";
+	}
+	else if (m_type == ProductType::DAIRY) {
+		return "DAIRY";
+	}
+	else if (m_type == ProductType::CONFECTIONERY) {
+		return "CONFECTIONERY";
+	}
 
-std::string Product::GetName()
-{
 	return std::string();
 }
 
-std::string Product::Setname()
-{
-	return std::string();
+
+int Product::getId() {
+	return m_id;
 }
 
-int Product::GetSize()
-{
-	return 0;
+
+std::string Product::getName() {
+	return m_name;
 }
 
-int Product::SetSize()
-{
-	return 0;
+void Product::setName(std::string name) {
+	m_name = name;
 }
 
-ProductType Product::GetType()
-{
-	return ProductType();
+int Product::getSize() {
+	return m_size;
 }
 
-ProductType Product::SetType()
-{
-	return ProductType();
+void Product::setSize(int size) {
+	m_size = size;
 }
+
+ProductType Product::getType() {
+	return m_type;
+}
+
+void Product::setType(ProductType type)
+{
+	m_type = type;
+}
+
 
 Product::~Product()
 {

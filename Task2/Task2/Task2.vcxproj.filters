@@ -51,11 +51,11 @@
     <ClInclude Include="TradeOrganization.h">
       <Filter>Файлы заголовков\models</Filter>
     </ClInclude>
-    <ClInclude Include="Basket.h">
-      <Filter>Файлы заголовков\models</Filter>
-    </ClInclude>
     <ClInclude Include="ProductUnit.h">
       <Filter>Файлы заголовков\models</Filter>
+    </ClInclude>
+    <ClInclude Include="IdGenerator.h">
+      <Filter>Файлы заголовков\services</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -86,11 +86,11 @@
     <ClCompile Include="TradeOrganization.cpp">
       <Filter>Исходные файлы\models</Filter>
     </ClCompile>
-    <ClCompile Include="Basket.cpp">
-      <Filter>Исходные файлы\models</Filter>
-    </ClCompile>
     <ClCompile Include="ProductUnit.cpp">
       <Filter>Исходные файлы\models</Filter>
+    </ClCompile>
+    <ClCompile Include="IdGenerator.cpp">
+      <Filter>Исходные файлы\services</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

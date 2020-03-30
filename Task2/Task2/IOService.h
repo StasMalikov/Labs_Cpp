@@ -1,14 +1,22 @@
 #pragma once
 
+#include "TradeOrganization.h"
+
 class IOService
 {
+private:
+	TradeOrganization *TO;
 public:
-	IOService();
+	void selectUser();
+	void userOperations();
+	IOService(TradeOrganization *to);
 	~IOService();
-	void Start();
-	void BuyInShop();
-	void BuyInWarehouse();
-	void DisplayProducts(int key);
-	void BuyProduct(int key);
+	void start();
+	void buyInShop();
+	void buyInWarehouse();
+	void displayProducts(int key);
+	void buyProduct(int key);
+	void displayUsers();
+	void deleteUser();
+	void addUser();
 };
-

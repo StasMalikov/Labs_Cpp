@@ -151,8 +151,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="Basket.h" />
     <ClInclude Include="DeliveryService.h" />
+    <ClInclude Include="IdGenerator.h" />
     <ClInclude Include="IOService.h" />
     <ClInclude Include="ISeller.h" />
     <ClInclude Include="pch.h" />
@@ -163,8 +163,8 @@
     <ClInclude Include="User.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Basket.cpp" />
     <ClCompile Include="DeliveryService.cpp" />
+    <ClCompile Include="IdGenerator.cpp" />
     <ClCompile Include="IOService.cpp" />
     <ClCompile Include="ISeller.cpp" />
     <ClCompile Include="pch.cpp">
