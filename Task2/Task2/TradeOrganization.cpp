@@ -20,11 +20,19 @@ void TradeOrganization::setCurrentUserId(int id) {
 	m_currentUserId = id;
 }
 
-void TradeOrganization::printUsers() {
+std::string TradeOrganization::usersToSrt() {
+	std::string str;
 	for (size_t i = 0; i < m_users.size(); ++i) {
-		m_users[i].print();
+		str += m_users[i].toStr() + "\n";
 	}
+	return str;
 }
+
+//void TradeOrganization::printUsers() {
+//	for (size_t i = 0; i < m_users.size(); ++i) {
+//		m_users[i].print();
+//	}
+//}
 
 void TradeOrganization::addUser(std::string name, UserType type) {
 

@@ -26,7 +26,6 @@ public:
 	int getId();
 	std::string getTypeToStr();
 	std::string toStr();
-	void print();
 	void clearBasket();
 	std::vector<ProductUnit> getBasket();
 	void addToBasket(ProductUnit unit);

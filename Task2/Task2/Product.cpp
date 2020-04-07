@@ -20,12 +20,13 @@ std::string Product::toStr()
 Product::Product() : m_id(IdGenerator::getNextId()) {}
 
 Product::Product(std::string name, int size, ProductType type) 
-	: m_id(IdGenerator::getNextId()) ,m_name(name), m_size(size), m_type(type) {}
+	: m_id(IdGenerator::getNextId()), m_name(name), m_size(size), m_type(type) {}
 
-void Product::print()
-{ 
-	std::cout << toStr() << std::endl;
-}
+
+//void Product::print()
+//{ 
+//	std::cout << toStr() << std::endl;
+//}
 
 std::string Product::getTypeToStr()
 {
@@ -48,37 +49,18 @@ std::string Product::getTypeToStr()
 }
 
 
-int Product::getId() {
-	return m_id;
-}
+int Product::getId() { return m_id; }
 
+std::string Product::getName() { return m_name; }
 
-std::string Product::getName() {
-	return m_name;
-}
+void Product::setName(std::string name) { m_name = name; }
 
-void Product::setName(std::string name) {
-	m_name = name;
-}
+int Product::getSize() { return m_size; }
 
-int Product::getSize() {
-	return m_size;
-}
+void Product::setSize(int size) { m_size = size; }
 
-void Product::setSize(int size) {
-	m_size = size;
-}
+ProductType Product::getType() { return m_type; }
 
-ProductType Product::getType() {
-	return m_type;
-}
+void Product::setType(ProductType type) { m_type = type; }
 
-void Product::setType(ProductType type)
-{
-	m_type = type;
-}
-
-
-Product::~Product()
-{
-}
+Product::~Product(){}

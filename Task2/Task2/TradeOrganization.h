@@ -2,6 +2,7 @@
 
 #include <vector>
 #include "User.h"
+#include "Seller.h"
 
 
 class TradeOrganization
@@ -9,9 +10,10 @@ class TradeOrganization
 private:
 	std::vector<User> m_users;
 	int m_currentUserId;
+	std::vector<Seller> salePoints;
 
 public:
-	void printUsers();
+	std::string usersToSrt();
 	int getCurrentUserId();
 	void setCurrentUserId(int id);
 	void deleteUser(int id);
@@ -19,4 +21,3 @@ public:
 	TradeOrganization();
 	~TradeOrganization();
 };
-

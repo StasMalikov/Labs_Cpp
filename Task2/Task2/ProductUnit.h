@@ -10,10 +10,9 @@ private:
 
 public:
 	std::string toStr();
-	void print();
 	Product* getProduct();
 	int getCount();
-	ProductUnit* getProductToBasket(int count);
+	void setCount(int count);
 	ProductUnit(Product *product, int count);
 	~ProductUnit();
 };

@@ -2,10 +2,7 @@
 #include <iostream>
 #include <string>
 #include "IOService.h"
-#include "Product.h"
 #include "IdGenerator.h"
-#include "ProductUnit.h"
-#include "User.h"
 #include "TradeOrganization.h"
 
 //Для каждой задачи необходимо реализовать объектную модель.
@@ -28,17 +25,14 @@ int main()
 	setlocale(LC_ALL, "Russian");
 
 	TradeOrganization *t = new TradeOrganization();
-	t->addUser("testuser1", UserType::RETAIL);
-	t->addUser("testuser2", UserType::WHORESALE);
+	t->addUser("user1", UserType::RETAIL);
+	t->addUser("user2", UserType::WHORESALE);
 	IOService *io = new IOService(t);
 	(*io).start();
 
 	delete io;
 	io = nullptr;
 
-	//Product *p = new Product("test", 3, ProductType::DAIRY);
-	/*ProductUnit *pu = new ProductUnit(*p, 10);
-	pu->print();*/
-	//delete p;
-	//p = nullptr;
+	delete t;
+	t = nullptr;
 }

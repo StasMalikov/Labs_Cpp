@@ -3,16 +3,6 @@
 #include <iostream>
 
 //	key->  1 - магазин, 2 - склад
-void IOService::displayProducts(int key) {
-	if (key == 1) {
-		std::cout << "Список товаров магазина" << std::endl;
-	}
-	else if (key == 2) {
-		std::cout << "Список товаров склада" << std::endl;
-	}
-}
-
-//	key->  1 - магазин, 2 - склад
 void IOService::buyProduct(int key) {
 	int select = 1;
 	while (select) {
@@ -49,7 +39,7 @@ void IOService::buyInShop() {
 
 		switch (select) {
 		case 1:
-			displayProducts(1);
+			//displayProducts(1);
 			break;
 		case 2:
 			buyProduct(1);
@@ -70,7 +60,7 @@ void IOService::buyInWarehouse (){
 
 		switch (select) {
 		case 1:
-			displayProducts(2);
+			//displayProducts(2);
 			break;
 		case 2:
 			buyProduct(2);
@@ -80,7 +70,7 @@ void IOService::buyInWarehouse (){
 }
 
 void IOService::selectUser() {
-	std::cout << std::endl << "Введите id пользователя:" << std::endl;
+	std::cout << std::endl << "Введите id выбираемого пользователя:" << std::endl;
 	int select = 1;
 	std::cin >> select;
 	TO->setCurrentUserId(select);
@@ -88,7 +78,7 @@ void IOService::selectUser() {
 
 void IOService::displayUsers() {
 	std::cout << std::endl << "Id Username Type" << std::endl;
-	TO->printUsers();
+	std::cout << TO->usersToSrt();
 }
 
 void IOService::deleteUser() {
@@ -124,6 +114,7 @@ void IOService::addUser()
 	
 }
 
+
 void IOService::userOperations() {
 	int select = 1;
 	while (select) {
@@ -154,6 +145,60 @@ void IOService::userOperations() {
 	}
 }
 
+void IOService::shopOperations()
+{
+	int select = 1;
+	while (select) {
+		std::cout << std::endl << "(Операции с магазином) Выберите действие:" << std::endl;
+		std::cout << "0 - выход" << std::endl;
+		std::cout << "1 - список магазинов" << std::endl;
+		std::cout << "2 - выбор магазина" << std::endl;
+		std::cout << "3 - добавить магазин" << std::endl;
+		std::cout << "4 - удалить магазин" << std::endl;
+		std::cin >> select;
+
+		switch (select) {
+		case 1:
+			break;
+		case 2:
+			break;
+
+		case 3:
+			break;
+
+		case 4:
+			break;
+		}
+	}
+}
+
+void IOService::warehouseOperations()
+{
+	int select = 1;
+	while (select) {
+		std::cout << std::endl << "(Операции со складом) Выберите действие:" << std::endl;
+		std::cout << "0 - выход" << std::endl;
+		std::cout << "1 - список складов" << std::endl;
+		std::cout << "2 - выбор склада" << std::endl;
+		std::cout << "3 - добавить склад" << std::endl;
+		std::cout << "4 - удалить склад" << std::endl;
+		std::cin >> select;
+
+		switch (select) {
+		case 1:
+			break;
+		case 2:
+			break;
+
+		case 3:
+			break;
+
+		case 4:
+			break;
+		}
+	}
+}
+
 void IOService::start() {
 	int select = 1;
 	while (select) {
@@ -162,6 +207,8 @@ void IOService::start() {
 		std::cout << "1 - купить товары на складе (оптом)" << std::endl;
 		std::cout << "2 - купить товары в магазине (в розницу)" << std::endl;
 		std::cout << "3 - операции с пользователями" << std::endl;
+		std::cout << "4 - операции с магазинами" << std::endl;
+		std::cout << "5 - операции со складами" << std::endl;
 		std::cin >> select;
 
 		switch (select) {
@@ -174,6 +221,14 @@ void IOService::start() {
 
 			case 3:
 				userOperations();
+				break;
+
+			case 4:
+				shopOperations();
+				break;
+
+			case 5:
+				warehouseOperations();
 				break;
 		}
 	}

@@ -14,9 +14,11 @@ public:
 	void start();
 	void buyInShop();
 	void buyInWarehouse();
-	void displayProducts(int key);
+	//void displayProducts(int key);
 	void buyProduct(int key);
 	void displayUsers();
 	void deleteUser();
 	void addUser();
+	void shopOperations();
+	void warehouseOperations();
 };

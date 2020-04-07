@@ -28,7 +28,7 @@ class Product {
 
 		std::string m_name;
 
-		//размер, занимаемый в машине при транспортировке
+		//размер, занимаемый в машине при транспортировке или на складе/магазине
 		int m_size;
 
 		ProductType m_type;
@@ -36,16 +36,19 @@ class Product {
 
 	public:
 		std::string toStr();
-		void print();
 		Product();
 		Product(std::string name, int size, ProductType type);
 		~Product();
 		int getId();
 		std::string getName();
+		//
 		void setName(std::string name);
 		int getSize();
+
+		//
 		void setSize(int size);
 		ProductType getType();
+		//
 		void setType(ProductType type);
 		std::string getTypeToStr();
 

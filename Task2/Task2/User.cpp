@@ -19,16 +19,6 @@ std::string User::toStr() {
 	return id + " " + m_username + " " + getTypeToStr();
 }
 
-void User::print() {
-	std::cout << toStr() << std::endl;
-}
-
-
-int User::getId()
-{
-	return m_id;
-}
-
 std::string User::getTypeToStr()
 {
 	if (m_type == UserType::RETAIL) {
@@ -41,19 +31,15 @@ std::string User::getTypeToStr()
 	return std::string();
 }
 
-void User::clearBasket()
-{
-	m_basket.clear();
-}
+//void User::print() { std::cout << toStr() << std::endl; }
 
-std::vector<ProductUnit> User::getBasket() {
-	return m_basket;
-}
+int User::getId() { return m_id; }
 
-void User::addToBasket(ProductUnit unit)
-{
-	m_basket.push_back(unit);
-}
+void User::clearBasket() { m_basket.clear(); }
+
+std::vector<ProductUnit> User::getBasket() { return m_basket; }
+
+void User::addToBasket(ProductUnit unit) { m_basket.push_back(unit); }
 
 User::User(std::string name, UserType type) : m_id(IdGenerator::getNextId()), m_username(name), m_type(type) {}
 
