@@ -34,11 +34,14 @@
     <Filter Include="Исходные файлы\models\product">
       <UniqueIdentifier>{f7315d74-6ef7-4e20-a554-2e80d575da92}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Файлы заголовков\delivery">
+    <Filter Include="Файлы заголовков\models\sellClasses">
+      <UniqueIdentifier>{04f49a87-dd7d-4d5d-b80a-707d7ebe538c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\models\delivery">
       <UniqueIdentifier>{0a718ca2-fed6-4a93-95b0-374c66494496}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Файлы заголовков\sellClasses">
-      <UniqueIdentifier>{04f49a87-dd7d-4d5d-b80a-707d7ebe538c}</UniqueIdentifier>
+    <Filter Include="Файлы заголовков\models\product">
+      <UniqueIdentifier>{1274ffdd-3775-458a-bc9d-cc5381edece0}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -48,35 +51,41 @@
     <ClInclude Include="IOService.h">
       <Filter>Файлы заголовков\services</Filter>
     </ClInclude>
-    <ClInclude Include="Product.h">
-      <Filter>Файлы заголовков\models</Filter>
-    </ClInclude>
     <ClInclude Include="User.h">
       <Filter>Файлы заголовков\models</Filter>
     </ClInclude>
     <ClInclude Include="TradeOrganization.h">
       <Filter>Файлы заголовков\models</Filter>
     </ClInclude>
-    <ClInclude Include="ProductUnit.h">
-      <Filter>Файлы заголовков\models</Filter>
-    </ClInclude>
     <ClInclude Include="IdGenerator.h">
       <Filter>Файлы заголовков\services</Filter>
     </ClInclude>
     <ClInclude Include="Shop.h">
-      <Filter>Файлы заголовков\sellClasses</Filter>
+      <Filter>Файлы заголовков\models\sellClasses</Filter>
     </ClInclude>
     <ClInclude Include="Warehouse.h">
-      <Filter>Файлы заголовков\sellClasses</Filter>
+      <Filter>Файлы заголовков\models\sellClasses</Filter>
     </ClInclude>
     <ClInclude Include="Seller.h">
-      <Filter>Файлы заголовков\sellClasses</Filter>
+      <Filter>Файлы заголовков\models\sellClasses</Filter>
     </ClInclude>
     <ClInclude Include="Supplier.h">
-      <Filter>Файлы заголовков\delivery</Filter>
+      <Filter>Файлы заголовков\models\delivery</Filter>
     </ClInclude>
     <ClInclude Include="DeliveryService.h">
-      <Filter>Файлы заголовков\delivery</Filter>
+      <Filter>Файлы заголовков\models\delivery</Filter>
+    </ClInclude>
+    <ClInclude Include="Order.h">
+      <Filter>Файлы заголовков\models\sellClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="Customer.h">
+      <Filter>Файлы заголовков\models\sellClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="Product.h">
+      <Filter>Файлы заголовков\models\product</Filter>
+    </ClInclude>
+    <ClInclude Include="ProductUnit.h">
+      <Filter>Файлы заголовков\models\product</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -117,6 +126,12 @@
       <Filter>Исходные файлы\models\sellClasses</Filter>
     </ClCompile>
     <ClCompile Include="Warehouse.cpp">
+      <Filter>Исходные файлы\models\sellClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="Order.cpp">
+      <Filter>Исходные файлы\models\sellClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="Customer.cpp">
       <Filter>Исходные файлы\models\sellClasses</Filter>
     </ClCompile>
   </ItemGroup>

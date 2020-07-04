@@ -4,11 +4,6 @@
 #include <sstream>
 #include "IdGenerator.h"
 
-//ProductUnit User::deleteUnit(int id)
-//{
-//	return ProductUnit();
-//}
-
 
 std::string User::toStr() {
 	std::stringstream ss;
@@ -31,18 +26,17 @@ std::string User::getTypeToStr()
 	return std::string();
 }
 
-//void User::print() { std::cout << toStr() << std::endl; }
+void User::addProducts(std::vector<ProductUnit> products)
+{
+	for (size_t i = 0; i < products.size(); ++i) {
+		m_products.push_back(products[i]);
+	}
+}
 
 int User::getId() { return m_id; }
 
-void User::clearBasket() { m_basket.clear(); }
+User::User(std::string name, UserType type) : m_id(IdGenerator::getNextId()), m_username(name), m_type(type), Customer(CustomerType::USER) {}
 
-std::vector<ProductUnit> User::getBasket() { return m_basket; }
-
-void User::addToBasket(ProductUnit unit) { m_basket.push_back(unit); }
-
-User::User(std::string name, UserType type) : m_id(IdGenerator::getNextId()), m_username(name), m_type(type) {}
-
-User::User() : m_id(IdGenerator::getNextId()) {}
+User::User() : m_id(IdGenerator::getNextId()), Customer(CustomerType::USER) {}
 
 User::~User() {}

@@ -2,6 +2,8 @@
 #include "TradeOrganization.h"
 #include <iostream>
 
+// схема заказа
+// заказчик -> торговая организация -> поставщик/продавец -> заказ -> доставщик -> заказчик
 
 void TradeOrganization::deleteUser(int id) {
 	for (size_t i = 0; i < m_users.size(); ++i) {

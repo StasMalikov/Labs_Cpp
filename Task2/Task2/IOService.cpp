@@ -234,6 +234,6 @@ void IOService::start() {
 	}
 }
 
-IOService::IOService(TradeOrganization *to) : TO(to) {}
+IOService::IOService(TradeOrganization *to, Supplier *su) : TO(to), suplier(su) {}
 
 IOService::~IOService() {}

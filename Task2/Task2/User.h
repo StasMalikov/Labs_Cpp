@@ -3,6 +3,7 @@
 #include <string>
 #include <vector>
 #include "ProductUnit.h"
+#include "Customer.h"
 
 enum class UserType {
 
@@ -13,22 +14,21 @@ enum class UserType {
 	RETAIL
 };
 
-class User {
+class User : public Customer {
 
 private:
 	int m_id;
 	std::string m_username;
-	std::vector<ProductUnit> m_basket;
 	UserType m_type;
+	std::vector<ProductUnit> m_products;
+
 
 public:
-	/*ProductUnit deleteUnit(int id);*/
-	int getId();
+	void addProducts(std::vector<ProductUnit> products);
+	virtual int getId();
 	std::string getTypeToStr();
 	std::string toStr();
-	void clearBasket();
-	std::vector<ProductUnit> getBasket();
-	void addToBasket(ProductUnit unit);
+	//void buy(int prod_id, );
 	User(std::string name, UserType type);
 	User();
 	~User();

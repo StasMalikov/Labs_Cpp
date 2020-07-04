@@ -53,4 +53,3 @@ class Product {
 		std::string getTypeToStr();
 
 };
-

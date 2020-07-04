@@ -1,13 +1,15 @@
 #include "pch.h"
 #include "Supplier.h"
 
+std::string Supplier::getProductsToStr()
+{
+	std::string products = "";
+	for (size_t i = 0; i < m_products.size(); ++i) {
+		products += m_products[i].toStr() + "\n";
+	}
 
-//void Supplier::printProducts()
-//{
-//	for (size_t i = 0; i < m_products.size(); ++i) {
-//		m_products[i].print();
-//	}
-//}
+	return products;
+}
 
 ProductUnit Supplier::getProduct(int product_id, int count)
 {
@@ -30,7 +32,6 @@ void Supplier::deleteProduct(int id)
 	}
 }
 
-Supplier::Supplier(){}
-
+Supplier::Supplier(DeliveryService *deliveryService) : m_deliverySevice(deliveryService) {}
 
 Supplier::~Supplier(){}

@@ -18,9 +18,8 @@ public:
 	int getSizeLimit();
 	void setSizeLimit(int sizeLimit);
 	//virtual ProductUnit sell(int prod_id, int count);
-	int getId();
+	virtual int getId();
 	Seller(Supplier* suplier, int sizeLimit);
 	Seller();
 	virtual ~Seller();
 };
-

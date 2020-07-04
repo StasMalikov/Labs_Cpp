@@ -1,2 +1,22 @@
-﻿  IOService.cpp
-  Task2.vcxproj -> C:\Users\StasMalikov\Desktop\C++ лабы\Labs_Cplusplus\Task2\Debug\Task2.exe
+﻿  Customer.cpp
+  IOService.cpp
+  Order.cpp
+  Seller.cpp
+  Product.cpp
+  ProductUnit.cpp
+  Shop.cpp
+c:\users\stasmalikov\desktop\c++ лабы\labs_cplusplus\task2\task2\shop.cpp(6): error C2512: Customer: нет подходящего конструктора по умолчанию
+  c:\users\stasmalikov\desktop\c++ лабы\labs_cplusplus\task2\task2\customer.h(11): note:  см. объявление "Customer"
+  Supplier.cpp
+  Task2.cpp
+  TradeOrganization.cpp
+  User.cpp
+c:\users\stasmalikov\desktop\c++ лабы\labs_cplusplus\task2\task2\user.cpp(31): error C2512: Customer: нет подходящего конструктора по умолчанию
+  c:\users\stasmalikov\desktop\c++ лабы\labs_cplusplus\task2\task2\customer.h(11): note:  см. объявление "Customer"
+c:\users\stasmalikov\desktop\c++ лабы\labs_cplusplus\task2\task2\user.cpp(33): error C2512: Customer: нет подходящего конструктора по умолчанию
+  c:\users\stasmalikov\desktop\c++ лабы\labs_cplusplus\task2\task2\customer.h(11): note:  см. объявление "Customer"
+  Warehouse.cpp
+c:\users\stasmalikov\desktop\c++ лабы\labs_cplusplus\task2\task2\warehouse.cpp(6): error C2512: Customer: нет подходящего конструктора по умолчанию
+  c:\users\stasmalikov\desktop\c++ лабы\labs_cplusplus\task2\task2\customer.h(11): note:  см. объявление "Customer"
+  Создание кода...
+c:\users\stasmalikov\desktop\c++ лабы\labs_cplusplus\task2\task2\supplier.cpp(19): warning C4715: Supplier::getProduct: значение возвращается не при всех путях выполнения

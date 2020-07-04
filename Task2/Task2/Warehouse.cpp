@@ -2,11 +2,8 @@
 #include "Warehouse.h"
 
 
-Warehouse::Warehouse()
-{
-}
+int Warehouse::getId() { return Seller::getId(); }
 
+Warehouse::Warehouse() : Customer(CustomerType::WAREHOUSE){}
 
-Warehouse::~Warehouse()
-{
-}
+Warehouse::~Warehouse(){}
