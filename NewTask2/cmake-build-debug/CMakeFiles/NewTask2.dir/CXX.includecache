@@ -1,0 +1,58 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/stas_malikov/Рабочий стол/с++/CLionProjects/Labs_Cplusplus/NewTask2/main.cpp
+services/IOService.h
+/home/stas_malikov/Рабочий стол/с++/CLionProjects/Labs_Cplusplus/NewTask2/services/IOService.h
+models/User.h
+/home/stas_malikov/Рабочий стол/с++/CLionProjects/Labs_Cplusplus/NewTask2/models/User.h
+models/TradeOrganization.h
+/home/stas_malikov/Рабочий стол/с++/CLionProjects/Labs_Cplusplus/NewTask2/models/TradeOrganization.h
+
+/home/stas_malikov/Рабочий стол/с++/CLionProjects/Labs_Cplusplus/NewTask2/models/TradeOrganization.h
+UserList.h
+/home/stas_malikov/Рабочий стол/с++/CLionProjects/Labs_Cplusplus/NewTask2/models/UserList.h
+
+/home/stas_malikov/Рабочий стол/с++/CLionProjects/Labs_Cplusplus/NewTask2/models/User.h
+string
+-
+utility
+-
+../services/Utils.h
+/home/stas_malikov/Рабочий стол/с++/CLionProjects/Labs_Cplusplus/NewTask2/services/Utils.h
+
+/home/stas_malikov/Рабочий стол/с++/CLionProjects/Labs_Cplusplus/NewTask2/models/UserList.h
+User.h
+/home/stas_malikov/Рабочий стол/с++/CLionProjects/Labs_Cplusplus/NewTask2/models/User.h
+
+/home/stas_malikov/Рабочий стол/с++/CLionProjects/Labs_Cplusplus/NewTask2/services/IOService.cpp
+IOService.h
+/home/stas_malikov/Рабочий стол/с++/CLionProjects/Labs_Cplusplus/NewTask2/services/IOService.h
+iostream
+-
+Utils.h
+/home/stas_malikov/Рабочий стол/с++/CLionProjects/Labs_Cplusplus/NewTask2/services/Utils.h
+
+/home/stas_malikov/Рабочий стол/с++/CLionProjects/Labs_Cplusplus/NewTask2/services/IOService.h
+../models/TradeOrganization.h
+/home/stas_malikov/Рабочий стол/с++/CLionProjects/Labs_Cplusplus/NewTask2/models/TradeOrganization.h
+models_services/IOUserService.h
+/home/stas_malikov/Рабочий стол/с++/CLionProjects/Labs_Cplusplus/NewTask2/services/models_services/IOUserService.h
+
+/home/stas_malikov/Рабочий стол/с++/CLionProjects/Labs_Cplusplus/NewTask2/services/Utils.h
+iostream
+-
+
+/home/stas_malikov/Рабочий стол/с++/CLionProjects/Labs_Cplusplus/NewTask2/services/models_services/IOUserService.cpp
+IOUserService.h
+/home/stas_malikov/Рабочий стол/с++/CLionProjects/Labs_Cplusplus/NewTask2/services/models_services/IOUserService.h
+
+/home/stas_malikov/Рабочий стол/с++/CLionProjects/Labs_Cplusplus/NewTask2/services/models_services/IOUserService.h
+../../models/UserList.h
+/home/stas_malikov/Рабочий стол/с++/CLionProjects/Labs_Cplusplus/NewTask2/models/UserList.h
+
