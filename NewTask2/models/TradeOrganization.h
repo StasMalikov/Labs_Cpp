@@ -19,9 +19,8 @@ public:
         return currentUser;
     }
 
-    TradeOrganization(){}
+    TradeOrganization() : userList(), currentUser() {}
     ~TradeOrganization(){}
-
 };
 
 #endif //NEWTASK2_TRADEORGANIZATION_H

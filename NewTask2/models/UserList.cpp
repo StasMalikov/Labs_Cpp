@@ -12,17 +12,17 @@ void UserList::addUser(User user) {
     lastUsersIndex++;
 }
 
-User UserList::getUserById(int userId) {
+User* UserList::getUserById(int userId) {
     for (int i = 0; i < lastUsersIndex; ++i) {
         if(users[i].getId() == userId) {
-            return users[i];
+            return &users[i];
         }
     }
-    return User();
+    return nullptr;
 }
 
 // 1 = found and deleted; 0 = not found
-int UserList::deleteUser(int userId) {
+int UserList::deleteUser(unsigned int userId) {
     for (int i = 0; i < lastUsersIndex; ++i) {
         if(users[i].getId() == userId) {
             for (int j = i; j < lastUsersIndex - 1; ++j) {
@@ -40,7 +40,10 @@ void UserList::resizeUsers(int newSize) {
     for (int i = 0; i < usersSize; ++i){
         new_users[i] = users[i];
     }
-    usersSize = newSize;
     delete [] users;
     users = new_users;
+}
+
+User &UserList::operator[](unsigned int index) {
+    return users[index];
 }

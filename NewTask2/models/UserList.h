@@ -7,17 +7,22 @@
 
 #include "User.h"
 
+// добавить конструктор копирования
+
 class UserList {
     const double resizeMultiplier = 1.5;
     User *users;
-    unsigned int usersSize;
     unsigned int lastUsersIndex;
     void resizeUsers(int newSize);
+    unsigned int usersSize;
 public:
-    int deleteUser(int userId);
+    unsigned int userSize(){return usersSize;}
+    unsigned int getLastUsersIndex(){return lastUsersIndex;}
+
+    int deleteUser(unsigned int userId);
     void addUser(User user);
-    User getUserById(int userId);
-    User *getUsers() {return users;}
+    User* getUserById(int userId);
+    User& operator[](unsigned int index);
 
     UserList(){
         usersSize = 5;

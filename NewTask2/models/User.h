@@ -20,8 +20,8 @@ public:
     unsigned int getId() {return id;}
     static string userTypeToStr(UserType _userType);
     string toString();
-    User(){}
-    User(string _name, UserType _userType) : id(Utils::generateId()), name(std::move(_name)), userType(_userType) {}
+    User(): id(0){}
+    User(string _name, UserType _userType) : id(Utils::generateId()), name(_name), userType(_userType) {}
     ~User(){}
 };
 

@@ -8,14 +8,14 @@
 #include <iostream>
 
 class Utils {
+    static const int ignoreLimit = 32767;
 public:
     static unsigned int generateId(){
         static unsigned int id;
         return ++id;
     }
 
-    static int getSelectIntCin(int minSelect, int maxSelect) {
-        const int ignoreLimit = 32767;
+    static int getSelectIntCin(long minSelect, long maxSelect) {
         int select;
         while (true) {
             std::cout << "Ввод: ";
@@ -33,6 +33,11 @@ public:
                 std::cout << "Вы ввели неверное значение (введите число от " << minSelect << " до " << maxSelect << ")\n";
             }
         }
+    }
+
+    static int getIdCin() {
+        unsigned int max_id_size = 4294967295;
+        return getSelectIntCin(1, max_id_size);
     }
 };
 
