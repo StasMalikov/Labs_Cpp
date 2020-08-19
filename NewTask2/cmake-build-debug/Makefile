@@ -204,32 +204,32 @@ models/User.cpp.s:
 	$(MAKE) -f CMakeFiles/NewTask2.dir/build.make CMakeFiles/NewTask2.dir/models/User.cpp.s
 .PHONY : models/User.cpp.s
 
-models/UserList.o: models/UserList.cpp.o
+models/lists/UserList.o: models/lists/UserList.cpp.o
 
-.PHONY : models/UserList.o
+.PHONY : models/lists/UserList.o
 
 # target to build an object file
-models/UserList.cpp.o:
-	$(MAKE) -f CMakeFiles/NewTask2.dir/build.make CMakeFiles/NewTask2.dir/models/UserList.cpp.o
-.PHONY : models/UserList.cpp.o
+models/lists/UserList.cpp.o:
+	$(MAKE) -f CMakeFiles/NewTask2.dir/build.make CMakeFiles/NewTask2.dir/models/lists/UserList.cpp.o
+.PHONY : models/lists/UserList.cpp.o
 
-models/UserList.i: models/UserList.cpp.i
+models/lists/UserList.i: models/lists/UserList.cpp.i
 
-.PHONY : models/UserList.i
+.PHONY : models/lists/UserList.i
 
 # target to preprocess a source file
-models/UserList.cpp.i:
-	$(MAKE) -f CMakeFiles/NewTask2.dir/build.make CMakeFiles/NewTask2.dir/models/UserList.cpp.i
-.PHONY : models/UserList.cpp.i
+models/lists/UserList.cpp.i:
+	$(MAKE) -f CMakeFiles/NewTask2.dir/build.make CMakeFiles/NewTask2.dir/models/lists/UserList.cpp.i
+.PHONY : models/lists/UserList.cpp.i
 
-models/UserList.s: models/UserList.cpp.s
+models/lists/UserList.s: models/lists/UserList.cpp.s
 
-.PHONY : models/UserList.s
+.PHONY : models/lists/UserList.s
 
 # target to generate assembly for a file
-models/UserList.cpp.s:
-	$(MAKE) -f CMakeFiles/NewTask2.dir/build.make CMakeFiles/NewTask2.dir/models/UserList.cpp.s
-.PHONY : models/UserList.cpp.s
+models/lists/UserList.cpp.s:
+	$(MAKE) -f CMakeFiles/NewTask2.dir/build.make CMakeFiles/NewTask2.dir/models/lists/UserList.cpp.s
+.PHONY : models/lists/UserList.cpp.s
 
 services/IOService.o: services/IOService.cpp.o
 
@@ -303,9 +303,9 @@ help:
 	@echo "... models/User.o"
 	@echo "... models/User.i"
 	@echo "... models/User.s"
-	@echo "... models/UserList.o"
-	@echo "... models/UserList.i"
-	@echo "... models/UserList.s"
+	@echo "... models/lists/UserList.o"
+	@echo "... models/lists/UserList.i"
+	@echo "... models/lists/UserList.s"
 	@echo "... services/IOService.o"
 	@echo "... services/IOService.i"
 	@echo "... services/IOService.s"

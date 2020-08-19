@@ -5,7 +5,7 @@
 #ifndef NEWTASK2_TRADEORGANIZATION_H
 #define NEWTASK2_TRADEORGANIZATION_H
 
-#include "UserList.h"
+#include "lists/UserList.h"
 
 class TradeOrganization {
     UserList userList;

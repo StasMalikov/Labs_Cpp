@@ -5,7 +5,7 @@
 #ifndef NEWTASK2_USERLIST_H
 #define NEWTASK2_USERLIST_H
 
-#include "User.h"
+#include "../User.h"
 
 // добавить конструктор копирования
 

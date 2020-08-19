@@ -95,10 +95,10 @@
 		<Unit filename="/home/stas_malikov/Рабочий стол/с++/CLionProjects/Labs_Cplusplus/NewTask2/models/User.h">
 			<Option target="NewTask2"/>
 		</Unit>
-		<Unit filename="/home/stas_malikov/Рабочий стол/с++/CLionProjects/Labs_Cplusplus/NewTask2/models/UserList.cpp">
+		<Unit filename="/home/stas_malikov/Рабочий стол/с++/CLionProjects/Labs_Cplusplus/NewTask2/models/lists/UserList.cpp">
 			<Option target="NewTask2"/>
 		</Unit>
-		<Unit filename="/home/stas_malikov/Рабочий стол/с++/CLionProjects/Labs_Cplusplus/NewTask2/models/UserList.h">
+		<Unit filename="/home/stas_malikov/Рабочий стол/с++/CLionProjects/Labs_Cplusplus/NewTask2/models/lists/UserList.h">
 			<Option target="NewTask2"/>
 		</Unit>
 		<Unit filename="/home/stas_malikov/Рабочий стол/с++/CLionProjects/Labs_Cplusplus/NewTask2/services/IOService.cpp">

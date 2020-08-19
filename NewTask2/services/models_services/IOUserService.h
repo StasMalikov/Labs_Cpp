@@ -2,7 +2,7 @@
 #define NEWTASK2_IOUSERSERVICE_H
 
 
-#include "../../models/UserList.h"
+#include "../../models/lists/UserList.h"
 
 
 class IOUserService {
