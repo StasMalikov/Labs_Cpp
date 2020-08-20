@@ -4,16 +4,16 @@
 
 #include "UserList.h"
 
-void UserList::addUser(User user) {
-    users[lastUsersIndex] = user;
-    if(lastUsersIndex + 1 == usersSize) {
-        resizeUsers(usersSize*resizeMultiplier);
+void UserList::add(User user) {
+    users[lastItemIndex] = user;
+    if(lastItemIndex + 1 == count) {
+        resize(count * resizeMultiplier);
     }
-    lastUsersIndex++;
+    lastItemIndex++;
 }
 
 User* UserList::getUserById(int userId) {
-    for (int i = 0; i < lastUsersIndex; ++i) {
+    for (int i = 0; i < lastItemIndex; ++i) {
         if(users[i].getId() == userId) {
             return &users[i];
         }
@@ -22,22 +22,22 @@ User* UserList::getUserById(int userId) {
 }
 
 // 1 = found and deleted; 0 = not found
-int UserList::deleteUser(unsigned int userId) {
-    for (int i = 0; i < lastUsersIndex; ++i) {
+int UserList::remove(unsigned int userId) {
+    for (int i = 0; i < lastItemIndex; ++i) {
         if(users[i].getId() == userId) {
-            for (int j = i; j < lastUsersIndex - 1; ++j) {
+            for (int j = i; j < lastItemIndex - 1; ++j) {
                 users[j] = users[j + 1];
             }
-            lastUsersIndex--;
+            lastItemIndex--;
             return 1;
         }
     }
     return 0;
 }
 
-void UserList::resizeUsers(int newSize) {
+void UserList::resize(int newSize) {
     User *new_users = new User[newSize];
-    for (int i = 0; i < usersSize; ++i){
+    for (int i = 0; i < count; ++i){
         new_users[i] = users[i];
     }
     delete [] users;

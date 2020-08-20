@@ -44,12 +44,12 @@ void IOUserService::startUserOperations() {
 void IOUserService::displayUsers() {
     cout << "\n";
 
-    if(userList.getLastUsersIndex() == 0){
+    if(userList.getLastItemIndex() == 0){
         cout << "Список пользователей пуст\n";
     } else {
         cout << "id name user_type\n";
 
-        for (int i = 0; i < userList.getLastUsersIndex(); ++i) {
+        for (int i = 0; i < userList.getLastItemIndex(); ++i) {
             cout << userList[i].toString() << "\n";
         }
     }
@@ -70,10 +70,10 @@ void IOUserService::addUser() {
 
     switch (user_type) {
         case 0:
-            userList.addUser(User(name, UserType::wholesale));
+            userList.add(User(name, UserType::wholesale));
             break;
         case 1:
-            userList.addUser(User(name, UserType::retail));
+            userList.add(User(name, UserType::retail));
             break;
     }
 
@@ -89,7 +89,7 @@ int IOUserService::deleteUser() {
     if(id == currentUser.getId()) {
         cout << "Вы не можете удалить текущего выбранного пользователя\n";
     } else{
-        if(userList.deleteUser(id)){
+        if(userList.remove(id)){
             cout << "Пользователь удалён\n";
         } else{
             cout << "Пользователь с указанным id не найден\n";

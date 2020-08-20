@@ -4,36 +4,47 @@
 CMakeFiles/NewTask2.dir/main.cpp.o: ../main.cpp
 CMakeFiles/NewTask2.dir/main.cpp.o: ../models/TradeOrganization.h
 CMakeFiles/NewTask2.dir/main.cpp.o: ../models/User.h
-CMakeFiles/NewTask2.dir/main.cpp.o: ../models/UserList.h
+CMakeFiles/NewTask2.dir/main.cpp.o: ../models/abstract/UniqueObj.h
+CMakeFiles/NewTask2.dir/main.cpp.o: ../models/lists/UserList.h
 CMakeFiles/NewTask2.dir/main.cpp.o: ../services/IOService.h
 CMakeFiles/NewTask2.dir/main.cpp.o: ../services/Utils.h
 CMakeFiles/NewTask2.dir/main.cpp.o: ../services/models_services/IOUserService.h
 
+CMakeFiles/NewTask2.dir/models/Product.cpp.o: ../models/Product.cpp
+CMakeFiles/NewTask2.dir/models/Product.cpp.o: ../models/Product.h
+CMakeFiles/NewTask2.dir/models/Product.cpp.o: ../models/abstract/UniqueObj.h
+CMakeFiles/NewTask2.dir/models/Product.cpp.o: ../services/Utils.h
+
 CMakeFiles/NewTask2.dir/models/TradeOrganization.cpp.o: ../models/TradeOrganization.cpp
 CMakeFiles/NewTask2.dir/models/TradeOrganization.cpp.o: ../models/TradeOrganization.h
 CMakeFiles/NewTask2.dir/models/TradeOrganization.cpp.o: ../models/User.h
-CMakeFiles/NewTask2.dir/models/TradeOrganization.cpp.o: ../models/UserList.h
+CMakeFiles/NewTask2.dir/models/TradeOrganization.cpp.o: ../models/abstract/UniqueObj.h
+CMakeFiles/NewTask2.dir/models/TradeOrganization.cpp.o: ../models/lists/UserList.h
 CMakeFiles/NewTask2.dir/models/TradeOrganization.cpp.o: ../services/Utils.h
 
 CMakeFiles/NewTask2.dir/models/User.cpp.o: ../models/User.cpp
 CMakeFiles/NewTask2.dir/models/User.cpp.o: ../models/User.h
+CMakeFiles/NewTask2.dir/models/User.cpp.o: ../models/abstract/UniqueObj.h
 CMakeFiles/NewTask2.dir/models/User.cpp.o: ../services/Utils.h
 
-CMakeFiles/NewTask2.dir/models/UserList.cpp.o: ../models/User.h
-CMakeFiles/NewTask2.dir/models/UserList.cpp.o: ../models/UserList.cpp
-CMakeFiles/NewTask2.dir/models/UserList.cpp.o: ../models/UserList.h
-CMakeFiles/NewTask2.dir/models/UserList.cpp.o: ../services/Utils.h
+CMakeFiles/NewTask2.dir/models/lists/UserList.cpp.o: ../models/User.h
+CMakeFiles/NewTask2.dir/models/lists/UserList.cpp.o: ../models/abstract/UniqueObj.h
+CMakeFiles/NewTask2.dir/models/lists/UserList.cpp.o: ../models/lists/UserList.cpp
+CMakeFiles/NewTask2.dir/models/lists/UserList.cpp.o: ../models/lists/UserList.h
+CMakeFiles/NewTask2.dir/models/lists/UserList.cpp.o: ../services/Utils.h
 
 CMakeFiles/NewTask2.dir/services/IOService.cpp.o: ../models/TradeOrganization.h
 CMakeFiles/NewTask2.dir/services/IOService.cpp.o: ../models/User.h
-CMakeFiles/NewTask2.dir/services/IOService.cpp.o: ../models/UserList.h
+CMakeFiles/NewTask2.dir/services/IOService.cpp.o: ../models/abstract/UniqueObj.h
+CMakeFiles/NewTask2.dir/services/IOService.cpp.o: ../models/lists/UserList.h
 CMakeFiles/NewTask2.dir/services/IOService.cpp.o: ../services/IOService.cpp
 CMakeFiles/NewTask2.dir/services/IOService.cpp.o: ../services/IOService.h
 CMakeFiles/NewTask2.dir/services/IOService.cpp.o: ../services/Utils.h
 CMakeFiles/NewTask2.dir/services/IOService.cpp.o: ../services/models_services/IOUserService.h
 
 CMakeFiles/NewTask2.dir/services/models_services/IOUserService.cpp.o: ../models/User.h
-CMakeFiles/NewTask2.dir/services/models_services/IOUserService.cpp.o: ../models/UserList.h
+CMakeFiles/NewTask2.dir/services/models_services/IOUserService.cpp.o: ../models/abstract/UniqueObj.h
+CMakeFiles/NewTask2.dir/services/models_services/IOUserService.cpp.o: ../models/lists/UserList.h
 CMakeFiles/NewTask2.dir/services/models_services/IOUserService.cpp.o: ../services/Utils.h
 CMakeFiles/NewTask2.dir/services/models_services/IOUserService.cpp.o: ../services/models_services/IOUserService.cpp
 CMakeFiles/NewTask2.dir/services/models_services/IOUserService.cpp.o: ../services/models_services/IOUserService.h

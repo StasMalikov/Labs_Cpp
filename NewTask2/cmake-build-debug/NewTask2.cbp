@@ -83,6 +83,12 @@
 		<Unit filename="/home/stas_malikov/Рабочий стол/с++/CLionProjects/Labs_Cplusplus/NewTask2/main.cpp">
 			<Option target="NewTask2"/>
 		</Unit>
+		<Unit filename="/home/stas_malikov/Рабочий стол/с++/CLionProjects/Labs_Cplusplus/NewTask2/models/Product.cpp">
+			<Option target="NewTask2"/>
+		</Unit>
+		<Unit filename="/home/stas_malikov/Рабочий стол/с++/CLionProjects/Labs_Cplusplus/NewTask2/models/Product.h">
+			<Option target="NewTask2"/>
+		</Unit>
 		<Unit filename="/home/stas_malikov/Рабочий стол/с++/CLionProjects/Labs_Cplusplus/NewTask2/models/TradeOrganization.cpp">
 			<Option target="NewTask2"/>
 		</Unit>
@@ -93,6 +99,18 @@
 			<Option target="NewTask2"/>
 		</Unit>
 		<Unit filename="/home/stas_malikov/Рабочий стол/с++/CLionProjects/Labs_Cplusplus/NewTask2/models/User.h">
+			<Option target="NewTask2"/>
+		</Unit>
+		<Unit filename="/home/stas_malikov/Рабочий стол/с++/CLionProjects/Labs_Cplusplus/NewTask2/models/abstract/Seller.h">
+			<Option target="NewTask2"/>
+		</Unit>
+		<Unit filename="/home/stas_malikov/Рабочий стол/с++/CLionProjects/Labs_Cplusplus/NewTask2/models/abstract/UniqueObj.h">
+			<Option target="NewTask2"/>
+		</Unit>
+		<Unit filename="/home/stas_malikov/Рабочий стол/с++/CLionProjects/Labs_Cplusplus/NewTask2/models/lists/ProductList.cpp">
+			<Option target="NewTask2"/>
+		</Unit>
+		<Unit filename="/home/stas_malikov/Рабочий стол/с++/CLionProjects/Labs_Cplusplus/NewTask2/models/lists/ProductList.h">
 			<Option target="NewTask2"/>
 		</Unit>
 		<Unit filename="/home/stas_malikov/Рабочий стол/с++/CLionProjects/Labs_Cplusplus/NewTask2/models/lists/UserList.cpp">

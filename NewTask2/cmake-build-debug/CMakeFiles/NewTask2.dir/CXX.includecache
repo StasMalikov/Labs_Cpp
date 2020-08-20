@@ -6,17 +6,67 @@
 
 #IncludeRegexTransform: 
 
+/home/stas_malikov/Рабочий стол/с++/CLionProjects/Labs_Cplusplus/NewTask2/main.cpp
+services/IOService.h
+/home/stas_malikov/Рабочий стол/с++/CLionProjects/Labs_Cplusplus/NewTask2/services/IOService.h
+models/User.h
+/home/stas_malikov/Рабочий стол/с++/CLionProjects/Labs_Cplusplus/NewTask2/models/User.h
+models/TradeOrganization.h
+/home/stas_malikov/Рабочий стол/с++/CLionProjects/Labs_Cplusplus/NewTask2/models/TradeOrganization.h
+
+/home/stas_malikov/Рабочий стол/с++/CLionProjects/Labs_Cplusplus/NewTask2/models/Product.cpp
+Product.h
+/home/stas_malikov/Рабочий стол/с++/CLionProjects/Labs_Cplusplus/NewTask2/models/Product.h
+
+/home/stas_malikov/Рабочий стол/с++/CLionProjects/Labs_Cplusplus/NewTask2/models/Product.h
+abstract/UniqueObj.h
+/home/stas_malikov/Рабочий стол/с++/CLionProjects/Labs_Cplusplus/NewTask2/models/abstract/UniqueObj.h
+string
+-
+
+/home/stas_malikov/Рабочий стол/с++/CLionProjects/Labs_Cplusplus/NewTask2/models/TradeOrganization.cpp
+TradeOrganization.h
+/home/stas_malikov/Рабочий стол/с++/CLionProjects/Labs_Cplusplus/NewTask2/models/TradeOrganization.h
+
+/home/stas_malikov/Рабочий стол/с++/CLionProjects/Labs_Cplusplus/NewTask2/models/TradeOrganization.h
+lists/UserList.h
+/home/stas_malikov/Рабочий стол/с++/CLionProjects/Labs_Cplusplus/NewTask2/models/lists/UserList.h
+
+/home/stas_malikov/Рабочий стол/с++/CLionProjects/Labs_Cplusplus/NewTask2/models/User.cpp
+User.h
+/home/stas_malikov/Рабочий стол/с++/CLionProjects/Labs_Cplusplus/NewTask2/models/User.h
+
 /home/stas_malikov/Рабочий стол/с++/CLionProjects/Labs_Cplusplus/NewTask2/models/User.h
 string
 -
-utility
--
-../services/Utils.h
+abstract/UniqueObj.h
+/home/stas_malikov/Рабочий стол/с++/CLionProjects/Labs_Cplusplus/NewTask2/models/abstract/UniqueObj.h
+
+/home/stas_malikov/Рабочий стол/с++/CLionProjects/Labs_Cplusplus/NewTask2/models/abstract/UniqueObj.h
+../../services/Utils.h
 /home/stas_malikov/Рабочий стол/с++/CLionProjects/Labs_Cplusplus/NewTask2/services/Utils.h
 
-/home/stas_malikov/Рабочий стол/с++/CLionProjects/Labs_Cplusplus/NewTask2/models/UserList.h
-User.h
+/home/stas_malikov/Рабочий стол/с++/CLionProjects/Labs_Cplusplus/NewTask2/models/lists/UserList.cpp
+UserList.h
+/home/stas_malikov/Рабочий стол/с++/CLionProjects/Labs_Cplusplus/NewTask2/models/lists/UserList.h
+
+/home/stas_malikov/Рабочий стол/с++/CLionProjects/Labs_Cplusplus/NewTask2/models/lists/UserList.h
+../User.h
 /home/stas_malikov/Рабочий стол/с++/CLionProjects/Labs_Cplusplus/NewTask2/models/User.h
+
+/home/stas_malikov/Рабочий стол/с++/CLionProjects/Labs_Cplusplus/NewTask2/services/IOService.cpp
+IOService.h
+/home/stas_malikov/Рабочий стол/с++/CLionProjects/Labs_Cplusplus/NewTask2/services/IOService.h
+iostream
+-
+Utils.h
+/home/stas_malikov/Рабочий стол/с++/CLionProjects/Labs_Cplusplus/NewTask2/services/Utils.h
+
+/home/stas_malikov/Рабочий стол/с++/CLionProjects/Labs_Cplusplus/NewTask2/services/IOService.h
+../models/TradeOrganization.h
+/home/stas_malikov/Рабочий стол/с++/CLionProjects/Labs_Cplusplus/NewTask2/models/TradeOrganization.h
+models_services/IOUserService.h
+/home/stas_malikov/Рабочий стол/с++/CLionProjects/Labs_Cplusplus/NewTask2/services/models_services/IOUserService.h
 
 /home/stas_malikov/Рабочий стол/с++/CLionProjects/Labs_Cplusplus/NewTask2/services/Utils.h
 iostream
@@ -31,6 +81,6 @@ string
 -
 
 /home/stas_malikov/Рабочий стол/с++/CLionProjects/Labs_Cplusplus/NewTask2/services/models_services/IOUserService.h
-../../models/UserList.h
-/home/stas_malikov/Рабочий стол/с++/CLionProjects/Labs_Cplusplus/NewTask2/models/UserList.h
+../../models/lists/UserList.h
+/home/stas_malikov/Рабочий стол/с++/CLionProjects/Labs_Cplusplus/NewTask2/models/lists/UserList.h
 

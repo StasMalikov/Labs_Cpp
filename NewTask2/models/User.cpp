@@ -1,7 +1,8 @@
 #include "User.h"
 
 string User::toString() {
-    return to_string(id) + " " + name + " " + userTypeToStr(userType);
+    return to_string(id) + " " + name + " " +
+        userTypeToStr(userType);
 }
 
 string User::userTypeToStr(UserType _userType) {

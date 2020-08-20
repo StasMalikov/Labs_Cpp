@@ -20,7 +20,6 @@ public:
     }
 
     TradeOrganization() : userList(), currentUser() {}
-    ~TradeOrganization(){}
 };
 
 #endif //NEWTASK2_TRADEORGANIZATION_H

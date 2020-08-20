@@ -2,8 +2,8 @@
 #define NEWTASK2_USER_H
 
 #include <string>
-#include <utility>
-#include "../services/Utils.h"
+#include "abstract/UniqueObj.h"
+
 using namespace std;
 
 enum class UserType {
@@ -11,18 +11,15 @@ enum class UserType {
     retail
 };
 
-class User {
-    unsigned int id;
+class User : public UniqueObj {
     string name;
     UserType userType;
 
 public:
-    unsigned int getId() {return id;}
     static string userTypeToStr(UserType _userType);
     string toString();
-    User(): id(0){}
-    User(string _name, UserType _userType) : id(Utils::generateId()), name(_name), userType(_userType) {}
-    ~User(){}
+    User(): UniqueObj(0){}
+    User(string _name, UserType _userType) : UniqueObj(), name(_name), userType(_userType) {}
 };
 
 #endif //NEWTASK2_USER_H

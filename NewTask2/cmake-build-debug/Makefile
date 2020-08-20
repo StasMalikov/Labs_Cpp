@@ -150,6 +150,33 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/NewTask2.dir/build.make CMakeFiles/NewTask2.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+models/Product.o: models/Product.cpp.o
+
+.PHONY : models/Product.o
+
+# target to build an object file
+models/Product.cpp.o:
+	$(MAKE) -f CMakeFiles/NewTask2.dir/build.make CMakeFiles/NewTask2.dir/models/Product.cpp.o
+.PHONY : models/Product.cpp.o
+
+models/Product.i: models/Product.cpp.i
+
+.PHONY : models/Product.i
+
+# target to preprocess a source file
+models/Product.cpp.i:
+	$(MAKE) -f CMakeFiles/NewTask2.dir/build.make CMakeFiles/NewTask2.dir/models/Product.cpp.i
+.PHONY : models/Product.cpp.i
+
+models/Product.s: models/Product.cpp.s
+
+.PHONY : models/Product.s
+
+# target to generate assembly for a file
+models/Product.cpp.s:
+	$(MAKE) -f CMakeFiles/NewTask2.dir/build.make CMakeFiles/NewTask2.dir/models/Product.cpp.s
+.PHONY : models/Product.cpp.s
+
 models/TradeOrganization.o: models/TradeOrganization.cpp.o
 
 .PHONY : models/TradeOrganization.o
@@ -203,6 +230,33 @@ models/User.s: models/User.cpp.s
 models/User.cpp.s:
 	$(MAKE) -f CMakeFiles/NewTask2.dir/build.make CMakeFiles/NewTask2.dir/models/User.cpp.s
 .PHONY : models/User.cpp.s
+
+models/lists/ProductList.o: models/lists/ProductList.cpp.o
+
+.PHONY : models/lists/ProductList.o
+
+# target to build an object file
+models/lists/ProductList.cpp.o:
+	$(MAKE) -f CMakeFiles/NewTask2.dir/build.make CMakeFiles/NewTask2.dir/models/lists/ProductList.cpp.o
+.PHONY : models/lists/ProductList.cpp.o
+
+models/lists/ProductList.i: models/lists/ProductList.cpp.i
+
+.PHONY : models/lists/ProductList.i
+
+# target to preprocess a source file
+models/lists/ProductList.cpp.i:
+	$(MAKE) -f CMakeFiles/NewTask2.dir/build.make CMakeFiles/NewTask2.dir/models/lists/ProductList.cpp.i
+.PHONY : models/lists/ProductList.cpp.i
+
+models/lists/ProductList.s: models/lists/ProductList.cpp.s
+
+.PHONY : models/lists/ProductList.s
+
+# target to generate assembly for a file
+models/lists/ProductList.cpp.s:
+	$(MAKE) -f CMakeFiles/NewTask2.dir/build.make CMakeFiles/NewTask2.dir/models/lists/ProductList.cpp.s
+.PHONY : models/lists/ProductList.cpp.s
 
 models/lists/UserList.o: models/lists/UserList.cpp.o
 
@@ -297,12 +351,18 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... models/Product.o"
+	@echo "... models/Product.i"
+	@echo "... models/Product.s"
 	@echo "... models/TradeOrganization.o"
 	@echo "... models/TradeOrganization.i"
 	@echo "... models/TradeOrganization.s"
 	@echo "... models/User.o"
 	@echo "... models/User.i"
 	@echo "... models/User.s"
+	@echo "... models/lists/ProductList.o"
+	@echo "... models/lists/ProductList.i"
+	@echo "... models/lists/ProductList.s"
 	@echo "... models/lists/UserList.o"
 	@echo "... models/lists/UserList.i"
 	@echo "... models/lists/UserList.s"
