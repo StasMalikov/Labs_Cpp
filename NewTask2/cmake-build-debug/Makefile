@@ -150,6 +150,33 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/NewTask2.dir/build.make CMakeFiles/NewTask2.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+models/Order.o: models/Order.cpp.o
+
+.PHONY : models/Order.o
+
+# target to build an object file
+models/Order.cpp.o:
+	$(MAKE) -f CMakeFiles/NewTask2.dir/build.make CMakeFiles/NewTask2.dir/models/Order.cpp.o
+.PHONY : models/Order.cpp.o
+
+models/Order.i: models/Order.cpp.i
+
+.PHONY : models/Order.i
+
+# target to preprocess a source file
+models/Order.cpp.i:
+	$(MAKE) -f CMakeFiles/NewTask2.dir/build.make CMakeFiles/NewTask2.dir/models/Order.cpp.i
+.PHONY : models/Order.cpp.i
+
+models/Order.s: models/Order.cpp.s
+
+.PHONY : models/Order.s
+
+# target to generate assembly for a file
+models/Order.cpp.s:
+	$(MAKE) -f CMakeFiles/NewTask2.dir/build.make CMakeFiles/NewTask2.dir/models/Order.cpp.s
+.PHONY : models/Order.cpp.s
+
 models/Product.o: models/Product.cpp.o
 
 .PHONY : models/Product.o
@@ -176,6 +203,33 @@ models/Product.s: models/Product.cpp.s
 models/Product.cpp.s:
 	$(MAKE) -f CMakeFiles/NewTask2.dir/build.make CMakeFiles/NewTask2.dir/models/Product.cpp.s
 .PHONY : models/Product.cpp.s
+
+models/Supplier.o: models/Supplier.cpp.o
+
+.PHONY : models/Supplier.o
+
+# target to build an object file
+models/Supplier.cpp.o:
+	$(MAKE) -f CMakeFiles/NewTask2.dir/build.make CMakeFiles/NewTask2.dir/models/Supplier.cpp.o
+.PHONY : models/Supplier.cpp.o
+
+models/Supplier.i: models/Supplier.cpp.i
+
+.PHONY : models/Supplier.i
+
+# target to preprocess a source file
+models/Supplier.cpp.i:
+	$(MAKE) -f CMakeFiles/NewTask2.dir/build.make CMakeFiles/NewTask2.dir/models/Supplier.cpp.i
+.PHONY : models/Supplier.cpp.i
+
+models/Supplier.s: models/Supplier.cpp.s
+
+.PHONY : models/Supplier.s
+
+# target to generate assembly for a file
+models/Supplier.cpp.s:
+	$(MAKE) -f CMakeFiles/NewTask2.dir/build.make CMakeFiles/NewTask2.dir/models/Supplier.cpp.s
+.PHONY : models/Supplier.cpp.s
 
 models/TradeOrganization.o: models/TradeOrganization.cpp.o
 
@@ -351,9 +405,15 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... models/Order.o"
+	@echo "... models/Order.i"
+	@echo "... models/Order.s"
 	@echo "... models/Product.o"
 	@echo "... models/Product.i"
 	@echo "... models/Product.s"
+	@echo "... models/Supplier.o"
+	@echo "... models/Supplier.i"
+	@echo "... models/Supplier.s"
 	@echo "... models/TradeOrganization.o"
 	@echo "... models/TradeOrganization.i"
 	@echo "... models/TradeOrganization.s"

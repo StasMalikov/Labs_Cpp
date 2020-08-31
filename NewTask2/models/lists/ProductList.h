@@ -22,9 +22,11 @@ public:
 
     int remove(unsigned int productId);
 
+    Product pop(int productId);
+
     void add(Product product);
 
-    Product* getProductById(int productId);
+    Product getProductById(int productId);
 
     //iterator
     Product& operator[](unsigned int index);

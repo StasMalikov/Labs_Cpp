@@ -161,6 +161,32 @@ CMakeFiles/NewTask2.dir/models/lists/ProductList.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/NewTask2.dir/models/lists/ProductList.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/stas_malikov/Рабочий стол/с++/CLionProjects/Labs_Cplusplus/NewTask2/models/lists/ProductList.cpp" -o CMakeFiles/NewTask2.dir/models/lists/ProductList.cpp.s
 
+CMakeFiles/NewTask2.dir/models/Supplier.cpp.o: CMakeFiles/NewTask2.dir/flags.make
+CMakeFiles/NewTask2.dir/models/Supplier.cpp.o: ../models/Supplier.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/stas_malikov/Рабочий стол/с++/CLionProjects/Labs_Cplusplus/NewTask2/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/NewTask2.dir/models/Supplier.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NewTask2.dir/models/Supplier.cpp.o -c "/home/stas_malikov/Рабочий стол/с++/CLionProjects/Labs_Cplusplus/NewTask2/models/Supplier.cpp"
+
+CMakeFiles/NewTask2.dir/models/Supplier.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/NewTask2.dir/models/Supplier.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/stas_malikov/Рабочий стол/с++/CLionProjects/Labs_Cplusplus/NewTask2/models/Supplier.cpp" > CMakeFiles/NewTask2.dir/models/Supplier.cpp.i
+
+CMakeFiles/NewTask2.dir/models/Supplier.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/NewTask2.dir/models/Supplier.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/stas_malikov/Рабочий стол/с++/CLionProjects/Labs_Cplusplus/NewTask2/models/Supplier.cpp" -o CMakeFiles/NewTask2.dir/models/Supplier.cpp.s
+
+CMakeFiles/NewTask2.dir/models/Order.cpp.o: CMakeFiles/NewTask2.dir/flags.make
+CMakeFiles/NewTask2.dir/models/Order.cpp.o: ../models/Order.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/stas_malikov/Рабочий стол/с++/CLionProjects/Labs_Cplusplus/NewTask2/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/NewTask2.dir/models/Order.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NewTask2.dir/models/Order.cpp.o -c "/home/stas_malikov/Рабочий стол/с++/CLionProjects/Labs_Cplusplus/NewTask2/models/Order.cpp"
+
+CMakeFiles/NewTask2.dir/models/Order.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/NewTask2.dir/models/Order.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/stas_malikov/Рабочий стол/с++/CLionProjects/Labs_Cplusplus/NewTask2/models/Order.cpp" > CMakeFiles/NewTask2.dir/models/Order.cpp.i
+
+CMakeFiles/NewTask2.dir/models/Order.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/NewTask2.dir/models/Order.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/stas_malikov/Рабочий стол/с++/CLionProjects/Labs_Cplusplus/NewTask2/models/Order.cpp" -o CMakeFiles/NewTask2.dir/models/Order.cpp.s
+
 # Object files for target NewTask2
 NewTask2_OBJECTS = \
 "CMakeFiles/NewTask2.dir/main.cpp.o" \
@@ -170,7 +196,9 @@ NewTask2_OBJECTS = \
 "CMakeFiles/NewTask2.dir/services/models_services/IOUserService.cpp.o" \
 "CMakeFiles/NewTask2.dir/models/lists/UserList.cpp.o" \
 "CMakeFiles/NewTask2.dir/models/Product.cpp.o" \
-"CMakeFiles/NewTask2.dir/models/lists/ProductList.cpp.o"
+"CMakeFiles/NewTask2.dir/models/lists/ProductList.cpp.o" \
+"CMakeFiles/NewTask2.dir/models/Supplier.cpp.o" \
+"CMakeFiles/NewTask2.dir/models/Order.cpp.o"
 
 # External object files for target NewTask2
 NewTask2_EXTERNAL_OBJECTS =
@@ -183,9 +211,11 @@ NewTask2: CMakeFiles/NewTask2.dir/services/models_services/IOUserService.cpp.o
 NewTask2: CMakeFiles/NewTask2.dir/models/lists/UserList.cpp.o
 NewTask2: CMakeFiles/NewTask2.dir/models/Product.cpp.o
 NewTask2: CMakeFiles/NewTask2.dir/models/lists/ProductList.cpp.o
+NewTask2: CMakeFiles/NewTask2.dir/models/Supplier.cpp.o
+NewTask2: CMakeFiles/NewTask2.dir/models/Order.cpp.o
 NewTask2: CMakeFiles/NewTask2.dir/build.make
 NewTask2: CMakeFiles/NewTask2.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/stas_malikov/Рабочий стол/с++/CLionProjects/Labs_Cplusplus/NewTask2/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable NewTask2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/stas_malikov/Рабочий стол/с++/CLionProjects/Labs_Cplusplus/NewTask2/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable NewTask2"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/NewTask2.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

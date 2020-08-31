@@ -20,12 +20,17 @@ class Product : public UniqueObj {
     string title;
     unsigned int quantity;
     ProductType productType;
+    double weight;
 public:
     Product(): UniqueObj(0){}
 
-    Product(string _title, unsigned int _quantity, ProductType _productType):
-        UniqueObj(), title(_title),quantity(_quantity),
-        productType(_productType){}
+    Product(string _title, unsigned int _quantity, ProductType _productType, double _weight):
+        UniqueObj(), title(_title), quantity(_quantity),
+        productType(_productType), weight(_weight){}
+
+
+    Product(Product& p) : UniqueObj(p.getId()), title(p.getTitle()),
+        quantity(p.getQuantity()), productType(p.getProductType()), weight(p.getWeight()) {}
 
     string toString();
 
@@ -41,6 +46,10 @@ public:
 
     ProductType getProductType() const {
         return productType;
+    }
+
+    double getWeight() const {
+        return weight;
     }
 };
 

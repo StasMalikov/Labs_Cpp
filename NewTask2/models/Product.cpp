@@ -8,7 +8,7 @@
 string Product::toString() {
     return to_string(id) + " " + title + " " +
         to_string(quantity) + " " +
-        Product::productTypeToStr(productType);
+        Product::productTypeToStr(productType) + " " + to_string(weight);
 }
 
 string Product::productTypeToStr(ProductType _productType) {

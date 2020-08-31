@@ -1,7 +1,3 @@
-//
-// Created by stas_malikov on 20.08.2020.
-//
-
 #include "ProductList.h"
 
 void ProductList::add(Product product) {
@@ -12,13 +8,19 @@ void ProductList::add(Product product) {
     lastItemIndex++;
 }
 
-Product* ProductList::getProductById(int productId) {
+Product ProductList::getProductById(int productId) {
     for (int i = 0; i < lastItemIndex; ++i) {
         if(products[i].getId() == productId) {
-            return &products[i];
+            return products[i];
         }
     }
-    return nullptr;
+    return Product();
+}
+
+Product ProductList::pop(int productId) {
+    Product product(getProductById(productId));
+    remove(productId);
+    return product;
 }
 
 // 1 = found and deleted; 0 = not found
