@@ -5,9 +5,13 @@
 #ifndef NEWTASK2_SUPPLIER_H
 #define NEWTASK2_SUPPLIER_H
 
+#include "abstract/Seller.h"
+#include "Order.h"
 
-class Supplier {
+class Supplier : public Seller {
+
 public:
+
 
 };
 

@@ -7,7 +7,8 @@
 
 
 class Seller {
-//public:
+public:
+    Seller(){}
 //    virtual void getAvailableProducts() = 0;
 //    virtual void sellProducts() = 0;
 };

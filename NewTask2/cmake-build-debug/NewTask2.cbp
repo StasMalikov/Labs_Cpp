@@ -122,6 +122,12 @@
 		<Unit filename="/home/stas_malikov/Рабочий стол/с++/CLionProjects/Labs_Cplusplus/NewTask2/models/abstract/UniqueObj.h">
 			<Option target="NewTask2"/>
 		</Unit>
+		<Unit filename="/home/stas_malikov/Рабочий стол/с++/CLionProjects/Labs_Cplusplus/NewTask2/models/lists/OrderList.cpp">
+			<Option target="NewTask2"/>
+		</Unit>
+		<Unit filename="/home/stas_malikov/Рабочий стол/с++/CLionProjects/Labs_Cplusplus/NewTask2/models/lists/OrderList.h">
+			<Option target="NewTask2"/>
+		</Unit>
 		<Unit filename="/home/stas_malikov/Рабочий стол/с++/CLionProjects/Labs_Cplusplus/NewTask2/models/lists/ProductList.cpp">
 			<Option target="NewTask2"/>
 		</Unit>

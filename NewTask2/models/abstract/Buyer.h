@@ -7,7 +7,8 @@
 
 
 class Buyer {
-
+public:
+    Buyer(){}
 };
 
 

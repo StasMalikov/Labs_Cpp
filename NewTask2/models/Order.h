@@ -8,6 +8,7 @@
 #include "lists/ProductList.h"
 #include "abstract/Buyer.h"
 #include "abstract/Seller.h"
+#include "abstract/UniqueObj.h"
 
 enum class OrderStatus {
     open,
@@ -15,19 +16,29 @@ enum class OrderStatus {
     closed
 };
 
-class Order {
+class Order : public UniqueObj {
 
     ProductList productList;
 
-    Buyer &buyer;
+    Buyer buyer;
 
-    Seller &seller;
+    Seller seller;
 
     OrderStatus orderStatus;
 
 public:
-    Order(Buyer &_buyer, Seller &_seller) : buyer(_buyer),
+    Order() : UniqueObj(0) {}
+
+    Order(Buyer &_buyer, Seller &_seller) : UniqueObj(), buyer(_buyer),
         seller(_seller), productList(), orderStatus(OrderStatus::open) {}
+
+    const Order& operator=(const Order& o){
+        productList = o.productList;
+        buyer = o.buyer;
+        seller = o.seller;
+        orderStatus = o.orderStatus;
+        return *this;
+    }
 
     void addProduct(Product product){
         productList.add(product);

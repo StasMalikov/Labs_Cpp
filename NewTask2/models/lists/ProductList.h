@@ -39,6 +39,13 @@ public:
         }
     }
 
+    const ProductList& operator=(const ProductList& o){
+        products = o.products;
+        lastItemIndex = o.lastItemIndex;
+        count = o.count;
+        return *this;
+    }
+
     ProductList(){
         count = 5;
         lastItemIndex = 0;
