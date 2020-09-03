@@ -28,9 +28,9 @@ Order OrderList::pop(int orderId) {
 }
 
 // 1 = found and deleted; 0 = not found
-int OrderList::remove(unsigned int orderId) {
+int OrderList::remove(unsigned int itemId) {
     for (int i = 0; i < lastItemIndex; ++i) {
-        if(orders[i].getId() == orderId) {
+        if(orders[i].getId() == itemId) {
             for (int j = i; j < lastItemIndex - 1; ++j) {
                 orders[j] = orders[j + 1];
             }

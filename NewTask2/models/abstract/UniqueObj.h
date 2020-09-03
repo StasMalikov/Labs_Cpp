@@ -14,6 +14,11 @@ public:
     UniqueObj() : id(Utils::generateId()) {}
     UniqueObj(unsigned int _id) : id(_id) {}
     unsigned int getId() {return id;}
+
+    const UniqueObj& operator=(const UniqueObj& uObj){
+        id = uObj.id;
+        return *this;
+    }
 };
 
 #endif //NEWTASK2_UNIQUEOBJ_H

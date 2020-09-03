@@ -22,9 +22,9 @@ User* UserList::getUserById(int userId) {
 }
 
 // 1 = found and deleted; 0 = not found
-int UserList::remove(unsigned int userId) {
+int UserList::remove(unsigned int itemId) {
     for (int i = 0; i < lastItemIndex; ++i) {
-        if(users[i].getId() == userId) {
+        if(users[i].getId() == itemId) {
             for (int j = i; j < lastItemIndex - 1; ++j) {
                 users[j] = users[j + 1];
             }

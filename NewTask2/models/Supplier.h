@@ -10,9 +10,6 @@
 
 class Supplier : public Seller {
 
-public:
-
-
 };
 
 

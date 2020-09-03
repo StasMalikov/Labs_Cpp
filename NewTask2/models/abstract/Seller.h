@@ -5,10 +5,12 @@
 #ifndef NEWTASK2_SELLER_H
 #define NEWTASK2_SELLER_H
 
+#include "../Order.h"
 
 class Seller {
 public:
     Seller(){}
+//
 //    virtual void getAvailableProducts() = 0;
 //    virtual void sellProducts() = 0;
 };

@@ -6,21 +6,15 @@
 #define NEWTASK2_USERLIST_H
 
 #include "../User.h"
+#include "../abstract/List.h"
 
-class UserList {
-    const double resizeMultiplier = 1.5;
+class UserList : public List {
     User *users;
-    unsigned int lastItemIndex;
-    unsigned int count;
 
     void resize(int newSize);
 
 public:
-    unsigned int getCount(){return count;}
-
-    unsigned int getLastItemIndex(){return lastItemIndex;}
-
-    int remove(unsigned int userId);
+    int remove(unsigned int itemId);
 
     void add(User user);
 
@@ -43,7 +37,7 @@ public:
         users = new User[count];
     }
 
-    ~UserList(){
+    virtual ~UserList(){
         delete [] users;
     }
 };

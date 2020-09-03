@@ -80,7 +80,7 @@ void IOUserService::addUser() {
     cout << "\n";
 }
 
-int IOUserService::deleteUser() {
+void IOUserService::deleteUser() {
     cout << "\n";
 
     cout << "Введите id удаляемого пользователя\n";

@@ -6,21 +6,14 @@
 #define NEWTASK2_ORDERLIST_H
 
 #include "../Order.h"
+#include "../abstract/List.h"
 
-class OrderList {
-    const double resizeMultiplier = 1.5;
+class OrderList : public List {
     Order *orders;
-    unsigned int lastItemIndex;
-    unsigned int count;
 
     void resize(int newSize);
-
 public:
-    unsigned int getCount(){return count;}
-
-    unsigned int getLastItemIndex(){return lastItemIndex;}
-
-    int remove(unsigned int orderId);
+    int remove(unsigned int itemId);
 
     Order pop(int orderId);
 
@@ -45,7 +38,7 @@ public:
         orders = new Order[count];
     }
 
-    ~OrderList(){
+    virtual ~OrderList(){
         delete [] orders;
     }
 };

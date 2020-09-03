@@ -6,8 +6,6 @@
 #define NEWTASK2_ORDER_H
 
 #include "lists/ProductList.h"
-#include "abstract/Buyer.h"
-#include "abstract/Seller.h"
 #include "abstract/UniqueObj.h"
 
 enum class OrderStatus {
@@ -20,17 +18,17 @@ class Order : public UniqueObj {
 
     ProductList productList;
 
-    Buyer buyer;
+    UniqueObj buyer;
 
-    Seller seller;
+    UniqueObj seller;
 
     OrderStatus orderStatus;
 
 public:
-    Order() : UniqueObj(0) {}
+    Order() : UniqueObj(0), buyer(0), seller(0) {}
 
-    Order(Buyer &_buyer, Seller &_seller) : UniqueObj(), buyer(_buyer),
-        seller(_seller), productList(), orderStatus(OrderStatus::open) {}
+    Order(UniqueObj _buyer, UniqueObj _seller) : UniqueObj(), buyer(_buyer.getId()),
+        seller(_seller.getId()), productList(), orderStatus(OrderStatus::open) {}
 
     const Order& operator=(const Order& o){
         productList = o.productList;

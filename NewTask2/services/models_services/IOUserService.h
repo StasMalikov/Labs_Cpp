@@ -13,7 +13,7 @@ public:
             userList(_userList), currentUser(_currentUser) {}
 
     void displayUsers();
-    int deleteUser();
+    void deleteUser();
     void addUser();
     void displayCurrentUser();
     void selectUser();

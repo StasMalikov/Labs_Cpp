@@ -5,6 +5,7 @@
 #ifndef NEWTASK2_BUYER_H
 #define NEWTASK2_BUYER_H
 
+#include "../lists/OrderList.h"
 
 class Buyer {
 public:

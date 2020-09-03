@@ -24,9 +24,9 @@ Product ProductList::pop(int productId) {
 }
 
 // 1 = found and deleted; 0 = not found
-int ProductList::remove(unsigned int productId) {
+int ProductList::remove(unsigned int itemId) {
     for (int i = 0; i < lastItemIndex; ++i) {
-        if(products[i].getId() == productId) {
+        if(products[i].getId() == itemId) {
             for (int j = i; j < lastItemIndex - 1; ++j) {
                 products[j] = products[j + 1];
             }

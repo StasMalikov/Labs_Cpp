@@ -6,21 +6,15 @@
 #define NEWTASK2_PRODUCTLIST_H
 
 #include "../Product.h"
+#include "../abstract/List.h"
 
-class ProductList {
-    const double resizeMultiplier = 1.5;
+class ProductList : public List {
     Product *products;
-    unsigned int lastItemIndex;
-    unsigned int count;
 
     void resize(int newSize);
 
 public:
-    unsigned int getCount(){return count;}
-
-    unsigned int getLastItemIndex(){return lastItemIndex;}
-
-    int remove(unsigned int productId);
+    int remove(unsigned int itemId);
 
     Product pop(int productId);
 
@@ -52,7 +46,7 @@ public:
         products = new Product[count];
     }
 
-    ~ProductList(){
+    virtual ~ProductList(){
         delete [] products;
     }
 };
