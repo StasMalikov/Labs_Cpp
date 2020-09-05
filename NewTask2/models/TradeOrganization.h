@@ -6,10 +6,13 @@
 #define NEWTASK2_TRADEORGANIZATION_H
 
 #include "lists/UserList.h"
+#include "Supplier.h"
 
 class TradeOrganization {
     UserList userList;
     User currentUser;
+    Supplier& supplier;
+
 public:
     UserList &getUserList(){
         return userList;
@@ -19,7 +22,7 @@ public:
         return currentUser;
     }
 
-    TradeOrganization() : userList(), currentUser() {}
+    TradeOrganization(Supplier& _supplier) : userList(), currentUser(), supplier(_supplier) {}
 };
 
 #endif //NEWTASK2_TRADEORGANIZATION_H

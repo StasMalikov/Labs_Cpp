@@ -6,10 +6,15 @@
 #define NEWTASK2_SUPPLIER_H
 
 #include "abstract/Seller.h"
+#include "abstract/UniqueObj.h"
 #include "Order.h"
 
-class Supplier : public Seller {
 
+class Supplier : public Seller, public UniqueObj {
+public:
+    Supplier(ProductList _assortment) : Seller(_assortment), UniqueObj() {};
+    virtual Order buy(Order order){return Order();}
+    virtual ~Supplier(){}
 };
 
 

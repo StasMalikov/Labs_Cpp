@@ -10,12 +10,13 @@ void IOService::start() {
         cout << "(Главное меню) Выберите действие:\n"
                 "0 - выход из приложения\n"
                 "1 - операции с розничной торговлей\n"
-                "2 - операции с оптовой торговлей\n"
-                "3 - операции с пользователями\n";
+                "2 - операции с поставками продуктов\n"
+                "3 - операции с оптовой торговлей\n"
+                "4 - операции с пользователями\n";
 
         select = Utils::getSelectIntCin(0 ,3);
         switch (select) {
-            case 1:{
+            case 1: {
                 break;
             }
 
@@ -24,6 +25,11 @@ void IOService::start() {
             }
 
             case 3: {
+
+                break;
+            }
+
+            case 4: {
                 ioUserService.startUserOperations();
                 break;
             }

@@ -34,6 +34,8 @@ public:
 
     string toString();
 
+    string smallToString();
+
     static string productTypeToStr(ProductType _productType);
 
     string getTitle() const {

@@ -95,6 +95,12 @@
 		<Unit filename="/home/stas_malikov/Рабочий стол/с++/CLionProjects/Labs_Cplusplus/NewTask2/models/Product.h">
 			<Option target="NewTask2"/>
 		</Unit>
+		<Unit filename="/home/stas_malikov/Рабочий стол/с++/CLionProjects/Labs_Cplusplus/NewTask2/models/Shop.cpp">
+			<Option target="NewTask2"/>
+		</Unit>
+		<Unit filename="/home/stas_malikov/Рабочий стол/с++/CLionProjects/Labs_Cplusplus/NewTask2/models/Shop.h">
+			<Option target="NewTask2"/>
+		</Unit>
 		<Unit filename="/home/stas_malikov/Рабочий стол/с++/CLionProjects/Labs_Cplusplus/NewTask2/models/Supplier.cpp">
 			<Option target="NewTask2"/>
 		</Unit>
@@ -150,6 +156,12 @@
 			<Option target="NewTask2"/>
 		</Unit>
 		<Unit filename="/home/stas_malikov/Рабочий стол/с++/CLionProjects/Labs_Cplusplus/NewTask2/services/Utils.h">
+			<Option target="NewTask2"/>
+		</Unit>
+		<Unit filename="/home/stas_malikov/Рабочий стол/с++/CLionProjects/Labs_Cplusplus/NewTask2/services/models_services/IOSupplierService.cpp">
+			<Option target="NewTask2"/>
+		</Unit>
+		<Unit filename="/home/stas_malikov/Рабочий стол/с++/CLionProjects/Labs_Cplusplus/NewTask2/services/models_services/IOSupplierService.h">
 			<Option target="NewTask2"/>
 		</Unit>
 		<Unit filename="/home/stas_malikov/Рабочий стол/с++/CLionProjects/Labs_Cplusplus/NewTask2/services/models_services/IOUserService.cpp">

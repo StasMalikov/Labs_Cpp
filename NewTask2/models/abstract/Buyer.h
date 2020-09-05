@@ -8,8 +8,6 @@
 #include "../lists/OrderList.h"
 
 class Buyer {
-public:
-    Buyer(){}
 };
 
 

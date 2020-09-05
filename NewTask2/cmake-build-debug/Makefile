@@ -204,6 +204,33 @@ models/Product.cpp.s:
 	$(MAKE) -f CMakeFiles/NewTask2.dir/build.make CMakeFiles/NewTask2.dir/models/Product.cpp.s
 .PHONY : models/Product.cpp.s
 
+models/Shop.o: models/Shop.cpp.o
+
+.PHONY : models/Shop.o
+
+# target to build an object file
+models/Shop.cpp.o:
+	$(MAKE) -f CMakeFiles/NewTask2.dir/build.make CMakeFiles/NewTask2.dir/models/Shop.cpp.o
+.PHONY : models/Shop.cpp.o
+
+models/Shop.i: models/Shop.cpp.i
+
+.PHONY : models/Shop.i
+
+# target to preprocess a source file
+models/Shop.cpp.i:
+	$(MAKE) -f CMakeFiles/NewTask2.dir/build.make CMakeFiles/NewTask2.dir/models/Shop.cpp.i
+.PHONY : models/Shop.cpp.i
+
+models/Shop.s: models/Shop.cpp.s
+
+.PHONY : models/Shop.s
+
+# target to generate assembly for a file
+models/Shop.cpp.s:
+	$(MAKE) -f CMakeFiles/NewTask2.dir/build.make CMakeFiles/NewTask2.dir/models/Shop.cpp.s
+.PHONY : models/Shop.cpp.s
+
 models/Supplier.o: models/Supplier.cpp.o
 
 .PHONY : models/Supplier.o
@@ -393,6 +420,33 @@ services/IOService.cpp.s:
 	$(MAKE) -f CMakeFiles/NewTask2.dir/build.make CMakeFiles/NewTask2.dir/services/IOService.cpp.s
 .PHONY : services/IOService.cpp.s
 
+services/models_services/IOSupplierService.o: services/models_services/IOSupplierService.cpp.o
+
+.PHONY : services/models_services/IOSupplierService.o
+
+# target to build an object file
+services/models_services/IOSupplierService.cpp.o:
+	$(MAKE) -f CMakeFiles/NewTask2.dir/build.make CMakeFiles/NewTask2.dir/services/models_services/IOSupplierService.cpp.o
+.PHONY : services/models_services/IOSupplierService.cpp.o
+
+services/models_services/IOSupplierService.i: services/models_services/IOSupplierService.cpp.i
+
+.PHONY : services/models_services/IOSupplierService.i
+
+# target to preprocess a source file
+services/models_services/IOSupplierService.cpp.i:
+	$(MAKE) -f CMakeFiles/NewTask2.dir/build.make CMakeFiles/NewTask2.dir/services/models_services/IOSupplierService.cpp.i
+.PHONY : services/models_services/IOSupplierService.cpp.i
+
+services/models_services/IOSupplierService.s: services/models_services/IOSupplierService.cpp.s
+
+.PHONY : services/models_services/IOSupplierService.s
+
+# target to generate assembly for a file
+services/models_services/IOSupplierService.cpp.s:
+	$(MAKE) -f CMakeFiles/NewTask2.dir/build.make CMakeFiles/NewTask2.dir/services/models_services/IOSupplierService.cpp.s
+.PHONY : services/models_services/IOSupplierService.cpp.s
+
 services/models_services/IOUserService.o: services/models_services/IOUserService.cpp.o
 
 .PHONY : services/models_services/IOUserService.o
@@ -438,6 +492,9 @@ help:
 	@echo "... models/Product.o"
 	@echo "... models/Product.i"
 	@echo "... models/Product.s"
+	@echo "... models/Shop.o"
+	@echo "... models/Shop.i"
+	@echo "... models/Shop.s"
 	@echo "... models/Supplier.o"
 	@echo "... models/Supplier.i"
 	@echo "... models/Supplier.s"
@@ -459,6 +516,9 @@ help:
 	@echo "... services/IOService.o"
 	@echo "... services/IOService.i"
 	@echo "... services/IOService.s"
+	@echo "... services/models_services/IOSupplierService.o"
+	@echo "... services/models_services/IOSupplierService.i"
+	@echo "... services/models_services/IOSupplierService.s"
 	@echo "... services/models_services/IOUserService.o"
 	@echo "... services/models_services/IOUserService.i"
 	@echo "... services/models_services/IOUserService.s"

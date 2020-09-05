@@ -1,13 +1,23 @@
 #include "services/IOService.h"
-#include "models/User.h"
 #include "models/TradeOrganization.h"
+#include "models/Supplier.h"
 
+ProductList initAssortment();
 
 int main() {
-    TradeOrganization tradeOrganization;
+    Supplier supplier(initAssortment());
+
+    TradeOrganization tradeOrganization(supplier);
+
     IOService ioService(tradeOrganization);
+
     ioService.start();
     return 0;
+}
+
+ProductList initAssortment(){
+    ProductList productList;
+    return  productList;
 }
     
 //Для каждой задачи необходимо реализовать объектную модель.
