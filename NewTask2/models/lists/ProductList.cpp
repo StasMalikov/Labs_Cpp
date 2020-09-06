@@ -9,7 +9,7 @@ void ProductList::add(Product product) {
 }
 
 Product ProductList::getProductById(int productId) {
-    for (int i = 0; i < lastItemIndex; ++i) {
+    for (unsigned int i = 0; i < lastItemIndex; ++i) {
         if(products[i].getId() == productId) {
             return products[i];
         }
@@ -27,7 +27,7 @@ Product ProductList::pop(int productId) {
 int ProductList::remove(unsigned int itemId) {
     for (int i = 0; i < lastItemIndex; ++i) {
         if(products[i].getId() == itemId) {
-            for (int j = i; j < lastItemIndex - 1; ++j) {
+            for (unsigned int j = i; j < lastItemIndex - 1; ++j) {
                 products[j] = products[j + 1];
             }
             lastItemIndex--;
@@ -39,7 +39,7 @@ int ProductList::remove(unsigned int itemId) {
 
 void ProductList::resize(int newSize) {
     Product *new_products = new Product[newSize];
-    for (int i = 0; i < count; ++i){
+    for (unsigned int i = 0; i < count; ++i){
         new_products[i] = products[i];
     }
     delete [] products;

@@ -12,8 +12,8 @@ void OrderList::add(Order order) {
     lastItemIndex++;
 }
 
-Order OrderList::getOrderById(int orderId) {
-    for (int i = 0; i < lastItemIndex; ++i) {
+Order OrderList::getOrderById(unsigned int orderId) {
+    for (unsigned int i = 0; i < lastItemIndex; ++i) {
         if(orders[i].getId() == orderId) {
             return orders[i];
         }
@@ -29,9 +29,9 @@ Order OrderList::pop(int orderId) {
 
 // 1 = found and deleted; 0 = not found
 int OrderList::remove(unsigned int itemId) {
-    for (int i = 0; i < lastItemIndex; ++i) {
+    for (unsigned int i = 0; i < lastItemIndex; ++i) {
         if(orders[i].getId() == itemId) {
-            for (int j = i; j < lastItemIndex - 1; ++j) {
+            for (unsigned int j = i; j < lastItemIndex - 1; ++j) {
                 orders[j] = orders[j + 1];
             }
             lastItemIndex--;
@@ -43,7 +43,7 @@ int OrderList::remove(unsigned int itemId) {
 
 void OrderList::resize(int newSize) {
     Order *new_orders = new Order[newSize];
-    for (int i = 0; i < count; ++i){
+    for (unsigned int i = 0; i < count; ++i){
         new_orders[i] = orders[i];
     }
     delete [] orders;

@@ -26,7 +26,7 @@ public:
     //copy constructor
     UserList(const UserList& a) {
         users = new User[count];
-        for (int i = 0; i < count; ++i) {
+        for (unsigned int i = 0; i < count; ++i) {
             users[i] = a.users[i];
         }
     }

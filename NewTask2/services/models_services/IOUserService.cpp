@@ -49,7 +49,7 @@ void IOUserService::displayUsers() {
     } else {
         cout << "id name user_type\n";
 
-        for (int i = 0; i < userList.getLastItemIndex(); ++i) {
+        for (unsigned int i = 0; i < userList.getLastItemIndex(); ++i) {
             cout << userList[i].toString() << "\n";
         }
     }

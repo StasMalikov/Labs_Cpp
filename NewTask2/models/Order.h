@@ -25,10 +25,10 @@ class Order : public UniqueObj {
     OrderStatus orderStatus;
 
 public:
-    Order() : UniqueObj(0), buyer(0), seller(0) {}
+    Order() : UniqueObj(0), productList(), buyer(0), seller(0) {}
 
-    Order(UniqueObj _buyer, UniqueObj _seller) : UniqueObj(), buyer(_buyer.getId()),
-        seller(_seller.getId()), productList(), orderStatus(OrderStatus::open) {}
+    Order(UniqueObj _buyer, UniqueObj _seller) : UniqueObj(), productList(), buyer(_buyer.getId()),
+        seller(_seller.getId()), orderStatus(OrderStatus::open) {}
 
     const Order& operator=(const Order& o){
         productList = o.productList;

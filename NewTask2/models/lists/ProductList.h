@@ -28,7 +28,7 @@ public:
     //copy constructor
     ProductList(const ProductList& a) {
         products = new Product[count];
-        for (int i = 0; i < count; ++i) {
+        for (unsigned int i = 0; i < count; ++i) {
             products[i] = a.products[i];
         }
     }

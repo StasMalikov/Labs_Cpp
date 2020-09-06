@@ -19,7 +19,7 @@ public:
 
     void add(Order order);
 
-    Order getOrderById(int orderId);
+    Order getOrderById(unsigned int orderId);
 
     //iterator
     Order& operator[](unsigned int index);
@@ -27,7 +27,7 @@ public:
     //copy constructor
     OrderList(const OrderList& a) {
         orders = new Order[count];
-        for (int i = 0; i < count; ++i) {
+        for (unsigned int i = 0; i < count; ++i) {
             orders[i] = a.orders[i];
         }
     }
