@@ -6,41 +6,5 @@
 
 #IncludeRegexTransform: 
 
-/home/stas_malikov/Рабочий стол/с++/CLionProjects/Labs_Cplusplus/NewTask2/models/Order.h
-lists/ProductList.h
-/home/stas_malikov/Рабочий стол/с++/CLionProjects/Labs_Cplusplus/NewTask2/models/lists/ProductList.h
-abstract/UniqueObj.h
-/home/stas_malikov/Рабочий стол/с++/CLionProjects/Labs_Cplusplus/NewTask2/models/abstract/UniqueObj.h
-
-/home/stas_malikov/Рабочий стол/с++/CLionProjects/Labs_Cplusplus/NewTask2/models/Product.h
-abstract/UniqueObj.h
-/home/stas_malikov/Рабочий стол/с++/CLionProjects/Labs_Cplusplus/NewTask2/models/abstract/UniqueObj.h
-string
--
-
-/home/stas_malikov/Рабочий стол/с++/CLionProjects/Labs_Cplusplus/NewTask2/models/abstract/List.h
-
-/home/stas_malikov/Рабочий стол/с++/CLionProjects/Labs_Cplusplus/NewTask2/models/abstract/UniqueObj.h
-../../services/Utils.h
-/home/stas_malikov/Рабочий стол/с++/CLionProjects/Labs_Cplusplus/NewTask2/services/Utils.h
-
-/home/stas_malikov/Рабочий стол/с++/CLionProjects/Labs_Cplusplus/NewTask2/models/lists/OrderList.cpp
-OrderList.h
-/home/stas_malikov/Рабочий стол/с++/CLionProjects/Labs_Cplusplus/NewTask2/models/lists/OrderList.h
-
-/home/stas_malikov/Рабочий стол/с++/CLionProjects/Labs_Cplusplus/NewTask2/models/lists/OrderList.h
-../Order.h
-/home/stas_malikov/Рабочий стол/с++/CLionProjects/Labs_Cplusplus/NewTask2/models/Order.h
-../abstract/List.h
-/home/stas_malikov/Рабочий стол/с++/CLionProjects/Labs_Cplusplus/NewTask2/models/abstract/List.h
-
-/home/stas_malikov/Рабочий стол/с++/CLionProjects/Labs_Cplusplus/NewTask2/models/lists/ProductList.h
-../Product.h
-/home/stas_malikov/Рабочий стол/с++/CLionProjects/Labs_Cplusplus/NewTask2/models/Product.h
-../abstract/List.h
-/home/stas_malikov/Рабочий стол/с++/CLionProjects/Labs_Cplusplus/NewTask2/models/abstract/List.h
-
-/home/stas_malikov/Рабочий стол/с++/CLionProjects/Labs_Cplusplus/NewTask2/services/Utils.h
-iostream
--
+/home/stas_malikov/Рабочий стол/с++/CLionProjects/Labs_Cplusplus/NewTask2/services/models_services/IOSupplierService.cpp
 

@@ -22,7 +22,7 @@ class Product : public UniqueObj {
     ProductType productType;
     double weight;
 public:
-    Product(): UniqueObj(0){}
+    Product(): UniqueObj(0) {}
 
     Product(string _title, unsigned int _quantity, ProductType _productType, double _weight):
         UniqueObj(), title(_title), quantity(_quantity),

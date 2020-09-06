@@ -5,7 +5,10 @@
 ProductList initAssortment();
 
 int main() {
-    Supplier supplier(initAssortment());
+    ProductList productList;
+
+    Supplier supplier;
+    //Supplier supplier(productList);
 
     TradeOrganization tradeOrganization(supplier);
 
@@ -15,7 +18,7 @@ int main() {
     return 0;
 }
 
-ProductList initAssortment(){
+ProductList initAssortment() {
     ProductList productList;
     return  productList;
 }

@@ -10,7 +10,7 @@
 
 class Seller {
 protected:
-    ProductList assortment;
+    //ProductList assortment;
     string name;
 
     void setName(const string &name) {
@@ -18,15 +18,16 @@ protected:
     }
 
 public:
-    Seller(ProductList _assortment) : assortment(_assortment){}
+    Seller(){}
+    //Seller(ProductList _assortment) : assortment(_assortment){}
 
     virtual ~Seller(){}
 
     virtual Order buy(Order order) = 0;
 
-    const ProductList &getAssortment() const {
-        return assortment;
-    }
+//    const ProductList &getAssortment() const {
+//        return assortment;
+//    }
 
     const string &getName() const {
         return name;

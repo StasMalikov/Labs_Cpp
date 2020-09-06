@@ -12,7 +12,8 @@
 
 class Supplier : public Seller, public UniqueObj {
 public:
-    Supplier(ProductList _assortment) : Seller(_assortment), UniqueObj() {};
+    Supplier() : Seller(), UniqueObj() {};
+    //Supplier(ProductList _assortment) : Seller(_assortment), UniqueObj() {};
     virtual Order buy(Order order){return Order();}
     virtual ~Supplier(){}
 };

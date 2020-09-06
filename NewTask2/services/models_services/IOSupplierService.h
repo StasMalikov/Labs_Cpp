@@ -26,7 +26,7 @@
 //
 //    void displayCurrentCustomer();
 //
-//    void displayAssortment();
+//    //void displayAssortment();
 //};
 //
 //

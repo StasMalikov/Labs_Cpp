@@ -11,8 +11,7 @@ string Product::toString() {
 }
 
 string Product::smallToString() {
-    return title + " " +
-           Product::productTypeToStr(productType) + " " + to_string(weight);
+    return title + " " + Product::productTypeToStr(productType) + " " + to_string(weight);
 }
 
 string Product::productTypeToStr(ProductType _productType) {

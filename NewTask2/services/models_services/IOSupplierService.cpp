@@ -62,13 +62,13 @@
 //    cout << "\n";
 //}
 //
-//void IOSupplierService::displayAssortment() {
-//    cout << "ассортимент поставщика\n"
-//            "название_продукта тип_продукта вес_продукта\n";
-//
-//    ProductList productList = supplier.getAssortment();
-//
-//    for (int i = 0; i < productList.getLastItemIndex(); ++i) {
-//        cout << productList[i].smallToString() << "\n";
-//    }
-//}
+////void IOSupplierService::displayAssortment() {
+////    cout << "ассортимент поставщика\n"
+////            "название_продукта тип_продукта вес_продукта\n";
+////
+////    ProductList productList = supplier.getAssortment();
+////
+////    for (int i = 0; i < productList.getLastItemIndex(); ++i) {
+////        cout << productList[i].smallToString() << "\n";
+////    }
+////}
