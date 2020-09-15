@@ -143,6 +143,12 @@
 		<Unit filename="/home/stas_malikov/Рабочий стол/с++/CLionProjects/Labs_Cplusplus/NewTask2/models/lists/ProductList.h">
 			<Option target="NewTask2"/>
 		</Unit>
+		<Unit filename="/home/stas_malikov/Рабочий стол/с++/CLionProjects/Labs_Cplusplus/NewTask2/models/lists/ShopList.cpp">
+			<Option target="NewTask2"/>
+		</Unit>
+		<Unit filename="/home/stas_malikov/Рабочий стол/с++/CLionProjects/Labs_Cplusplus/NewTask2/models/lists/ShopList.h">
+			<Option target="NewTask2"/>
+		</Unit>
 		<Unit filename="/home/stas_malikov/Рабочий стол/с++/CLionProjects/Labs_Cplusplus/NewTask2/models/lists/UserList.cpp">
 			<Option target="NewTask2"/>
 		</Unit>

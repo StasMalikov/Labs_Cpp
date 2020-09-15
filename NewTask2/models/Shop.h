@@ -14,15 +14,21 @@ using namespace std;
 class Shop : public Seller, public UniqueObj {
 
 public:
-        Shop(string shopName) : Seller(), UniqueObj() {
+    Shop() : Seller(), UniqueObj(0) {}
+
+    Shop(ProductList& _assortment, string shopName) : Seller(_assortment), UniqueObj() {
         setName(shopName);
     };
 
-//    Shop(ProductList _assortment, string shopName) : Seller(_assortment), UniqueObj() {
-//        setName(shopName);
-//    };
-
     string toString();
+
+    virtual Order buy(Order order) {}
+
+    const Shop& operator=(const Shop& o){
+        assortment = o.assortment;
+        name = o.name;
+        return *this;
+    }
 };
 
 

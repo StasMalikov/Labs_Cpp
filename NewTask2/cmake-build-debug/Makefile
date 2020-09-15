@@ -366,6 +366,33 @@ models/lists/ProductList.cpp.s:
 	$(MAKE) -f CMakeFiles/NewTask2.dir/build.make CMakeFiles/NewTask2.dir/models/lists/ProductList.cpp.s
 .PHONY : models/lists/ProductList.cpp.s
 
+models/lists/ShopList.o: models/lists/ShopList.cpp.o
+
+.PHONY : models/lists/ShopList.o
+
+# target to build an object file
+models/lists/ShopList.cpp.o:
+	$(MAKE) -f CMakeFiles/NewTask2.dir/build.make CMakeFiles/NewTask2.dir/models/lists/ShopList.cpp.o
+.PHONY : models/lists/ShopList.cpp.o
+
+models/lists/ShopList.i: models/lists/ShopList.cpp.i
+
+.PHONY : models/lists/ShopList.i
+
+# target to preprocess a source file
+models/lists/ShopList.cpp.i:
+	$(MAKE) -f CMakeFiles/NewTask2.dir/build.make CMakeFiles/NewTask2.dir/models/lists/ShopList.cpp.i
+.PHONY : models/lists/ShopList.cpp.i
+
+models/lists/ShopList.s: models/lists/ShopList.cpp.s
+
+.PHONY : models/lists/ShopList.s
+
+# target to generate assembly for a file
+models/lists/ShopList.cpp.s:
+	$(MAKE) -f CMakeFiles/NewTask2.dir/build.make CMakeFiles/NewTask2.dir/models/lists/ShopList.cpp.s
+.PHONY : models/lists/ShopList.cpp.s
+
 models/lists/UserList.o: models/lists/UserList.cpp.o
 
 .PHONY : models/lists/UserList.o
@@ -510,6 +537,9 @@ help:
 	@echo "... models/lists/ProductList.o"
 	@echo "... models/lists/ProductList.i"
 	@echo "... models/lists/ProductList.s"
+	@echo "... models/lists/ShopList.o"
+	@echo "... models/lists/ShopList.i"
+	@echo "... models/lists/ShopList.s"
 	@echo "... models/lists/UserList.o"
 	@echo "... models/lists/UserList.i"
 	@echo "... models/lists/UserList.s"

@@ -83,6 +83,17 @@ CMakeFiles/NewTask2.dir/models/lists/ProductList.cpp.o
  /home/stas_malikov/Рабочий стол/с++/CLionProjects/Labs_Cplusplus/NewTask2/models/lists/ProductList.cpp
  /home/stas_malikov/Рабочий стол/с++/CLionProjects/Labs_Cplusplus/NewTask2/models/lists/ProductList.h
  /home/stas_malikov/Рабочий стол/с++/CLionProjects/Labs_Cplusplus/NewTask2/services/Utils.h
+CMakeFiles/NewTask2.dir/models/lists/ShopList.cpp.o
+ /home/stas_malikov/Рабочий стол/с++/CLionProjects/Labs_Cplusplus/NewTask2/models/Order.h
+ /home/stas_malikov/Рабочий стол/с++/CLionProjects/Labs_Cplusplus/NewTask2/models/Product.h
+ /home/stas_malikov/Рабочий стол/с++/CLionProjects/Labs_Cplusplus/NewTask2/models/Shop.h
+ /home/stas_malikov/Рабочий стол/с++/CLionProjects/Labs_Cplusplus/NewTask2/models/abstract/List.h
+ /home/stas_malikov/Рабочий стол/с++/CLionProjects/Labs_Cplusplus/NewTask2/models/abstract/Seller.h
+ /home/stas_malikov/Рабочий стол/с++/CLionProjects/Labs_Cplusplus/NewTask2/models/abstract/UniqueObj.h
+ /home/stas_malikov/Рабочий стол/с++/CLionProjects/Labs_Cplusplus/NewTask2/models/lists/ProductList.h
+ /home/stas_malikov/Рабочий стол/с++/CLionProjects/Labs_Cplusplus/NewTask2/models/lists/ShopList.cpp
+ /home/stas_malikov/Рабочий стол/с++/CLionProjects/Labs_Cplusplus/NewTask2/models/lists/ShopList.h
+ /home/stas_malikov/Рабочий стол/с++/CLionProjects/Labs_Cplusplus/NewTask2/services/Utils.h
 CMakeFiles/NewTask2.dir/models/lists/UserList.cpp.o
  /home/stas_malikov/Рабочий стол/с++/CLionProjects/Labs_Cplusplus/NewTask2/models/User.h
  /home/stas_malikov/Рабочий стол/с++/CLionProjects/Labs_Cplusplus/NewTask2/models/abstract/List.h
@@ -106,7 +117,18 @@ CMakeFiles/NewTask2.dir/services/IOService.cpp.o
  /home/stas_malikov/Рабочий стол/с++/CLionProjects/Labs_Cplusplus/NewTask2/services/Utils.h
  /home/stas_malikov/Рабочий стол/с++/CLionProjects/Labs_Cplusplus/NewTask2/services/models_services/IOUserService.h
 CMakeFiles/NewTask2.dir/services/models_services/IOSupplierService.cpp.o
+ /home/stas_malikov/Рабочий стол/с++/CLionProjects/Labs_Cplusplus/NewTask2/models/Order.h
+ /home/stas_malikov/Рабочий стол/с++/CLionProjects/Labs_Cplusplus/NewTask2/models/Product.h
+ /home/stas_malikov/Рабочий стол/с++/CLionProjects/Labs_Cplusplus/NewTask2/models/Shop.h
+ /home/stas_malikov/Рабочий стол/с++/CLionProjects/Labs_Cplusplus/NewTask2/models/Supplier.h
+ /home/stas_malikov/Рабочий стол/с++/CLionProjects/Labs_Cplusplus/NewTask2/models/abstract/List.h
+ /home/stas_malikov/Рабочий стол/с++/CLionProjects/Labs_Cplusplus/NewTask2/models/abstract/Seller.h
+ /home/stas_malikov/Рабочий стол/с++/CLionProjects/Labs_Cplusplus/NewTask2/models/abstract/UniqueObj.h
+ /home/stas_malikov/Рабочий стол/с++/CLionProjects/Labs_Cplusplus/NewTask2/models/lists/ProductList.h
+ /home/stas_malikov/Рабочий стол/с++/CLionProjects/Labs_Cplusplus/NewTask2/models/lists/ShopList.h
+ /home/stas_malikov/Рабочий стол/с++/CLionProjects/Labs_Cplusplus/NewTask2/services/Utils.h
  /home/stas_malikov/Рабочий стол/с++/CLionProjects/Labs_Cplusplus/NewTask2/services/models_services/IOSupplierService.cpp
+ /home/stas_malikov/Рабочий стол/с++/CLionProjects/Labs_Cplusplus/NewTask2/services/models_services/IOSupplierService.h
 CMakeFiles/NewTask2.dir/services/models_services/IOUserService.cpp.o
  /home/stas_malikov/Рабочий стол/с++/CLionProjects/Labs_Cplusplus/NewTask2/models/User.h
  /home/stas_malikov/Рабочий стол/с++/CLionProjects/Labs_Cplusplus/NewTask2/models/abstract/List.h

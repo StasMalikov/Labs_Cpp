@@ -8,6 +8,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/NewTask2.dir/models/User.cpp.o"
   "CMakeFiles/NewTask2.dir/models/lists/OrderList.cpp.o"
   "CMakeFiles/NewTask2.dir/models/lists/ProductList.cpp.o"
+  "CMakeFiles/NewTask2.dir/models/lists/ShopList.cpp.o"
   "CMakeFiles/NewTask2.dir/models/lists/UserList.cpp.o"
   "CMakeFiles/NewTask2.dir/services/IOService.cpp.o"
   "CMakeFiles/NewTask2.dir/services/models_services/IOSupplierService.cpp.o"

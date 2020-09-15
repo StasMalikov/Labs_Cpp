@@ -2,13 +2,12 @@
 #include "models/TradeOrganization.h"
 #include "models/Supplier.h"
 
-ProductList initAssortment();
+ProductList& initAssortment(ProductList& productList);
 
 int main() {
     ProductList productList;
 
-    Supplier supplier;
-    //Supplier supplier(productList);
+    Supplier supplier(initAssortment(productList));
 
     TradeOrganization tradeOrganization(supplier);
 
@@ -18,8 +17,7 @@ int main() {
     return 0;
 }
 
-ProductList initAssortment() {
-    ProductList productList;
+ProductList& initAssortment(ProductList& productList) {
     return  productList;
 }
     
