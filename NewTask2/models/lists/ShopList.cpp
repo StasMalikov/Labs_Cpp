@@ -13,20 +13,20 @@ void ShopList::add(Shop shop) {
     lastItemIndex++;
 }
 
-Shop ShopList::getShopById(int shopId) {
+Shop* ShopList::getShopById(int shopId) {
     for (unsigned int i = 0; i < lastItemIndex; ++i) {
         if(shops[i].getId() == shopId) {
-            return shops[i];
+            return &shops[i];
         }
     }
-    return Shop();
+    return nullptr;
 }
 
-Shop ShopList::pop(int shopId) {
-    Shop shop(getShopById(shopId));
-    remove(shopId);
-    return shop;
-}
+//Shop ShopList::pop(int shopId) {
+//    Shop shop(getShopById(shopId));
+//    remove(shopId);
+//    return shop;
+//}
 
 // 1 = found and deleted; 0 = not found
 int ShopList::remove(unsigned int shopId) {

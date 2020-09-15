@@ -15,11 +15,6 @@ class TradeOrganization {
     Supplier& supplier;
     ShopList& shopList;
 
-//    void setShopList(ShopList& _shopList){
-//        for (int i = 0; i < _shopList.getLastItemIndex(); ++i) {
-//            shopList.add(_shopList[i]);
-//        }
-//    }
 
 public:
     UserList &getUserList(){

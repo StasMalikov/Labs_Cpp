@@ -36,7 +36,7 @@ public:
     }
 
     static int getIdCin() {
-        unsigned int max_id_size = 4294967295;
+        unsigned int max_id_size = 999999;
         return getSelectIntCin(1, max_id_size);
     }
 };

@@ -25,9 +25,9 @@ void IOSupplierService::startSupplierOperations() {
                 displayShopsAndStocks();
                 break;
 
-//            case 2:
-//
-//                break;
+            case 2:
+                selectCustomer();
+                break;
 
             case 3:
                 displayCurrentCustomer();
@@ -56,15 +56,16 @@ void IOSupplierService::displayShopsAndStocks() {
 }
 
 void IOSupplierService::displayCurrentCustomer() {
-//    cout << "\n";
-//
-//    if(currentCustomer.getId() == shop.getId()){
-//        cout << "Текущий покупатель, магазин: " << shop.toString();
-//    } else {
-//        cout << "Текущий покупатель не выбран";
-//    }
-//
-//    cout << "\n";
+    cout << "\n";
+
+    if(currentCustomer.getId() != 0) {
+        Shop* shop = shopList.getShopById(currentCustomer.getId());
+        cout << "Текущий клиент, магазин: " << shop->toString();
+    } else {
+        cout << "Текущий клиент не выбран";
+    }
+
+    cout << "\n";
 }
 
 void IOSupplierService::displayAssortment() {
@@ -76,4 +77,22 @@ void IOSupplierService::displayAssortment() {
     for (int i = 0; i < productList.getLastItemIndex(); ++i) {
         cout << productList[i].smallToString() << "\n";
     }
+}
+
+void IOSupplierService::selectCustomer() {
+    cout << "\n";
+
+    cout << "Чтобы выбрать клиента - введите его id\n";
+    unsigned int id = Utils::getIdCin();
+
+    Shop* shop = shopList.getShopById(id);
+
+    if(shop != nullptr) {
+        currentCustomer = UniqueObj(shop->getId());
+        cout << "Клиент выбран\n";
+    } else{
+        cout << "Клиент с введённыи id не найден\n";
+    }
+
+    cout << "\n";
 }

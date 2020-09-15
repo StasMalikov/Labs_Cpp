@@ -20,7 +20,7 @@ public:
 
     void add(Shop shop);
 
-    Shop getShopById(int shopId);
+    Shop* getShopById(int shopId);
 
     //iterator
     Shop& operator[](unsigned int index);

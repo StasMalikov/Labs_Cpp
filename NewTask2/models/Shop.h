@@ -14,15 +14,15 @@ using namespace std;
 class Shop : public Seller, public UniqueObj {
 
 public:
-    Shop() : Seller(), UniqueObj(0) {}
+    Shop() : Seller(), UniqueObj() {}
 
     Shop(ProductList& _assortment, string shopName) : Seller(_assortment), UniqueObj() {
         setName(shopName);
     };
 
-    Shop(string shopName) : Seller(shopName), UniqueObj() {
-        //setName(shopName);
-    };
+    Shop(string shopName) : Seller(shopName), UniqueObj() {};
+
+    Shop(unsigned int _id) : Seller(), UniqueObj(_id) {};
 
     string toString();
 

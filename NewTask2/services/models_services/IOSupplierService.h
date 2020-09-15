@@ -22,6 +22,8 @@ public:
 
     void startSupplierOperations();
 
+    void selectCustomer();
+
     void displayShopsAndStocks();
 
     void displayCurrentCustomer();
