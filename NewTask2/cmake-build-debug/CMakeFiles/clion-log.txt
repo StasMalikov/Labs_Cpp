@@ -1,4 +1,4 @@
-/home/stas_malikov/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/201.7846.88/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" "/home/stas_malikov/Рабочий стол/с++/CLionProjects/Labs_Cplusplus/NewTask2"
+"C:\Program Files\JetBrains\CLion 2020.1.2\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" C:\Users\stasm\Desktop\c++\Labs_Cplusplus\NewTask2
 -- Configuring done
 -- Generating done
--- Build files have been written to: /home/stas_malikov/Рабочий стол/с++/CLionProjects/Labs_Cplusplus/NewTask2/cmake-build-debug
+-- Build files have been written to: C:/Users/stasm/Desktop/c++/Labs_Cplusplus/NewTask2/cmake-build-debug

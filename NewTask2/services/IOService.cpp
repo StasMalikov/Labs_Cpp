@@ -14,13 +14,14 @@ void IOService::start() {
                 "3 - операции с оптовой торговлей\n"
                 "4 - операции с пользователями\n";
 
-        select = Utils::getSelectIntCin(0 ,3);
+        select = Utils::getSelectIntCin(0 ,4);
         switch (select) {
             case 1: {
                 break;
             }
 
             case 2: {
+                ioSupplierService.startSupplierOperations();
                 break;
             }
 

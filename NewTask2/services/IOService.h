@@ -7,14 +7,19 @@
 
 #include "../models/TradeOrganization.h"
 #include "models_services/IOUserService.h"
+#include "models_services/IOSupplierService.h"
+
 
 class IOService {
     TradeOrganization &tradeOrganization;
     IOUserService ioUserService;
+    IOSupplierService ioSupplierService;
+
 public:
     IOService(TradeOrganization &_tradeOrganization) :
             tradeOrganization(_tradeOrganization),
-        ioUserService(tradeOrganization.getUserList(),tradeOrganization.getCurrentUser()) {}
+            ioUserService(tradeOrganization.getUserList(),tradeOrganization.getCurrentUser()),
+            ioSupplierService(tradeOrganization.getSupplier(), tradeOrganization.getShopList()){}
     ~IOService(){}
     void start();
 };

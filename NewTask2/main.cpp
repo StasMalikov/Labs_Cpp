@@ -1,15 +1,18 @@
 #include "services/IOService.h"
-#include "models/TradeOrganization.h"
-#include "models/Supplier.h"
 
 ProductList& initAssortment(ProductList& productList);
+ShopList& initShopList(ShopList& shopList);
 
 int main() {
+    system("chcp 65001");
+
     ProductList productList;
+    ShopList shopList;
 
     Supplier supplier(initAssortment(productList));
+    initShopList(shopList);
 
-    TradeOrganization tradeOrganization(supplier);
+    TradeOrganization tradeOrganization(supplier, shopList);
 
     IOService ioService(tradeOrganization);
 
@@ -20,7 +23,16 @@ int main() {
 ProductList& initAssortment(ProductList& productList) {
     return  productList;
 }
-    
+
+ShopList& initShopList(ShopList& shopList) {
+    shopList.add(Shop("Пятёрочка"));
+    shopList.add(Shop("Вкусвилл"));
+    shopList.add(Shop("Лента"));
+    shopList.add(Shop("Магнит"));
+
+    return shopList;
+}
+
 //Для каждой задачи необходимо реализовать объектную модель.
 //В реализации задач должны присутствовать наследование, агрегация и др.взаимодействия классов.
 //Общение с пользователем осуществляется через консоль путем вызова наиболее значимых методов классов,

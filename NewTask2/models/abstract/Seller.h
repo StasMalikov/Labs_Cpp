@@ -26,6 +26,8 @@ public:
 
     Seller() : assortment() {}
 
+    Seller(string _name) : assortment(), name(_name) {}
+
     virtual ~Seller(){}
 
     virtual Order buy(Order order) = 0;

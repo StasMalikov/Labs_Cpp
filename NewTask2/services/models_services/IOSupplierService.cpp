@@ -45,9 +45,14 @@ void IOSupplierService::startSupplierOperations() {
 }
 
 void IOSupplierService::displayShopsAndStocks() {
-//    cout << "\n";
-//
-//    cout << shop.toString() << "\n";
+    cout << "\n";
+
+    cout << "Список магазинов:\n";
+    for (unsigned int i = 0; i < shopList.getLastItemIndex(); ++i) {
+        cout << shopList[i].toString() << "\n";
+    }
+
+    cout << "\n";
 }
 
 void IOSupplierService::displayCurrentCustomer() {

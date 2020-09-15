@@ -8,175 +8,175 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/stas_malikov/Рабочий стол/с++/CLionProjects/Labs_Cplusplus/NewTask2/cmake-build-debug"/>
+				<Option working_dir="C:/Users/stasm/Desktop/c++/Labs_Cplusplus/NewTask2/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -j4 -f &quot;/home/stas_malikov/Рабочий\ стол/с++/CLionProjects/Labs_Cplusplus/NewTask2/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/stas_malikov/Рабочий\ стол/с++/CLionProjects/Labs_Cplusplus/NewTask2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/stas_malikov/Рабочий\ стол/с++/CLionProjects/Labs_Cplusplus/NewTask2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/stas_malikov/Рабочий\ стол/с++/CLionProjects/Labs_Cplusplus/NewTask2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="rebuild_cache">
-				<Option working_dir="/home/stas_malikov/Рабочий стол/с++/CLionProjects/Labs_Cplusplus/NewTask2/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/gmake -j4 -f &quot;/home/stas_malikov/Рабочий\ стол/с++/CLionProjects/Labs_Cplusplus/NewTask2/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/stas_malikov/Рабочий\ стол/с++/CLionProjects/Labs_Cplusplus/NewTask2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/stas_malikov/Рабочий\ стол/с++/CLionProjects/Labs_Cplusplus/NewTask2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/stas_malikov/Рабочий\ стол/с++/CLionProjects/Labs_Cplusplus/NewTask2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="edit_cache">
-				<Option working_dir="/home/stas_malikov/Рабочий стол/с++/CLionProjects/Labs_Cplusplus/NewTask2/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/gmake -j4 -f &quot;/home/stas_malikov/Рабочий\ стол/с++/CLionProjects/Labs_Cplusplus/NewTask2/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/stas_malikov/Рабочий\ стол/с++/CLionProjects/Labs_Cplusplus/NewTask2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/stas_malikov/Рабочий\ стол/с++/CLionProjects/Labs_Cplusplus/NewTask2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/stas_malikov/Рабочий\ стол/с++/CLionProjects/Labs_Cplusplus/NewTask2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/stasm/Desktop/c++/Labs_Cplusplus/NewTask2/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/stasm/Desktop/c++/Labs_Cplusplus/NewTask2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/stasm/Desktop/c++/Labs_Cplusplus/NewTask2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/stasm/Desktop/c++/Labs_Cplusplus/NewTask2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="NewTask2">
-				<Option output="/home/stas_malikov/Рабочий стол/с++/CLionProjects/Labs_Cplusplus/NewTask2/cmake-build-debug/NewTask2" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/stas_malikov/Рабочий стол/с++/CLionProjects/Labs_Cplusplus/NewTask2/cmake-build-debug"/>
+				<Option output="C:/Users/stasm/Desktop/c++/Labs_Cplusplus/NewTask2/cmake-build-debug/NewTask2.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/stasm/Desktop/c++/Labs_Cplusplus/NewTask2/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/10/../../../../include/c++/10"/>
-					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/10/../../../../include/c++/10/x86_64-redhat-linux"/>
-					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/10/../../../../include/c++/10/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/10/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/i686-w64-mingw32"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -j4 -f &quot;/home/stas_malikov/Рабочий\ стол/с++/CLionProjects/Labs_Cplusplus/NewTask2/cmake-build-debug/Makefile&quot;  VERBOSE=1 NewTask2"/>
-					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/stas_malikov/Рабочий\ стол/с++/CLionProjects/Labs_Cplusplus/NewTask2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/stas_malikov/Рабочий\ стол/с++/CLionProjects/Labs_Cplusplus/NewTask2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/stas_malikov/Рабочий\ стол/с++/CLionProjects/Labs_Cplusplus/NewTask2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/stasm/Desktop/c++/Labs_Cplusplus/NewTask2/cmake-build-debug/Makefile&quot;  VERBOSE=1 NewTask2"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/stasm/Desktop/c++/Labs_Cplusplus/NewTask2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/stasm/Desktop/c++/Labs_Cplusplus/NewTask2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/stasm/Desktop/c++/Labs_Cplusplus/NewTask2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="NewTask2/fast">
-				<Option output="/home/stas_malikov/Рабочий стол/с++/CLionProjects/Labs_Cplusplus/NewTask2/cmake-build-debug/NewTask2" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/stas_malikov/Рабочий стол/с++/CLionProjects/Labs_Cplusplus/NewTask2/cmake-build-debug"/>
+				<Option output="C:/Users/stasm/Desktop/c++/Labs_Cplusplus/NewTask2/cmake-build-debug/NewTask2.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/stasm/Desktop/c++/Labs_Cplusplus/NewTask2/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/10/../../../../include/c++/10"/>
-					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/10/../../../../include/c++/10/x86_64-redhat-linux"/>
-					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/10/../../../../include/c++/10/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/10/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/i686-w64-mingw32"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -j4 -f &quot;/home/stas_malikov/Рабочий\ стол/с++/CLionProjects/Labs_Cplusplus/NewTask2/cmake-build-debug/Makefile&quot;  VERBOSE=1 NewTask2/fast"/>
-					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/stas_malikov/Рабочий\ стол/с++/CLionProjects/Labs_Cplusplus/NewTask2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/stas_malikov/Рабочий\ стол/с++/CLionProjects/Labs_Cplusplus/NewTask2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/stas_malikov/Рабочий\ стол/с++/CLionProjects/Labs_Cplusplus/NewTask2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/stasm/Desktop/c++/Labs_Cplusplus/NewTask2/cmake-build-debug/Makefile&quot;  VERBOSE=1 NewTask2/fast"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/stasm/Desktop/c++/Labs_Cplusplus/NewTask2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/stasm/Desktop/c++/Labs_Cplusplus/NewTask2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/stasm/Desktop/c++/Labs_Cplusplus/NewTask2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/stasm/Desktop/c++/Labs_Cplusplus/NewTask2/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/stasm/Desktop/c++/Labs_Cplusplus/NewTask2/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/stasm/Desktop/c++/Labs_Cplusplus/NewTask2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/stasm/Desktop/c++/Labs_Cplusplus/NewTask2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/stasm/Desktop/c++/Labs_Cplusplus/NewTask2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/stasm/Desktop/c++/Labs_Cplusplus/NewTask2/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/stasm/Desktop/c++/Labs_Cplusplus/NewTask2/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/stasm/Desktop/c++/Labs_Cplusplus/NewTask2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/stasm/Desktop/c++/Labs_Cplusplus/NewTask2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/stasm/Desktop/c++/Labs_Cplusplus/NewTask2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/stas_malikov/Рабочий стол/с++/CLionProjects/Labs_Cplusplus/NewTask2/main.cpp">
+		<Unit filename="C:/Users/stasm/Desktop/c++/Labs_Cplusplus/NewTask2/main.cpp">
 			<Option target="NewTask2"/>
 		</Unit>
-		<Unit filename="/home/stas_malikov/Рабочий стол/с++/CLionProjects/Labs_Cplusplus/NewTask2/models/Order.cpp">
+		<Unit filename="C:/Users/stasm/Desktop/c++/Labs_Cplusplus/NewTask2/models/Order.cpp">
 			<Option target="NewTask2"/>
 		</Unit>
-		<Unit filename="/home/stas_malikov/Рабочий стол/с++/CLionProjects/Labs_Cplusplus/NewTask2/models/Order.h">
+		<Unit filename="C:/Users/stasm/Desktop/c++/Labs_Cplusplus/NewTask2/models/Order.h">
 			<Option target="NewTask2"/>
 		</Unit>
-		<Unit filename="/home/stas_malikov/Рабочий стол/с++/CLionProjects/Labs_Cplusplus/NewTask2/models/Product.cpp">
+		<Unit filename="C:/Users/stasm/Desktop/c++/Labs_Cplusplus/NewTask2/models/Product.cpp">
 			<Option target="NewTask2"/>
 		</Unit>
-		<Unit filename="/home/stas_malikov/Рабочий стол/с++/CLionProjects/Labs_Cplusplus/NewTask2/models/Product.h">
+		<Unit filename="C:/Users/stasm/Desktop/c++/Labs_Cplusplus/NewTask2/models/Product.h">
 			<Option target="NewTask2"/>
 		</Unit>
-		<Unit filename="/home/stas_malikov/Рабочий стол/с++/CLionProjects/Labs_Cplusplus/NewTask2/models/Shop.cpp">
+		<Unit filename="C:/Users/stasm/Desktop/c++/Labs_Cplusplus/NewTask2/models/Shop.cpp">
 			<Option target="NewTask2"/>
 		</Unit>
-		<Unit filename="/home/stas_malikov/Рабочий стол/с++/CLionProjects/Labs_Cplusplus/NewTask2/models/Shop.h">
+		<Unit filename="C:/Users/stasm/Desktop/c++/Labs_Cplusplus/NewTask2/models/Shop.h">
 			<Option target="NewTask2"/>
 		</Unit>
-		<Unit filename="/home/stas_malikov/Рабочий стол/с++/CLionProjects/Labs_Cplusplus/NewTask2/models/Supplier.cpp">
+		<Unit filename="C:/Users/stasm/Desktop/c++/Labs_Cplusplus/NewTask2/models/Supplier.cpp">
 			<Option target="NewTask2"/>
 		</Unit>
-		<Unit filename="/home/stas_malikov/Рабочий стол/с++/CLionProjects/Labs_Cplusplus/NewTask2/models/Supplier.h">
+		<Unit filename="C:/Users/stasm/Desktop/c++/Labs_Cplusplus/NewTask2/models/Supplier.h">
 			<Option target="NewTask2"/>
 		</Unit>
-		<Unit filename="/home/stas_malikov/Рабочий стол/с++/CLionProjects/Labs_Cplusplus/NewTask2/models/TradeOrganization.cpp">
+		<Unit filename="C:/Users/stasm/Desktop/c++/Labs_Cplusplus/NewTask2/models/TradeOrganization.cpp">
 			<Option target="NewTask2"/>
 		</Unit>
-		<Unit filename="/home/stas_malikov/Рабочий стол/с++/CLionProjects/Labs_Cplusplus/NewTask2/models/TradeOrganization.h">
+		<Unit filename="C:/Users/stasm/Desktop/c++/Labs_Cplusplus/NewTask2/models/TradeOrganization.h">
 			<Option target="NewTask2"/>
 		</Unit>
-		<Unit filename="/home/stas_malikov/Рабочий стол/с++/CLionProjects/Labs_Cplusplus/NewTask2/models/User.cpp">
+		<Unit filename="C:/Users/stasm/Desktop/c++/Labs_Cplusplus/NewTask2/models/User.cpp">
 			<Option target="NewTask2"/>
 		</Unit>
-		<Unit filename="/home/stas_malikov/Рабочий стол/с++/CLionProjects/Labs_Cplusplus/NewTask2/models/User.h">
+		<Unit filename="C:/Users/stasm/Desktop/c++/Labs_Cplusplus/NewTask2/models/User.h">
 			<Option target="NewTask2"/>
 		</Unit>
-		<Unit filename="/home/stas_malikov/Рабочий стол/с++/CLionProjects/Labs_Cplusplus/NewTask2/models/abstract/Buyer.h">
+		<Unit filename="C:/Users/stasm/Desktop/c++/Labs_Cplusplus/NewTask2/models/abstract/Buyer.h">
 			<Option target="NewTask2"/>
 		</Unit>
-		<Unit filename="/home/stas_malikov/Рабочий стол/с++/CLionProjects/Labs_Cplusplus/NewTask2/models/abstract/List.h">
+		<Unit filename="C:/Users/stasm/Desktop/c++/Labs_Cplusplus/NewTask2/models/abstract/List.h">
 			<Option target="NewTask2"/>
 		</Unit>
-		<Unit filename="/home/stas_malikov/Рабочий стол/с++/CLionProjects/Labs_Cplusplus/NewTask2/models/abstract/Seller.h">
+		<Unit filename="C:/Users/stasm/Desktop/c++/Labs_Cplusplus/NewTask2/models/abstract/Seller.h">
 			<Option target="NewTask2"/>
 		</Unit>
-		<Unit filename="/home/stas_malikov/Рабочий стол/с++/CLionProjects/Labs_Cplusplus/NewTask2/models/abstract/UniqueObj.h">
+		<Unit filename="C:/Users/stasm/Desktop/c++/Labs_Cplusplus/NewTask2/models/abstract/UniqueObj.h">
 			<Option target="NewTask2"/>
 		</Unit>
-		<Unit filename="/home/stas_malikov/Рабочий стол/с++/CLionProjects/Labs_Cplusplus/NewTask2/models/lists/OrderList.cpp">
+		<Unit filename="C:/Users/stasm/Desktop/c++/Labs_Cplusplus/NewTask2/models/lists/OrderList.cpp">
 			<Option target="NewTask2"/>
 		</Unit>
-		<Unit filename="/home/stas_malikov/Рабочий стол/с++/CLionProjects/Labs_Cplusplus/NewTask2/models/lists/OrderList.h">
+		<Unit filename="C:/Users/stasm/Desktop/c++/Labs_Cplusplus/NewTask2/models/lists/OrderList.h">
 			<Option target="NewTask2"/>
 		</Unit>
-		<Unit filename="/home/stas_malikov/Рабочий стол/с++/CLionProjects/Labs_Cplusplus/NewTask2/models/lists/ProductList.cpp">
+		<Unit filename="C:/Users/stasm/Desktop/c++/Labs_Cplusplus/NewTask2/models/lists/ProductList.cpp">
 			<Option target="NewTask2"/>
 		</Unit>
-		<Unit filename="/home/stas_malikov/Рабочий стол/с++/CLionProjects/Labs_Cplusplus/NewTask2/models/lists/ProductList.h">
+		<Unit filename="C:/Users/stasm/Desktop/c++/Labs_Cplusplus/NewTask2/models/lists/ProductList.h">
 			<Option target="NewTask2"/>
 		</Unit>
-		<Unit filename="/home/stas_malikov/Рабочий стол/с++/CLionProjects/Labs_Cplusplus/NewTask2/models/lists/ShopList.cpp">
+		<Unit filename="C:/Users/stasm/Desktop/c++/Labs_Cplusplus/NewTask2/models/lists/ShopList.cpp">
 			<Option target="NewTask2"/>
 		</Unit>
-		<Unit filename="/home/stas_malikov/Рабочий стол/с++/CLionProjects/Labs_Cplusplus/NewTask2/models/lists/ShopList.h">
+		<Unit filename="C:/Users/stasm/Desktop/c++/Labs_Cplusplus/NewTask2/models/lists/ShopList.h">
 			<Option target="NewTask2"/>
 		</Unit>
-		<Unit filename="/home/stas_malikov/Рабочий стол/с++/CLionProjects/Labs_Cplusplus/NewTask2/models/lists/UserList.cpp">
+		<Unit filename="C:/Users/stasm/Desktop/c++/Labs_Cplusplus/NewTask2/models/lists/UserList.cpp">
 			<Option target="NewTask2"/>
 		</Unit>
-		<Unit filename="/home/stas_malikov/Рабочий стол/с++/CLionProjects/Labs_Cplusplus/NewTask2/models/lists/UserList.h">
+		<Unit filename="C:/Users/stasm/Desktop/c++/Labs_Cplusplus/NewTask2/models/lists/UserList.h">
 			<Option target="NewTask2"/>
 		</Unit>
-		<Unit filename="/home/stas_malikov/Рабочий стол/с++/CLionProjects/Labs_Cplusplus/NewTask2/services/IOService.cpp">
+		<Unit filename="C:/Users/stasm/Desktop/c++/Labs_Cplusplus/NewTask2/services/IOService.cpp">
 			<Option target="NewTask2"/>
 		</Unit>
-		<Unit filename="/home/stas_malikov/Рабочий стол/с++/CLionProjects/Labs_Cplusplus/NewTask2/services/IOService.h">
+		<Unit filename="C:/Users/stasm/Desktop/c++/Labs_Cplusplus/NewTask2/services/IOService.h">
 			<Option target="NewTask2"/>
 		</Unit>
-		<Unit filename="/home/stas_malikov/Рабочий стол/с++/CLionProjects/Labs_Cplusplus/NewTask2/services/Utils.h">
+		<Unit filename="C:/Users/stasm/Desktop/c++/Labs_Cplusplus/NewTask2/services/Utils.h">
 			<Option target="NewTask2"/>
 		</Unit>
-		<Unit filename="/home/stas_malikov/Рабочий стол/с++/CLionProjects/Labs_Cplusplus/NewTask2/services/models_services/IOSupplierService.cpp">
+		<Unit filename="C:/Users/stasm/Desktop/c++/Labs_Cplusplus/NewTask2/services/models_services/IOSupplierService.cpp">
 			<Option target="NewTask2"/>
 		</Unit>
-		<Unit filename="/home/stas_malikov/Рабочий стол/с++/CLionProjects/Labs_Cplusplus/NewTask2/services/models_services/IOSupplierService.h">
+		<Unit filename="C:/Users/stasm/Desktop/c++/Labs_Cplusplus/NewTask2/services/models_services/IOSupplierService.h">
 			<Option target="NewTask2"/>
 		</Unit>
-		<Unit filename="/home/stas_malikov/Рабочий стол/с++/CLionProjects/Labs_Cplusplus/NewTask2/services/models_services/IOUserService.cpp">
+		<Unit filename="C:/Users/stasm/Desktop/c++/Labs_Cplusplus/NewTask2/services/models_services/IOUserService.cpp">
 			<Option target="NewTask2"/>
 		</Unit>
-		<Unit filename="/home/stas_malikov/Рабочий стол/с++/CLionProjects/Labs_Cplusplus/NewTask2/services/models_services/IOUserService.h">
+		<Unit filename="C:/Users/stasm/Desktop/c++/Labs_Cplusplus/NewTask2/services/models_services/IOUserService.h">
 			<Option target="NewTask2"/>
 		</Unit>
-		<Unit filename="/home/stas_malikov/Рабочий стол/с++/CLionProjects/Labs_Cplusplus/NewTask2/CMakeLists.txt">
+		<Unit filename="C:/Users/stasm/Desktop/c++/Labs_Cplusplus/NewTask2/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

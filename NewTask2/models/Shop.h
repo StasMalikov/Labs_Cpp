@@ -20,6 +20,10 @@ public:
         setName(shopName);
     };
 
+    Shop(string shopName) : Seller(shopName), UniqueObj() {
+        //setName(shopName);
+    };
+
     string toString();
 
     virtual Order buy(Order order) {}
