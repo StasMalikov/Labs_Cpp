@@ -14,7 +14,7 @@ void IOSupplierService::startSupplierOperations() {
                 "3 - посмотреть текущего клиента\n"
                 "4 - посмотреть ассортимент поставщика\n"
                 "5 - добавить товар в заказ\n"
-                "6 - отмениить товар в заказе\n"
+                "6 - отменить товар в заказе\n"
                 "7 - завершить оформление заказа\n"
                 "8 - отмениить заказ\n"
                 ;
@@ -37,9 +37,22 @@ void IOSupplierService::startSupplierOperations() {
                 displayAssortment();
                 break;
 
-//            case 5:
-//
-//                break;
+            case 5:
+                addProductToOrder();
+                break;
+
+            case 6:
+                cancelProdInOrder();
+                break;
+
+            case 7:
+                finishOrder();
+                break;
+
+            case 8:
+                cancelOrder();
+                break;
+
         }
     }
 }
@@ -69,14 +82,16 @@ void IOSupplierService::displayCurrentCustomer() {
 }
 
 void IOSupplierService::displayAssortment() {
-    cout << "ассортимент поставщика\n"
-            "название_продукта тип_продукта вес_продукта\n";
+    cout << "\nассортимент поставщика\n"
+            "название_продукта тип_продукта вес_продукта(кг)\n";
 
-    ProductList productList = supplier.getAssortment();
+    ProductList* productList = supplier.getAssortment();
 
-    for (int i = 0; i < productList.getLastItemIndex(); ++i) {
-        cout << productList[i].smallToString() << "\n";
+    for (int i = 0; i < productList->getLastItemIndex(); ++i) {
+        cout << (*productList)[i].smallToString() << "\n";
     }
+
+    cout << "\n";
 }
 
 void IOSupplierService::selectCustomer() {
@@ -95,4 +110,60 @@ void IOSupplierService::selectCustomer() {
     }
 
     cout << "\n";
+}
+
+void IOSupplierService::addProductToOrder() {
+    cout << "\n";
+    if(order.getId() == 0) {
+        order.generateId();
+    }
+
+    cout << "Для добавления товара в заказ введите параметры товара\n";
+    cout << "Введите название товара\n";
+
+    string productTitle;
+    productTitle = Utils::getSelectStringCin();
+
+    Product product =  supplier.getAssortment()->getProductByTitle(productTitle);
+    if(product.getId() == 0){
+        cout << "Товар с указанным названием не найден\n";
+    } else {
+        cout << "Введите количество товара\n";
+        unsigned int productCount = Utils::getSelectIntCin(1, 999999);
+        order.addProduct(Product(product.getTitle(), productCount,
+                product.getProductType(), product.getWeight()));
+
+        cout << "Продукт успешно добавлен в заказ\n";
+    }
+
+    cout << "\n";
+
+}
+
+void IOSupplierService::cancelProdInOrder() {
+    cout << "\n";
+
+    if(order.getId() == 0) {
+        cout << "Заказ пока не создан\n";
+    } else {
+        cout << "Введите id товара, который нужно удалить из заказа";
+
+        unsigned int prodId = Utils::getIdCin();
+        Product product =  order.getProductList()->getProductById(prodId);
+        if(product.getId() == 0){
+            cout << "Товара с указанным id нет в заказе\n";
+        } else {
+            order.cancelProduct(prodId);
+            cout << "Товар с id = " << prodId << " был удалён из заказа\n";
+        }
+    }
+}
+
+void IOSupplierService::finishOrder() {
+
+}
+
+void IOSupplierService::cancelOrder() {
+    Order emptyOrder;
+    order = emptyOrder;
 }

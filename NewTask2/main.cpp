@@ -21,6 +21,9 @@ int main() {
 }
 
 ProductList& initAssortment(ProductList& productList) {
+    productList.add(Product("Хлеб", 10, ProductType::bakery, 0.5));
+    productList.add(Product("Мясо", 5, ProductType::meat, 1));
+    productList.add(Product("Молоко", 15, ProductType::dairy, 0.9));
     return  productList;
 }
 

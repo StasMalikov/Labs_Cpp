@@ -12,14 +12,18 @@
 
 class IOService {
     TradeOrganization &tradeOrganization;
+    OrderList orderList;
+
     IOUserService ioUserService;
     IOSupplierService ioSupplierService;
 
+
 public:
     IOService(TradeOrganization &_tradeOrganization) :
-            tradeOrganization(_tradeOrganization),
+            tradeOrganization(_tradeOrganization),  orderList(),
             ioUserService(tradeOrganization.getUserList(),tradeOrganization.getCurrentUser()),
-            ioSupplierService(tradeOrganization.getSupplier(), tradeOrganization.getShopList()){}
+            ioSupplierService(tradeOrganization.getSupplier(), tradeOrganization.getShopList(), orderList)
+            {}
     ~IOService(){}
     void start();
 };

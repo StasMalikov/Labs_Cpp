@@ -53,6 +53,30 @@ public:
     OrderStatus getOrderStatus() const {
         return orderStatus;
     }
+
+    void setBuyer(const UniqueObj &buyer) {
+        Order::buyer = buyer;
+    }
+
+    void setSeller(const UniqueObj &seller) {
+        Order::seller = seller;
+    }
+
+    void setOrderStatus(OrderStatus orderStatus) {
+        Order::orderStatus = orderStatus;
+    }
+
+    void setOrderId(unsigned  int newId){
+        id = newId;
+    }
+
+    void generateId(){
+        id = Utils::generateId();
+    }
+
+    ProductList *getProductList() {
+        return &productList;
+    }
 };
 
 

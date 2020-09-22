@@ -11,6 +11,7 @@ CMakeFiles/NewTask2.dir/main.cpp.obj: ../models/User.h
 CMakeFiles/NewTask2.dir/main.cpp.obj: ../models/abstract/List.h
 CMakeFiles/NewTask2.dir/main.cpp.obj: ../models/abstract/Seller.h
 CMakeFiles/NewTask2.dir/main.cpp.obj: ../models/abstract/UniqueObj.h
+CMakeFiles/NewTask2.dir/main.cpp.obj: ../models/lists/OrderList.h
 CMakeFiles/NewTask2.dir/main.cpp.obj: ../models/lists/ProductList.h
 CMakeFiles/NewTask2.dir/main.cpp.obj: ../models/lists/ShopList.h
 CMakeFiles/NewTask2.dir/main.cpp.obj: ../models/lists/UserList.h
@@ -115,6 +116,7 @@ CMakeFiles/NewTask2.dir/services/IOService.cpp.obj: ../models/User.h
 CMakeFiles/NewTask2.dir/services/IOService.cpp.obj: ../models/abstract/List.h
 CMakeFiles/NewTask2.dir/services/IOService.cpp.obj: ../models/abstract/Seller.h
 CMakeFiles/NewTask2.dir/services/IOService.cpp.obj: ../models/abstract/UniqueObj.h
+CMakeFiles/NewTask2.dir/services/IOService.cpp.obj: ../models/lists/OrderList.h
 CMakeFiles/NewTask2.dir/services/IOService.cpp.obj: ../models/lists/ProductList.h
 CMakeFiles/NewTask2.dir/services/IOService.cpp.obj: ../models/lists/ShopList.h
 CMakeFiles/NewTask2.dir/services/IOService.cpp.obj: ../models/lists/UserList.h
@@ -131,6 +133,7 @@ CMakeFiles/NewTask2.dir/services/models_services/IOSupplierService.cpp.obj: ../m
 CMakeFiles/NewTask2.dir/services/models_services/IOSupplierService.cpp.obj: ../models/abstract/List.h
 CMakeFiles/NewTask2.dir/services/models_services/IOSupplierService.cpp.obj: ../models/abstract/Seller.h
 CMakeFiles/NewTask2.dir/services/models_services/IOSupplierService.cpp.obj: ../models/abstract/UniqueObj.h
+CMakeFiles/NewTask2.dir/services/models_services/IOSupplierService.cpp.obj: ../models/lists/OrderList.h
 CMakeFiles/NewTask2.dir/services/models_services/IOSupplierService.cpp.obj: ../models/lists/ProductList.h
 CMakeFiles/NewTask2.dir/services/models_services/IOSupplierService.cpp.obj: ../models/lists/ShopList.h
 CMakeFiles/NewTask2.dir/services/models_services/IOSupplierService.cpp.obj: ../services/Utils.h

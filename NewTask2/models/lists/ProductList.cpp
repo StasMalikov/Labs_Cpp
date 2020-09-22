@@ -17,6 +17,16 @@ Product ProductList::getProductById(int productId) {
     return Product();
 }
 
+Product ProductList::getProductByTitle(string title){
+    for (unsigned int i = 0; i < lastItemIndex; ++i) {
+        if(products[i].getTitle() == title){
+            return products[i];
+        }
+    }
+
+    return Product();
+}
+
 Product ProductList::pop(int productId) {
     Product product(getProductById(productId));
     remove(productId);

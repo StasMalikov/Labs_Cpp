@@ -22,6 +22,8 @@ public:
 
     Product getProductById(int productId);
 
+    Product getProductByTitle(string title);
+
     //iterator
     Product& operator[](unsigned int index);
 

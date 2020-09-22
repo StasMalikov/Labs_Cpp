@@ -34,8 +34,8 @@ public:
 
     virtual Order buy(Order order) = 0;
 
-    ProductList &getAssortment() {
-        return dynamic_cast<ProductList &>(assortment);
+    ProductList *getAssortment() {
+        return &assortment;
     }
 
     const string &getName() const {
