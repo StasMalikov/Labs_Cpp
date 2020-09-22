@@ -149,6 +149,33 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles\NewTask2.dir\build.make CMakeFiles/NewTask2.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+models/DeliveryOrganization.obj: models/DeliveryOrganization.cpp.obj
+
+.PHONY : models/DeliveryOrganization.obj
+
+# target to build an object file
+models/DeliveryOrganization.cpp.obj:
+	$(MAKE) -f CMakeFiles\NewTask2.dir\build.make CMakeFiles/NewTask2.dir/models/DeliveryOrganization.cpp.obj
+.PHONY : models/DeliveryOrganization.cpp.obj
+
+models/DeliveryOrganization.i: models/DeliveryOrganization.cpp.i
+
+.PHONY : models/DeliveryOrganization.i
+
+# target to preprocess a source file
+models/DeliveryOrganization.cpp.i:
+	$(MAKE) -f CMakeFiles\NewTask2.dir\build.make CMakeFiles/NewTask2.dir/models/DeliveryOrganization.cpp.i
+.PHONY : models/DeliveryOrganization.cpp.i
+
+models/DeliveryOrganization.s: models/DeliveryOrganization.cpp.s
+
+.PHONY : models/DeliveryOrganization.s
+
+# target to generate assembly for a file
+models/DeliveryOrganization.cpp.s:
+	$(MAKE) -f CMakeFiles\NewTask2.dir\build.make CMakeFiles/NewTask2.dir/models/DeliveryOrganization.cpp.s
+.PHONY : models/DeliveryOrganization.cpp.s
+
 models/Order.obj: models/Order.cpp.obj
 
 .PHONY : models/Order.obj
@@ -512,6 +539,9 @@ help:
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... models/DeliveryOrganization.obj
+	@echo ... models/DeliveryOrganization.i
+	@echo ... models/DeliveryOrganization.s
 	@echo ... models/Order.obj
 	@echo ... models/Order.i
 	@echo ... models/Order.s

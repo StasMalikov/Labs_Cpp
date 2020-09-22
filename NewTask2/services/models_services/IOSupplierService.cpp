@@ -17,9 +17,10 @@ void IOSupplierService::startSupplierOperations() {
                 "6 - отменить товар в заказе\n"
                 "7 - завершить оформление заказа\n"
                 "8 - отмениить заказ\n"
+                "9 - посмотреть заказ\n"
                 ;
 
-        select = Utils::getSelectIntCin(0 ,7);
+        select = Utils::getSelectIntCin(0 ,9);
         switch (select) {
             case 1:
                 displayShopsAndStocks();
@@ -53,6 +54,9 @@ void IOSupplierService::startSupplierOperations() {
                 cancelOrder();
                 break;
 
+            case 9:
+                showOrder();
+                break;
         }
     }
 }
@@ -160,10 +164,44 @@ void IOSupplierService::cancelProdInOrder() {
 }
 
 void IOSupplierService::finishOrder() {
+    order.setBuyer(UniqueObj(currentCustomer.getId()));
+    order.setSeller(supplier.getId());
 
+    orderList.add(order);
+
+    Order emptyOrder;
+    order = emptyOrder;
+
+    cout << "Заказ успешно оформлен\n\n";
 }
 
 void IOSupplierService::cancelOrder() {
-    Order emptyOrder;
-    order = emptyOrder;
+    if(order.getId() == 0) {
+        cout << "Заказ пока не создан\n\n";
+    } else {
+        Order emptyOrder;
+        order = emptyOrder;
+
+        cout << "Заказ отменён\n\n";
+    }
+}
+
+void IOSupplierService::showOrder() {
+    if(order.getId() == 0) {
+        cout << "Заказ пока не создан\n\n";
+    } else{
+        ProductList& list = order.getProductListRef();
+        if(list.getLastItemIndex() > 0){
+            cout << "Список товаров в заказе\n"
+                << "1)id 2)title 3)quantity 4)productType 5)weight\n\n";
+
+            for (unsigned int i = 0; i < list.getLastItemIndex(); ++i) {
+                cout << list[i].toString() << "\n";
+            }
+
+            cout << "\n";
+        } else {
+            cout << "Пока в заказе нет товаров\n\n";
+        }
+    }
 }

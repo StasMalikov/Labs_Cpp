@@ -5,6 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "C:/Users/stasm/Desktop/c++/Labs_Cplusplus/NewTask2/main.cpp" "C:/Users/stasm/Desktop/c++/Labs_Cplusplus/NewTask2/cmake-build-debug/CMakeFiles/NewTask2.dir/main.cpp.obj"
+  "C:/Users/stasm/Desktop/c++/Labs_Cplusplus/NewTask2/models/DeliveryOrganization.cpp" "C:/Users/stasm/Desktop/c++/Labs_Cplusplus/NewTask2/cmake-build-debug/CMakeFiles/NewTask2.dir/models/DeliveryOrganization.cpp.obj"
   "C:/Users/stasm/Desktop/c++/Labs_Cplusplus/NewTask2/models/Order.cpp" "C:/Users/stasm/Desktop/c++/Labs_Cplusplus/NewTask2/cmake-build-debug/CMakeFiles/NewTask2.dir/models/Order.cpp.obj"
   "C:/Users/stasm/Desktop/c++/Labs_Cplusplus/NewTask2/models/Product.cpp" "C:/Users/stasm/Desktop/c++/Labs_Cplusplus/NewTask2/cmake-build-debug/CMakeFiles/NewTask2.dir/models/Product.cpp.obj"
   "C:/Users/stasm/Desktop/c++/Labs_Cplusplus/NewTask2/models/Shop.cpp" "C:/Users/stasm/Desktop/c++/Labs_Cplusplus/NewTask2/cmake-build-debug/CMakeFiles/NewTask2.dir/models/Shop.cpp.obj"

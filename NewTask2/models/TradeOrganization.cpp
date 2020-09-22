@@ -3,3 +3,7 @@
 //
 
 #include "TradeOrganization.h"
+
+void TradeOrganization::startDeliveringProducts() {
+
+}

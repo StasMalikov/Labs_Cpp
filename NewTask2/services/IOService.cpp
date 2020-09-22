@@ -1,6 +1,5 @@
 #include "IOService.h"
 #include <iostream>
-#include "Utils.h"
 
 using namespace std;
 
@@ -32,6 +31,7 @@ void IOService::start() {
 
             case 4: {
                 ioUserService.startUserOperations();
+                tradeOrganization.startDeliveringProducts();
                 break;
             }
         }

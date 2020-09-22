@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/NewTask2.dir/main.cpp.obj"
+  "CMakeFiles/NewTask2.dir/models/DeliveryOrganization.cpp.obj"
   "CMakeFiles/NewTask2.dir/models/Order.cpp.obj"
   "CMakeFiles/NewTask2.dir/models/Product.cpp.obj"
   "CMakeFiles/NewTask2.dir/models/Shop.cpp.obj"

@@ -36,6 +36,8 @@ public:
     TradeOrganization(Supplier& _supplier, ShopList& _shopList) :
         userList(), currentUser(), supplier(_supplier), shopList(_shopList) {}
 
+
+    void startDeliveringProducts();
 };
 
 #endif //NEWTASK2_TRADEORGANIZATION_H

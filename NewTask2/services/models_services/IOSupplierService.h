@@ -41,6 +41,8 @@ public:
     void finishOrder();
 
     void cancelOrder();
+
+    void showOrder();
 };
 
 

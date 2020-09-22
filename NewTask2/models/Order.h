@@ -24,13 +24,24 @@ class Order : public UniqueObj {
 
     OrderStatus orderStatus;
 
+    void setProductList();
+
 public:
     Order() : UniqueObj(0), productList(), buyer(0), seller(0) {}
 
     Order(UniqueObj _buyer, UniqueObj _seller) : UniqueObj(), productList(), buyer(_buyer.getId()),
         seller(_seller.getId()), orderStatus(OrderStatus::open) {}
 
+    Order(const Order& o) : UniqueObj(0), productList(), buyer(0), seller(0){
+        id = o.id;
+        productList = o.productList;
+        buyer = o.buyer;
+        seller = o.seller;
+        orderStatus = o.orderStatus;
+    }
+
     const Order& operator=(const Order& o){
+        id = o.id;
         productList = o.productList;
         buyer = o.buyer;
         seller = o.seller;
@@ -77,6 +88,19 @@ public:
     ProductList *getProductList() {
         return &productList;
     }
+
+    ProductList &getProductListRef() {
+        return productList;
+    }
+
+    const UniqueObj &getBuyer() const {
+        return buyer;
+    }
+
+    const UniqueObj &getSeller() const {
+        return seller;
+    }
+
 };
 
 

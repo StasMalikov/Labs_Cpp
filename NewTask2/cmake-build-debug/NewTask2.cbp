@@ -83,6 +83,12 @@
 		<Unit filename="C:/Users/stasm/Desktop/c++/Labs_Cplusplus/NewTask2/main.cpp">
 			<Option target="NewTask2"/>
 		</Unit>
+		<Unit filename="C:/Users/stasm/Desktop/c++/Labs_Cplusplus/NewTask2/models/DeliveryOrganization.cpp">
+			<Option target="NewTask2"/>
+		</Unit>
+		<Unit filename="C:/Users/stasm/Desktop/c++/Labs_Cplusplus/NewTask2/models/DeliveryOrganization.h">
+			<Option target="NewTask2"/>
+		</Unit>
 		<Unit filename="C:/Users/stasm/Desktop/c++/Labs_Cplusplus/NewTask2/models/Order.cpp">
 			<Option target="NewTask2"/>
 		</Unit>
