@@ -22,6 +22,8 @@ public:
 
     Shop* getShopById(int shopId);
 
+    Shop& getShopByIdRef(int shopId);
+
     //iterator
     Shop& operator[](unsigned int index);
 

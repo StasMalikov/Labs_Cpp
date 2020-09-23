@@ -30,7 +30,7 @@ public:
 
     virtual ~Seller(){}
 
-    virtual Order buy(Order order) = 0;
+    virtual Product buy(Product product, unsigned int count) = 0;
 
     ProductList *getAssortment() {
         return &assortment;

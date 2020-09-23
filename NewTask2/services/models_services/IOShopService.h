@@ -14,12 +14,23 @@ class IOShopService {
     ShopList& shopList;
     OrderList& orderList;
 
+    UniqueObj currentShop;
     Order order;
 public:
     IOShopService(UniqueObj& _customer, ShopList& _shopList, OrderList& _orderList) :
-        customer(_customer), shopList(_shopList), orderList(_orderList) {}
+            customer(_customer), shopList(_shopList), orderList(_orderList), currentShop(), order() {}
 
     void startShopOperations();
+
+    void displayShops();
+
+    void selectShop();
+
+    void addProduct();
+
+    void confirmOrder();
+
+    void showAssortment();
 };
 
 #endif //NEWTASK2_IOSHOPSERVICE_H

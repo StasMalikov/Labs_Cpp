@@ -16,11 +16,14 @@ void IOService::start() {
         select = Utils::getSelectIntCin(0 ,4);
         switch (select) {
             case 1: {
+                ioShopService.startShopOperations();
+                tradeOrganization.startDeliveringProducts();
                 break;
             }
 
             case 2: {
                 ioSupplierService.startSupplierOperations();
+                tradeOrganization.startDeliveringProducts();
                 break;
             }
 
@@ -31,7 +34,7 @@ void IOService::start() {
 
             case 4: {
                 ioUserService.startUserOperations();
-                tradeOrganization.startDeliveringProducts();
+
                 break;
             }
         }

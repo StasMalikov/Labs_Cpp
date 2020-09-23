@@ -26,7 +26,7 @@ public:
 
     string toString();
 
-    virtual Order buy(Order order) {}
+    virtual Product buy(Product product, unsigned int count);
 
     const Shop& operator=(const Shop& o){
         assortment = o.assortment;
@@ -35,6 +35,10 @@ public:
     }
 
     void addAssortment(ProductList &_productList);
+
+    ProductList& getAssortmentRef(){return assortment;}
+
+    virtual ~Shop(){}
 };
 
 

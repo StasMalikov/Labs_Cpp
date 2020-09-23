@@ -13,7 +13,7 @@
 class Supplier : public Seller, public UniqueObj {
 public:
     Supplier(ProductList& _assortment) : Seller(_assortment), UniqueObj() {};
-    virtual Order buy(Order order){return Order();}
+    virtual Product buy(Product product, unsigned int count){return Product();}
     virtual ~Supplier(){}
 };
 

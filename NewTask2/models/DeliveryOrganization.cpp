@@ -27,9 +27,9 @@ int DeliveryOrganization::calculateTrucks(double value) {
 }
 
 void DeliveryOrganization::finishDelivery(Order &order, int trucksCount) {
-    Shop *shop = shopList.getShopById(order.getId());
-    if(shop->getId() != 0){
-        shop->addAssortment(order.getProductListRef());
+    Shop& shop = shopList.getShopByIdRef(order.getId());
+    if(shop.getId() != 0){
+        shop.addAssortment(order.getProductListRef());
     }
 
     order.setOrderStatus(OrderStatus::closed);

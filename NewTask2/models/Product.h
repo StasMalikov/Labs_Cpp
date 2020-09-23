@@ -53,6 +53,8 @@ public:
     double getWeight() const {
         return weight;
     }
+
+    void setQuantity(unsigned int quantity);
 };
 
 

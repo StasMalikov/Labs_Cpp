@@ -13,3 +13,22 @@ void Shop::addAssortment(ProductList &_productList) {
         assortment.add(_productList[i]);
     }
 }
+
+Product Shop::buy(Product product, unsigned int count) {
+    if(assortment.getProductById(product.getId()).getQuantity() == count){
+        return assortment.pop(product.getId());
+    }
+
+    if(assortment.getProductById(product.getId()).getQuantity() > count){
+        for (int i = 0; i < assortment.getLastItemIndex(); ++i) {
+            if(assortment[i].getId() == product.getId()){
+                Product product1(assortment[i]);
+                product1.setQuantity(count);
+                assortment[i].setQuantity(assortment[i].getQuantity() - count);
+                return product1;
+            }
+        }
+    }
+
+    return Product();
+}

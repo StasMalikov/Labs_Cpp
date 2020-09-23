@@ -22,6 +22,14 @@ Shop* ShopList::getShopById(int shopId) {
     return nullptr;
 }
 
+Shop& ShopList::getShopByIdRef(int shopId){
+    for (unsigned int i = 0; i < lastItemIndex; ++i) {
+        if(shops[i].getId() == shopId) {
+            return shops[i];
+        }
+    }
+}
+
 //Shop ShopList::pop(int shopId) {
 //    Shop shop(getShopById(shopId));
 //    remove(shopId);

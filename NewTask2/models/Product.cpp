@@ -31,3 +31,7 @@ string Product::productTypeToStr(ProductType _productType) {
 
     return string();
 }
+
+void Product::setQuantity(unsigned int quantity) {
+    Product::quantity = quantity;
+}
