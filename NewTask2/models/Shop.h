@@ -33,6 +33,8 @@ public:
         name = o.name;
         return *this;
     }
+
+    void addAssortment(ProductList &_productList);
 };
 
 

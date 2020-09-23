@@ -12,6 +12,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/NewTask2.dir/models/lists/ShopList.cpp.obj"
   "CMakeFiles/NewTask2.dir/models/lists/UserList.cpp.obj"
   "CMakeFiles/NewTask2.dir/services/IOService.cpp.obj"
+  "CMakeFiles/NewTask2.dir/services/models_services/IOShopService.cpp.obj"
   "CMakeFiles/NewTask2.dir/services/models_services/IOSupplierService.cpp.obj"
   "CMakeFiles/NewTask2.dir/services/models_services/IOUserService.cpp.obj"
   "NewTask2.exe"

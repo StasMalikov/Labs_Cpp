@@ -170,6 +170,12 @@
 		<Unit filename="C:/Users/stasm/Desktop/c++/Labs_Cplusplus/NewTask2/services/Utils.h">
 			<Option target="NewTask2"/>
 		</Unit>
+		<Unit filename="C:/Users/stasm/Desktop/c++/Labs_Cplusplus/NewTask2/services/models_services/IOShopService.cpp">
+			<Option target="NewTask2"/>
+		</Unit>
+		<Unit filename="C:/Users/stasm/Desktop/c++/Labs_Cplusplus/NewTask2/services/models_services/IOShopService.h">
+			<Option target="NewTask2"/>
+		</Unit>
 		<Unit filename="C:/Users/stasm/Desktop/c++/Labs_Cplusplus/NewTask2/services/models_services/IOSupplierService.cpp">
 			<Option target="NewTask2"/>
 		</Unit>

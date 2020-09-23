@@ -8,13 +8,15 @@
 #include "lists/UserList.h"
 #include "lists/ShopList.h"
 #include "Supplier.h"
+#include "DeliveryOrganization.h"
 
 class TradeOrganization {
     UserList userList;
     User currentUser;
     Supplier& supplier;
     ShopList& shopList;
-
+    DeliveryOrganization deliveryOrganization;
+    OrderList orderList;
 
 public:
     UserList &getUserList(){
@@ -34,10 +36,13 @@ public:
     }
 
     TradeOrganization(Supplier& _supplier, ShopList& _shopList) :
-        userList(), currentUser(), supplier(_supplier), shopList(_shopList) {}
+        userList(), currentUser(), supplier(_supplier),
+        shopList(_shopList), deliveryOrganization(_shopList), orderList() {}
 
 
     void startDeliveringProducts();
+
+    OrderList &getOrderList();
 };
 
 #endif //NEWTASK2_TRADEORGANIZATION_H

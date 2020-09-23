@@ -24,8 +24,6 @@ class Order : public UniqueObj {
 
     OrderStatus orderStatus;
 
-    void setProductList();
-
 public:
     Order() : UniqueObj(0), productList(), buyer(0), seller(0) {}
 
@@ -93,8 +91,8 @@ public:
         return productList;
     }
 
-    const UniqueObj &getBuyer() const {
-        return buyer;
+    UniqueObj* getBuyer() {
+        return &buyer;
     }
 
     const UniqueObj &getSeller() const {

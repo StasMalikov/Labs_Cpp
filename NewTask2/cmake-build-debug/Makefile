@@ -473,6 +473,33 @@ services/IOService.cpp.s:
 	$(MAKE) -f CMakeFiles\NewTask2.dir\build.make CMakeFiles/NewTask2.dir/services/IOService.cpp.s
 .PHONY : services/IOService.cpp.s
 
+services/models_services/IOShopService.obj: services/models_services/IOShopService.cpp.obj
+
+.PHONY : services/models_services/IOShopService.obj
+
+# target to build an object file
+services/models_services/IOShopService.cpp.obj:
+	$(MAKE) -f CMakeFiles\NewTask2.dir\build.make CMakeFiles/NewTask2.dir/services/models_services/IOShopService.cpp.obj
+.PHONY : services/models_services/IOShopService.cpp.obj
+
+services/models_services/IOShopService.i: services/models_services/IOShopService.cpp.i
+
+.PHONY : services/models_services/IOShopService.i
+
+# target to preprocess a source file
+services/models_services/IOShopService.cpp.i:
+	$(MAKE) -f CMakeFiles\NewTask2.dir\build.make CMakeFiles/NewTask2.dir/services/models_services/IOShopService.cpp.i
+.PHONY : services/models_services/IOShopService.cpp.i
+
+services/models_services/IOShopService.s: services/models_services/IOShopService.cpp.s
+
+.PHONY : services/models_services/IOShopService.s
+
+# target to generate assembly for a file
+services/models_services/IOShopService.cpp.s:
+	$(MAKE) -f CMakeFiles\NewTask2.dir\build.make CMakeFiles/NewTask2.dir/services/models_services/IOShopService.cpp.s
+.PHONY : services/models_services/IOShopService.cpp.s
+
 services/models_services/IOSupplierService.obj: services/models_services/IOSupplierService.cpp.obj
 
 .PHONY : services/models_services/IOSupplierService.obj
@@ -575,6 +602,9 @@ help:
 	@echo ... services/IOService.obj
 	@echo ... services/IOService.i
 	@echo ... services/IOService.s
+	@echo ... services/models_services/IOShopService.obj
+	@echo ... services/models_services/IOShopService.i
+	@echo ... services/models_services/IOShopService.s
 	@echo ... services/models_services/IOSupplierService.obj
 	@echo ... services/models_services/IOSupplierService.i
 	@echo ... services/models_services/IOSupplierService.s

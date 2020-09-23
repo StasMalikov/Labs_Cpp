@@ -3,6 +3,7 @@
 
 CMakeFiles/NewTask2.dir/main.cpp.obj
  C:/Users/stasm/Desktop/c++/Labs_Cplusplus/NewTask2/main.cpp
+ C:/Users/stasm/Desktop/c++/Labs_Cplusplus/NewTask2/models/DeliveryOrganization.h
  C:/Users/stasm/Desktop/c++/Labs_Cplusplus/NewTask2/models/Order.h
  C:/Users/stasm/Desktop/c++/Labs_Cplusplus/NewTask2/models/Product.h
  C:/Users/stasm/Desktop/c++/Labs_Cplusplus/NewTask2/models/Shop.h
@@ -18,8 +19,22 @@ CMakeFiles/NewTask2.dir/main.cpp.obj
  C:/Users/stasm/Desktop/c++/Labs_Cplusplus/NewTask2/models/lists/UserList.h
  C:/Users/stasm/Desktop/c++/Labs_Cplusplus/NewTask2/services/IOService.h
  C:/Users/stasm/Desktop/c++/Labs_Cplusplus/NewTask2/services/Utils.h
+ C:/Users/stasm/Desktop/c++/Labs_Cplusplus/NewTask2/services/models_services/IOShopService.h
  C:/Users/stasm/Desktop/c++/Labs_Cplusplus/NewTask2/services/models_services/IOSupplierService.h
  C:/Users/stasm/Desktop/c++/Labs_Cplusplus/NewTask2/services/models_services/IOUserService.h
+CMakeFiles/NewTask2.dir/models/DeliveryOrganization.cpp.obj
+ C:/Users/stasm/Desktop/c++/Labs_Cplusplus/NewTask2/models/DeliveryOrganization.cpp
+ C:/Users/stasm/Desktop/c++/Labs_Cplusplus/NewTask2/models/DeliveryOrganization.h
+ C:/Users/stasm/Desktop/c++/Labs_Cplusplus/NewTask2/models/Order.h
+ C:/Users/stasm/Desktop/c++/Labs_Cplusplus/NewTask2/models/Product.h
+ C:/Users/stasm/Desktop/c++/Labs_Cplusplus/NewTask2/models/Shop.h
+ C:/Users/stasm/Desktop/c++/Labs_Cplusplus/NewTask2/models/abstract/List.h
+ C:/Users/stasm/Desktop/c++/Labs_Cplusplus/NewTask2/models/abstract/Seller.h
+ C:/Users/stasm/Desktop/c++/Labs_Cplusplus/NewTask2/models/abstract/UniqueObj.h
+ C:/Users/stasm/Desktop/c++/Labs_Cplusplus/NewTask2/models/lists/OrderList.h
+ C:/Users/stasm/Desktop/c++/Labs_Cplusplus/NewTask2/models/lists/ProductList.h
+ C:/Users/stasm/Desktop/c++/Labs_Cplusplus/NewTask2/models/lists/ShopList.h
+ C:/Users/stasm/Desktop/c++/Labs_Cplusplus/NewTask2/services/Utils.h
 CMakeFiles/NewTask2.dir/models/Order.cpp.obj
  C:/Users/stasm/Desktop/c++/Labs_Cplusplus/NewTask2/models/Order.cpp
  C:/Users/stasm/Desktop/c++/Labs_Cplusplus/NewTask2/models/Order.h
@@ -54,6 +69,7 @@ CMakeFiles/NewTask2.dir/models/Supplier.cpp.obj
  C:/Users/stasm/Desktop/c++/Labs_Cplusplus/NewTask2/models/lists/ProductList.h
  C:/Users/stasm/Desktop/c++/Labs_Cplusplus/NewTask2/services/Utils.h
 CMakeFiles/NewTask2.dir/models/TradeOrganization.cpp.obj
+ C:/Users/stasm/Desktop/c++/Labs_Cplusplus/NewTask2/models/DeliveryOrganization.h
  C:/Users/stasm/Desktop/c++/Labs_Cplusplus/NewTask2/models/Order.h
  C:/Users/stasm/Desktop/c++/Labs_Cplusplus/NewTask2/models/Product.h
  C:/Users/stasm/Desktop/c++/Labs_Cplusplus/NewTask2/models/Shop.h
@@ -64,6 +80,7 @@ CMakeFiles/NewTask2.dir/models/TradeOrganization.cpp.obj
  C:/Users/stasm/Desktop/c++/Labs_Cplusplus/NewTask2/models/abstract/List.h
  C:/Users/stasm/Desktop/c++/Labs_Cplusplus/NewTask2/models/abstract/Seller.h
  C:/Users/stasm/Desktop/c++/Labs_Cplusplus/NewTask2/models/abstract/UniqueObj.h
+ C:/Users/stasm/Desktop/c++/Labs_Cplusplus/NewTask2/models/lists/OrderList.h
  C:/Users/stasm/Desktop/c++/Labs_Cplusplus/NewTask2/models/lists/ProductList.h
  C:/Users/stasm/Desktop/c++/Labs_Cplusplus/NewTask2/models/lists/ShopList.h
  C:/Users/stasm/Desktop/c++/Labs_Cplusplus/NewTask2/models/lists/UserList.h
@@ -108,6 +125,7 @@ CMakeFiles/NewTask2.dir/models/lists/UserList.cpp.obj
  C:/Users/stasm/Desktop/c++/Labs_Cplusplus/NewTask2/models/lists/UserList.h
  C:/Users/stasm/Desktop/c++/Labs_Cplusplus/NewTask2/services/Utils.h
 CMakeFiles/NewTask2.dir/services/IOService.cpp.obj
+ C:/Users/stasm/Desktop/c++/Labs_Cplusplus/NewTask2/models/DeliveryOrganization.h
  C:/Users/stasm/Desktop/c++/Labs_Cplusplus/NewTask2/models/Order.h
  C:/Users/stasm/Desktop/c++/Labs_Cplusplus/NewTask2/models/Product.h
  C:/Users/stasm/Desktop/c++/Labs_Cplusplus/NewTask2/models/Shop.h
@@ -124,8 +142,22 @@ CMakeFiles/NewTask2.dir/services/IOService.cpp.obj
  C:/Users/stasm/Desktop/c++/Labs_Cplusplus/NewTask2/services/IOService.cpp
  C:/Users/stasm/Desktop/c++/Labs_Cplusplus/NewTask2/services/IOService.h
  C:/Users/stasm/Desktop/c++/Labs_Cplusplus/NewTask2/services/Utils.h
+ C:/Users/stasm/Desktop/c++/Labs_Cplusplus/NewTask2/services/models_services/IOShopService.h
  C:/Users/stasm/Desktop/c++/Labs_Cplusplus/NewTask2/services/models_services/IOSupplierService.h
  C:/Users/stasm/Desktop/c++/Labs_Cplusplus/NewTask2/services/models_services/IOUserService.h
+CMakeFiles/NewTask2.dir/services/models_services/IOShopService.cpp.obj
+ C:/Users/stasm/Desktop/c++/Labs_Cplusplus/NewTask2/models/Order.h
+ C:/Users/stasm/Desktop/c++/Labs_Cplusplus/NewTask2/models/Product.h
+ C:/Users/stasm/Desktop/c++/Labs_Cplusplus/NewTask2/models/Shop.h
+ C:/Users/stasm/Desktop/c++/Labs_Cplusplus/NewTask2/models/abstract/List.h
+ C:/Users/stasm/Desktop/c++/Labs_Cplusplus/NewTask2/models/abstract/Seller.h
+ C:/Users/stasm/Desktop/c++/Labs_Cplusplus/NewTask2/models/abstract/UniqueObj.h
+ C:/Users/stasm/Desktop/c++/Labs_Cplusplus/NewTask2/models/lists/OrderList.h
+ C:/Users/stasm/Desktop/c++/Labs_Cplusplus/NewTask2/models/lists/ProductList.h
+ C:/Users/stasm/Desktop/c++/Labs_Cplusplus/NewTask2/models/lists/ShopList.h
+ C:/Users/stasm/Desktop/c++/Labs_Cplusplus/NewTask2/services/Utils.h
+ C:/Users/stasm/Desktop/c++/Labs_Cplusplus/NewTask2/services/models_services/IOShopService.cpp
+ C:/Users/stasm/Desktop/c++/Labs_Cplusplus/NewTask2/services/models_services/IOShopService.h
 CMakeFiles/NewTask2.dir/services/models_services/IOSupplierService.cpp.obj
  C:/Users/stasm/Desktop/c++/Labs_Cplusplus/NewTask2/models/Order.h
  C:/Users/stasm/Desktop/c++/Labs_Cplusplus/NewTask2/models/Product.h

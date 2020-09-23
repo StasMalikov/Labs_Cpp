@@ -17,6 +17,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "C:/Users/stasm/Desktop/c++/Labs_Cplusplus/NewTask2/models/lists/ShopList.cpp" "C:/Users/stasm/Desktop/c++/Labs_Cplusplus/NewTask2/cmake-build-debug/CMakeFiles/NewTask2.dir/models/lists/ShopList.cpp.obj"
   "C:/Users/stasm/Desktop/c++/Labs_Cplusplus/NewTask2/models/lists/UserList.cpp" "C:/Users/stasm/Desktop/c++/Labs_Cplusplus/NewTask2/cmake-build-debug/CMakeFiles/NewTask2.dir/models/lists/UserList.cpp.obj"
   "C:/Users/stasm/Desktop/c++/Labs_Cplusplus/NewTask2/services/IOService.cpp" "C:/Users/stasm/Desktop/c++/Labs_Cplusplus/NewTask2/cmake-build-debug/CMakeFiles/NewTask2.dir/services/IOService.cpp.obj"
+  "C:/Users/stasm/Desktop/c++/Labs_Cplusplus/NewTask2/services/models_services/IOShopService.cpp" "C:/Users/stasm/Desktop/c++/Labs_Cplusplus/NewTask2/cmake-build-debug/CMakeFiles/NewTask2.dir/services/models_services/IOShopService.cpp.obj"
   "C:/Users/stasm/Desktop/c++/Labs_Cplusplus/NewTask2/services/models_services/IOSupplierService.cpp" "C:/Users/stasm/Desktop/c++/Labs_Cplusplus/NewTask2/cmake-build-debug/CMakeFiles/NewTask2.dir/services/models_services/IOSupplierService.cpp.obj"
   "C:/Users/stasm/Desktop/c++/Labs_Cplusplus/NewTask2/services/models_services/IOUserService.cpp" "C:/Users/stasm/Desktop/c++/Labs_Cplusplus/NewTask2/cmake-build-debug/CMakeFiles/NewTask2.dir/services/models_services/IOUserService.cpp.obj"
   )
