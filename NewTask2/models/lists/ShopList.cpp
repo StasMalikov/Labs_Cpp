@@ -13,7 +13,7 @@ void ShopList::add(Shop shop) {
     lastItemIndex++;
 }
 
-Shop* ShopList::getShopById(int shopId) {
+Shop* ShopList::getShopById(unsigned int shopId) {
     for (unsigned int i = 0; i < lastItemIndex; ++i) {
         if(shops[i].getId() == shopId) {
             return &shops[i];
@@ -22,7 +22,7 @@ Shop* ShopList::getShopById(int shopId) {
     return nullptr;
 }
 
-Shop& ShopList::getShopByIdRef(int shopId){
+Shop& ShopList::getShopByIdRef(unsigned int shopId){
     for (unsigned int i = 0; i < lastItemIndex; ++i) {
         if(shops[i].getId() == shopId) {
             return shops[i];
@@ -38,7 +38,7 @@ Shop& ShopList::getShopByIdRef(int shopId){
 
 // 1 = found and deleted; 0 = not found
 int ShopList::remove(unsigned int shopId) {
-    for (int i = 0; i < lastItemIndex; ++i) {
+    for (unsigned int i = 0; i < lastItemIndex; ++i) {
         if(shops[i].getId() == shopId) {
             for (unsigned int j = i; j < lastItemIndex - 1; ++j) {
                 shops[j] = shops[j + 1];

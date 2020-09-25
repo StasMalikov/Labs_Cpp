@@ -91,7 +91,7 @@ void IOSupplierService::displayAssortment() {
 
     ProductList* productList = supplier.getAssortment();
 
-    for (int i = 0; i < productList->getLastItemIndex(); ++i) {
+    for (unsigned int i = 0; i < productList->getLastItemIndex(); ++i) {
         cout << (*productList)[i].smallToString() << "\n";
     }
 
@@ -166,9 +166,10 @@ void IOSupplierService::cancelProdInOrder() {
 void IOSupplierService::finishOrder() {
     order.setBuyer(UniqueObj(currentCustomer.getId()));
     order.setSeller(supplier.getId());
+    order.setOrderStatus(OrderStatus::open);
+    orderList.add(Order(order));
 
-    orderList.add(order);
-
+    int ooo = 0;
     Order emptyOrder;
     order = emptyOrder;
 

@@ -12,7 +12,7 @@ void UserList::add(User user) {
     lastItemIndex++;
 }
 
-User* UserList::getUserById(int userId) {
+User* UserList::getUserById(unsigned int userId) {
     for (unsigned int i = 0; i < lastItemIndex; ++i) {
         if(users[i].getId() == userId) {
             return &users[i];

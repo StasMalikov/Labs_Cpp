@@ -8,7 +8,7 @@ void ProductList::add(Product product) {
     lastItemIndex++;
 }
 
-Product ProductList::getProductById(int productId) {
+Product ProductList::getProductById(unsigned int productId) {
     for (unsigned int i = 0; i < lastItemIndex; ++i) {
         if(products[i].getId() == productId) {
             return products[i];
@@ -35,7 +35,7 @@ Product ProductList::pop(int productId) {
 
 // 1 = found and deleted; 0 = not found
 int ProductList::remove(unsigned int itemId) {
-    for (int i = 0; i < lastItemIndex; ++i) {
+    for (unsigned int i = 0; i < lastItemIndex; ++i) {
         if(products[i].getId() == itemId) {
             for (unsigned int j = i; j < lastItemIndex - 1; ++j) {
                 products[j] = products[j + 1];

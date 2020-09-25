@@ -2,17 +2,20 @@
 
 ProductList& initAssortment(ProductList& productList);
 ShopList& initShopList(ShopList& shopList);
+UserList& initUserList(UserList& userList);
 
 int main() {
     system("chcp 65001");
 
     ProductList productList;
     ShopList shopList;
+    UserList userList;
 
     Supplier supplier(initAssortment(productList));
     initShopList(shopList);
+    initUserList(userList);
 
-    TradeOrganization tradeOrganization(supplier, shopList);
+    TradeOrganization tradeOrganization(supplier, shopList, userList);
 
     IOService ioService(tradeOrganization);
 
@@ -24,6 +27,8 @@ ProductList& initAssortment(ProductList& productList) {
     productList.add(Product("Хлеб", 10, ProductType::bakery, 0.5));
     productList.add(Product("Мясо", 5, ProductType::meat, 1));
     productList.add(Product("Молоко", 15, ProductType::dairy, 0.9));
+    productList.add(Product("п", 15, ProductType::dairy, 0.9));
+    productList.add(Product("t", 15, ProductType::dairy, 0.9));
     return  productList;
 }
 
@@ -34,6 +39,13 @@ ShopList& initShopList(ShopList& shopList) {
     shopList.add(Shop("Магнит"));
 
     return shopList;
+}
+
+UserList& initUserList(UserList& userList) {
+    userList.add(User("Вася", UserType::retail));
+    userList.add(User("Коля", UserType::wholesale));
+
+    return userList;
 }
 
 //Для каждой задачи необходимо реализовать объектную модель.

@@ -20,7 +20,7 @@ public:
 
     void add(Product product);
 
-    Product getProductById(int productId);
+    Product getProductById(unsigned int productId);
 
     Product getProductByTitle(string title);
 

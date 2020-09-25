@@ -16,13 +16,13 @@ class ShopList : public List {
 public:
     int remove(unsigned int shopId);
 
-    Shop pop(int shopId);
+    //Shop pop(int shopId);
 
     void add(Shop shop);
 
-    Shop* getShopById(int shopId);
+    Shop* getShopById(unsigned int shopId);
 
-    Shop& getShopByIdRef(int shopId);
+    Shop& getShopByIdRef(unsigned int shopId);
 
     //iterator
     Shop& operator[](unsigned int index);

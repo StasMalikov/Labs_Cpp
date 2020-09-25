@@ -5,15 +5,17 @@
 #include "DeliveryOrganization.h"
 
 void DeliveryOrganization::startDelivery(OrderList &orderList) {
-    for (int i = 0; i < orderList.getLastItemIndex(); ++i) {
-        ProductList &productList = orderList[i].getProductListRef();
-        double sumVolumeOfProducts = 0;
+    for (unsigned int i = 0; i < orderList.getLastItemIndex(); ++i) {
+        if(orderList[i].getOrderStatus()  == OrderStatus::in_delivery){
+            ProductList &productList = orderList[i].getProductListRef();
+            double sumVolumeOfProducts = 0;
 
-        for (int j = 0; j < productList.getLastItemIndex(); ++j) {
-            sumVolumeOfProducts += productList[i].getWeight()*productList[i].getQuantity();
+            for (unsigned int j = 0; j < productList.getLastItemIndex(); ++j) {
+                sumVolumeOfProducts += productList[i].getWeight()*productList[i].getQuantity();
+            }
+            int trucksToOrder = calculateTrucks(sumVolumeOfProducts);
+            finishDelivery(orderList[i], trucksToOrder);
         }
-        int trucksToOrder = calculateTrucks(sumVolumeOfProducts);
-        finishDelivery(orderList[i], trucksToOrder);
     }
 }
 
@@ -27,9 +29,10 @@ int DeliveryOrganization::calculateTrucks(double value) {
 }
 
 void DeliveryOrganization::finishDelivery(Order &order, int trucksCount) {
-    Shop& shop = shopList.getShopByIdRef(order.getId());
-    if(shop.getId() != 0){
-        shop.addAssortment(order.getProductListRef());
+   // Shop& shop = shopList.getShopByIdRef(order.getId());
+    Shop *shop = shopList.getShopById(order.getBuyer()->getId());
+    if(shop->getId() != 0) {
+        shop->addAssortment(order.getProductListRef());
     }
 
     order.setOrderStatus(OrderStatus::closed);

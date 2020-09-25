@@ -28,7 +28,11 @@ public:
     Order() : UniqueObj(0), productList(), buyer(0), seller(0) {}
 
     Order(UniqueObj _buyer, UniqueObj _seller) : UniqueObj(), productList(), buyer(_buyer.getId()),
-        seller(_seller.getId()), orderStatus(OrderStatus::open) {}
+        seller(_seller.getId()) {}
+
+//    Order(Order& order, int i): UniqueObj(order.getId()), productList(order.getProductListRef()),
+//        buyer(order.getBuyer()->getId()), seller(order.getSeller()->getId()),
+//        orderStatus(order.getOrderStatus()) {}
 
     Order(const Order& o) : UniqueObj(0), productList(), buyer(0), seller(0){
         id = o.id;
@@ -95,8 +99,8 @@ public:
         return &buyer;
     }
 
-    const UniqueObj &getSeller() const {
-        return seller;
+    UniqueObj *getSeller()  {
+        return &seller;
     }
 
 };

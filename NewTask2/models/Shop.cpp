@@ -9,8 +9,8 @@ string Shop::toString() {
 }
 
 void Shop::addAssortment(ProductList &_productList) {
-    for (int i = 0; i < _productList.getLastItemIndex(); ++i) {
-        assortment.add(_productList[i]);
+    for (unsigned int i = 0; i < _productList.getLastItemIndex(); ++i) {
+        assortment.add(Product(_productList[i]));
     }
 }
 
@@ -20,7 +20,7 @@ Product Shop::buy(Product product, unsigned int count) {
     }
 
     if(assortment.getProductById(product.getId()).getQuantity() > count){
-        for (int i = 0; i < assortment.getLastItemIndex(); ++i) {
+        for (unsigned int i = 0; i < assortment.getLastItemIndex(); ++i) {
             if(assortment[i].getId() == product.getId()){
                 Product product1(assortment[i]);
                 product1.setQuantity(count);

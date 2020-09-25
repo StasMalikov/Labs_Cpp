@@ -11,7 +11,7 @@
 #include "DeliveryOrganization.h"
 
 class TradeOrganization {
-    UserList userList;
+    UserList& userList;
     User currentUser;
     Supplier& supplier;
     ShopList& shopList;
@@ -35,8 +35,8 @@ public:
         return shopList;
     }
 
-    TradeOrganization(Supplier& _supplier, ShopList& _shopList) :
-        userList(), currentUser(), supplier(_supplier),
+    TradeOrganization(Supplier& _supplier, ShopList& _shopList, UserList& _userList) :
+        userList(_userList), currentUser(), supplier(_supplier),
         shopList(_shopList), deliveryOrganization(_shopList), orderList() {}
 
 

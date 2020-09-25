@@ -125,9 +125,6 @@
 		<Unit filename="C:/Users/stasm/Desktop/c++/Labs_Cplusplus/NewTask2/models/User.h">
 			<Option target="NewTask2"/>
 		</Unit>
-		<Unit filename="C:/Users/stasm/Desktop/c++/Labs_Cplusplus/NewTask2/models/abstract/Buyer.h">
-			<Option target="NewTask2"/>
-		</Unit>
 		<Unit filename="C:/Users/stasm/Desktop/c++/Labs_Cplusplus/NewTask2/models/abstract/List.h">
 			<Option target="NewTask2"/>
 		</Unit>

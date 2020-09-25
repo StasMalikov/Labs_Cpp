@@ -18,7 +18,7 @@ public:
 
     void add(User user);
 
-    User* getUserById(int userId);
+    User* getUserById(unsigned int userId);
 
     //iterator
     User& operator[](unsigned int index);

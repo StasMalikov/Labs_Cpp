@@ -118,7 +118,7 @@ void IOShopService::showAssortment() {
         if(assortment.getLastItemIndex() == 0){
             cout << "Ассортимент магазина пуст\n";
         } else {
-            for (int i = 0; i < assortment.getLastItemIndex(); ++i) {
+            for (unsigned int i = 0; i < assortment.getLastItemIndex(); ++i) {
                 cout << assortment[i].toString() << "\n";
             }
         }
