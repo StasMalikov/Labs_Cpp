@@ -72,31 +72,35 @@ int strCompare(std::string first, std::string second){
 
 
 int main() {
+    const int arrLen = 10;
+
     int *arr;
-    arr = new int[10];
+    arr = new int[arrLen];
     arr[0] = 10;
     arr[1] = 9;
-    arr[2] = 50;
-    arr[3] = 8;
-    arr[4] = 7;
-    arr[5] = 6;
-    arr[6] = 5;
-    arr[7] = 4;
-    arr[8] = 3;
-    arr[9] = 2;
+    arr[2] = 8;
+    arr[3] = 7;
+    arr[4] = 6;
+    arr[5] = 5;
+    arr[6] = 4;
+    arr[7] = 3;
+    arr[8] = 2;
+    arr[9] = 1;
 
-    qsortRecursive<int, &intCompare>(arr, 10);
+    qsortRecursive<int, &intCompare>(arr, arrLen);
 
-    for (int i = 0; i < 10; ++i) {
+    std::cout << "int example\n\n";
+
+    for (int i = 0; i < arrLen; ++i) {
         std::cout << arr[i] << "\n";
     }
 
     delete [] arr;
 
-    std::cout << "\n str example \n";
+    std::cout << "\nstr example\n\n";
 
     std::string *arrStr;
-    arrStr = new std::string[10];
+    arrStr = new std::string[arrLen];
     arrStr[0] = "1111111111";
     arrStr[1] = "111111111";
     arrStr[2] = "11111111";
@@ -108,55 +112,12 @@ int main() {
     arrStr[8] = "11";
     arrStr[9] = "1";
 
-    qsortRecursive<std::string, &strCompare>(arrStr, 10);
+    qsortRecursive<std::string, &strCompare>(arrStr, arrLen);
 
-    for (int i = 0; i < 10; ++i) {
+    for (int i = 0; i < arrLen; ++i) {
         std::cout << arrStr[i] << "\n";
     }
 
     delete [] arrStr;
     return 0;
 }
-
-//void qsortRecursive1(int *mas, int size) {
-//    //Указатели в начало и в конец массива
-//    int i = 0;
-//    int j = size - 1;
-//
-//    //Центральный элемент массива
-//    int mid = mas[size / 2];
-//
-//    //Делим массив
-//    do {
-//        //Пробегаем элементы, ищем те, которые нужно перекинуть в другую часть
-//        //В левой части массива пропускаем(оставляем на месте) элементы, которые меньше центрального
-//        while(mas[i] < mid) {
-//            i++;
-//        }
-//        //В правой части пропускаем элементы, которые больше центрального
-//        while(mas[j] > mid) {
-//            j--;
-//        }
-//
-//        //Меняем элементы местами
-//        if (i <= j) {
-//            int tmp = mas[i];
-//            mas[i] = mas[j];
-//            mas[j] = tmp;
-//
-//            i++;
-//            j--;
-//        }
-//    } while (i <= j);
-//
-//
-//    //Рекурсивные вызовы, если осталось, что сортировать
-//    if(j > 0) {
-//        //"Левый кусок"
-//        qsortRecursive1(mas, j + 1);
-//    }
-//    if (i < size) {
-//        //"Првый кусок"
-//        qsortRecursive1(&mas[i], size - i);
-//    }
-//}
