@@ -30,9 +30,8 @@ public:
     Order(UniqueObj _buyer, UniqueObj _seller) : UniqueObj(), productList(), buyer(_buyer.getId()),
         seller(_seller.getId()) {}
 
-//    Order(Order& order, int i): UniqueObj(order.getId()), productList(order.getProductListRef()),
-//        buyer(order.getBuyer()->getId()), seller(order.getSeller()->getId()),
-//        orderStatus(order.getOrderStatus()) {}
+    Order(Order& order, int i): UniqueObj(order.getId()), productList(order.getProductListRef()),
+        buyer(order.getBuyer()->getId()), seller(order.getSeller()->getId()) {}
 
     Order(const Order& o) : UniqueObj(0), productList(), buyer(0), seller(0){
         id = o.id;

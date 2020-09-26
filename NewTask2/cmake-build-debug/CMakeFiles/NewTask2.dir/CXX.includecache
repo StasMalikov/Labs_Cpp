@@ -6,6 +6,24 @@
 
 #IncludeRegexTransform: 
 
+C:/Users/stasm/Desktop/c++/Labs_Cplusplus/NewTask2/main.cpp
+services/IOService.h
+C:/Users/stasm/Desktop/c++/Labs_Cplusplus/NewTask2/services/IOService.h
+
+C:/Users/stasm/Desktop/c++/Labs_Cplusplus/NewTask2/models/DeliveryOrganization.cpp
+DeliveryOrganization.h
+C:/Users/stasm/Desktop/c++/Labs_Cplusplus/NewTask2/models/DeliveryOrganization.h
+
+C:/Users/stasm/Desktop/c++/Labs_Cplusplus/NewTask2/models/DeliveryOrganization.h
+lists/OrderList.h
+C:/Users/stasm/Desktop/c++/Labs_Cplusplus/NewTask2/models/lists/OrderList.h
+lists/ShopList.h
+C:/Users/stasm/Desktop/c++/Labs_Cplusplus/NewTask2/models/lists/ShopList.h
+
+C:/Users/stasm/Desktop/c++/Labs_Cplusplus/NewTask2/models/Order.cpp
+Order.h
+C:/Users/stasm/Desktop/c++/Labs_Cplusplus/NewTask2/models/Order.h
+
 C:/Users/stasm/Desktop/c++/Labs_Cplusplus/NewTask2/models/Order.h
 lists/ProductList.h
 C:/Users/stasm/Desktop/c++/Labs_Cplusplus/NewTask2/models/lists/ProductList.h
@@ -18,6 +36,10 @@ C:/Users/stasm/Desktop/c++/Labs_Cplusplus/NewTask2/models/abstract/UniqueObj.h
 string
 -
 
+C:/Users/stasm/Desktop/c++/Labs_Cplusplus/NewTask2/models/Shop.cpp
+Shop.h
+C:/Users/stasm/Desktop/c++/Labs_Cplusplus/NewTask2/models/Shop.h
+
 C:/Users/stasm/Desktop/c++/Labs_Cplusplus/NewTask2/models/Shop.h
 abstract/Seller.h
 C:/Users/stasm/Desktop/c++/Labs_Cplusplus/NewTask2/models/abstract/Seller.h
@@ -26,6 +48,10 @@ C:/Users/stasm/Desktop/c++/Labs_Cplusplus/NewTask2/models/abstract/UniqueObj.h
 string
 -
 
+C:/Users/stasm/Desktop/c++/Labs_Cplusplus/NewTask2/models/Supplier.cpp
+Supplier.h
+C:/Users/stasm/Desktop/c++/Labs_Cplusplus/NewTask2/models/Supplier.h
+
 C:/Users/stasm/Desktop/c++/Labs_Cplusplus/NewTask2/models/Supplier.h
 abstract/Seller.h
 C:/Users/stasm/Desktop/c++/Labs_Cplusplus/NewTask2/models/abstract/Seller.h
@@ -33,6 +59,26 @@ abstract/UniqueObj.h
 C:/Users/stasm/Desktop/c++/Labs_Cplusplus/NewTask2/models/abstract/UniqueObj.h
 Order.h
 C:/Users/stasm/Desktop/c++/Labs_Cplusplus/NewTask2/models/Order.h
+
+C:/Users/stasm/Desktop/c++/Labs_Cplusplus/NewTask2/models/TradeOrganization.cpp
+TradeOrganization.h
+C:/Users/stasm/Desktop/c++/Labs_Cplusplus/NewTask2/models/TradeOrganization.h
+
+C:/Users/stasm/Desktop/c++/Labs_Cplusplus/NewTask2/models/TradeOrganization.h
+lists/UserList.h
+C:/Users/stasm/Desktop/c++/Labs_Cplusplus/NewTask2/models/lists/UserList.h
+lists/ShopList.h
+C:/Users/stasm/Desktop/c++/Labs_Cplusplus/NewTask2/models/lists/ShopList.h
+Supplier.h
+C:/Users/stasm/Desktop/c++/Labs_Cplusplus/NewTask2/models/Supplier.h
+DeliveryOrganization.h
+C:/Users/stasm/Desktop/c++/Labs_Cplusplus/NewTask2/models/DeliveryOrganization.h
+
+C:/Users/stasm/Desktop/c++/Labs_Cplusplus/NewTask2/models/User.h
+string
+-
+abstract/UniqueObj.h
+C:/Users/stasm/Desktop/c++/Labs_Cplusplus/NewTask2/models/abstract/UniqueObj.h
 
 C:/Users/stasm/Desktop/c++/Labs_Cplusplus/NewTask2/models/abstract/List.h
 
@@ -46,6 +92,10 @@ C:/Users/stasm/Desktop/c++/Labs_Cplusplus/NewTask2/models/abstract/UniqueObj.h
 ../../services/Utils.h
 C:/Users/stasm/Desktop/c++/Labs_Cplusplus/NewTask2/services/Utils.h
 
+C:/Users/stasm/Desktop/c++/Labs_Cplusplus/NewTask2/models/lists/OrderList.cpp
+OrderList.h
+C:/Users/stasm/Desktop/c++/Labs_Cplusplus/NewTask2/models/lists/OrderList.h
+
 C:/Users/stasm/Desktop/c++/Labs_Cplusplus/NewTask2/models/lists/OrderList.h
 ../Order.h
 C:/Users/stasm/Desktop/c++/Labs_Cplusplus/NewTask2/models/Order.h
@@ -58,15 +108,51 @@ C:/Users/stasm/Desktop/c++/Labs_Cplusplus/NewTask2/models/Product.h
 ../abstract/List.h
 C:/Users/stasm/Desktop/c++/Labs_Cplusplus/NewTask2/models/abstract/List.h
 
+C:/Users/stasm/Desktop/c++/Labs_Cplusplus/NewTask2/models/lists/ShopList.cpp
+ShopList.h
+C:/Users/stasm/Desktop/c++/Labs_Cplusplus/NewTask2/models/lists/ShopList.h
+
 C:/Users/stasm/Desktop/c++/Labs_Cplusplus/NewTask2/models/lists/ShopList.h
 ../Shop.h
 C:/Users/stasm/Desktop/c++/Labs_Cplusplus/NewTask2/models/Shop.h
 ../abstract/List.h
 C:/Users/stasm/Desktop/c++/Labs_Cplusplus/NewTask2/models/abstract/List.h
 
+C:/Users/stasm/Desktop/c++/Labs_Cplusplus/NewTask2/models/lists/UserList.h
+../User.h
+C:/Users/stasm/Desktop/c++/Labs_Cplusplus/NewTask2/models/User.h
+../abstract/List.h
+C:/Users/stasm/Desktop/c++/Labs_Cplusplus/NewTask2/models/abstract/List.h
+
+C:/Users/stasm/Desktop/c++/Labs_Cplusplus/NewTask2/services/IOService.cpp
+IOService.h
+C:/Users/stasm/Desktop/c++/Labs_Cplusplus/NewTask2/services/IOService.h
+iostream
+-
+
+C:/Users/stasm/Desktop/c++/Labs_Cplusplus/NewTask2/services/IOService.h
+../models/TradeOrganization.h
+C:/Users/stasm/Desktop/c++/Labs_Cplusplus/NewTask2/models/TradeOrganization.h
+models_services/IOUserService.h
+C:/Users/stasm/Desktop/c++/Labs_Cplusplus/NewTask2/services/models_services/IOUserService.h
+models_services/IOSupplierService.h
+C:/Users/stasm/Desktop/c++/Labs_Cplusplus/NewTask2/services/models_services/IOSupplierService.h
+models_services/IOShopService.h
+C:/Users/stasm/Desktop/c++/Labs_Cplusplus/NewTask2/services/models_services/IOShopService.h
+
 C:/Users/stasm/Desktop/c++/Labs_Cplusplus/NewTask2/services/Utils.h
 iostream
 -
+
+C:/Users/stasm/Desktop/c++/Labs_Cplusplus/NewTask2/services/models_services/IOShopService.cpp
+IOShopService.h
+C:/Users/stasm/Desktop/c++/Labs_Cplusplus/NewTask2/services/models_services/IOShopService.h
+
+C:/Users/stasm/Desktop/c++/Labs_Cplusplus/NewTask2/services/models_services/IOShopService.h
+../../models/lists/ShopList.h
+C:/Users/stasm/Desktop/c++/Labs_Cplusplus/NewTask2/models/lists/ShopList.h
+../../models/lists/OrderList.h
+C:/Users/stasm/Desktop/c++/Labs_Cplusplus/NewTask2/models/lists/OrderList.h
 
 C:/Users/stasm/Desktop/c++/Labs_Cplusplus/NewTask2/services/models_services/IOSupplierService.cpp
 IOSupplierService.h
@@ -81,4 +167,8 @@ C:/Users/stasm/Desktop/c++/Labs_Cplusplus/NewTask2/models/lists/ShopList.h
 C:/Users/stasm/Desktop/c++/Labs_Cplusplus/NewTask2/models/lists/OrderList.h
 iostream
 -
+
+C:/Users/stasm/Desktop/c++/Labs_Cplusplus/NewTask2/services/models_services/IOUserService.h
+../../models/lists/UserList.h
+C:/Users/stasm/Desktop/c++/Labs_Cplusplus/NewTask2/models/lists/UserList.h
 

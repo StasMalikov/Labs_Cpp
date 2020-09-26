@@ -167,7 +167,8 @@ void IOSupplierService::finishOrder() {
     order.setBuyer(UniqueObj(currentCustomer.getId()));
     order.setSeller(supplier.getId());
     order.setOrderStatus(OrderStatus::open);
-    orderList.add(Order(order));
+    Order myOrder(order);
+    orderList.add(myOrder);
 
     int ooo = 0;
     Order emptyOrder;

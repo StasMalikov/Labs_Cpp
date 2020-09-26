@@ -12,6 +12,12 @@ void OrderList::add(Order order) {
     lastItemIndex++;
 }
 
+//void OrderList::add(unsigned int orderId,
+//        ProductList& productList,
+//        unsigned int buyerId, unsigned int sellerId,){
+//
+//}
+
 Order OrderList::getOrderById(unsigned int orderId) {
     for (unsigned int i = 0; i < lastItemIndex; ++i) {
         if(orders[i].getId() == orderId) {
